@@ -147,8 +147,120 @@ def stage_c(ws, reuse=False):
     return res
 
 
+def profile_sums():
+    return {n: sha((REPO / "profiles" / "minimal" / n).read_bytes()) for n in ("lakefile.toml", "lake-manifest.json")}
+
+
+def verify_ws(ws):
+    """Workspace sources must still equal the frozen blobs / P10 profile files. Returns list of mismatching paths."""
+    files, want = source_files()
+    bad = [f for f in files if sha((ws / f.removeprefix("lean/")).read_bytes()) != want[f]]
+    bad += [n for n, h in profile_sums().items() if sha((ws / n).read_bytes()) != h]
+    return bad
+
+
+def prepare(stage, ws, reuse=False):
+    res = {"stage": stage.upper(), "status": "NOT_EXECUTED", "steps": []}
+    res["snapshot"] = snapshot(stage, ws)
+    res["workspace_files_sha256"] = make_ws(ws, reuse)
+    log = REPO / "evidence" / f"stage_{stage}" / "logs"
+    if log.exists(): shutil.rmtree(log)
+    r = sh(["lake", "exe", "cache", "get"], cwd=ws, log=log, timeout=3600)
+    res["steps"].append({k: r[k] for k in ("argv", "rc", "elapsed_s")})
+    if r["rc"] != 0:
+        res["status"] = "ENVIRONMENT_BLOCKED"
+        res["blocker"] = {"step": r["argv"], "stderr_tail": r["stderr"][-1500:]}
+    return res, log
+
+
+def finish(res, stage):
+    out = REPO / "evidence" / f"stage_{stage}"
+    (out / f"stage_{stage}_result.json").write_text(json.dumps(res, indent=1))
+    print(f"{stage.upper()}:", res["status"])
+    return res
+
+
+def stage_b(ws):
+    res, log = prepare("b", ws)
+    if res["status"] == "ENVIRONMENT_BLOCKED": return finish(res, "b")
+    b = sh(["lake", "build", "OAI", "ComparatorChallenges"], cwd=ws, log=log, timeout=7200)
+    res["build"] = {k: b[k] for k in ("argv", "rc", "elapsed_s")}
+    res["build"]["stdout_tail"] = b["stdout"][-1500:]; res["build"]["stderr_tail"] = b["stderr"][-1500:]
+    sorry_lines = [l for l in (b["stdout"] + b["stderr"]).splitlines() if "sorry" in l]
+    res["sorry_warnings"] = sorry_lines
+    res["sorry_in_solution_closure"] = [l for l in sorry_lines if "OAI/" in l or "OAI." in l]
+    probe = "import OAI.Combinatorics.InfiniteMatroid.Main\n#print axioms OAI.InfiniteMatroidCounterexample.main\n"
+    (ws / "P10Probe.lean").write_text(probe)
+    res["probe_sha256"] = sha(probe.encode())
+    p = sh(["lake", "env", "lean", "P10Probe.lean"], cwd=ws, log=log, timeout=1800)
+    res["axioms"] = {"rc": p["rc"], "stdout": p["stdout"].strip(), "stderr_tail": p["stderr"][-500:]}
+    permitted = set(json.loads(git_blob(CFG))["permitted_axioms"])
+    got = set(a.strip() for a in p["stdout"].split("[")[-1].split("]")[0].split(",")) if "depends on axioms" in p["stdout"] else None
+    res["axioms_set"] = sorted(got) if got is not None else None
+    res["mismatched_sources"] = verify_ws(ws)
+    ok = b["rc"] == 0 and p["rc"] == 0 and got is not None and got <= permitted and not res["sorry_in_solution_closure"] and not res["mismatched_sources"]
+    res["status"] = "PASS" if ok else "FAIL"
+    return finish(res, "b")
+
+
+MUTATIONS = [  # (id, file under ws, description, transform(bytes)->bytes)
+    ("D1", "ComparatorChallenges/InfiniteMatroid.lean", "modified theorem statement in the challenge (first '≠' -> '=')",
+     lambda b: b.replace("≠".encode(), b"=", 1)),
+    ("D2", "OAI/Combinatorics/InfiniteMatroid/Main.lean", "modified solution: proof of `main` replaced by sorry",
+     lambda b: b[: b.index(b":= by", b.index(b"theorem main"))] + b":= by\n  sorry\n\nend InfiniteMatroidCounterexample\nend\n\nend OAI\n"),
+    ("D3", "ComparatorChallenges/InfiniteMatroid.json", "incorrect challenge<->solution binding: config names a declaration the solution does not have",
+     lambda b: b.replace(b"InfiniteMatroidCounterexample.main", b"InfiniteMatroidCounterexample.nonexistent", 1)),
+    ("D5", "OAI/Combinatorics/InfiniteMatroid/Main.lean", "solution uses an injected axiom outside the permitted set",
+     lambda b: b.replace(b"theorem main", b"axiom p10_bad : False\n\ntheorem main", 1).replace(b":= by\n  obtain", b":= by\n  exact p10_bad.elim\n  obtain", 1)),
+]
+
+
+def comparator_run(ws, log):
+    argv, _ = comparator_cmd(ws)
+    r = sh(argv, cwd=ws, log=log, timeout=7200)
+    return r
+
+
+def stage_d(ws):
+    res, log = prepare("d", ws)
+    if res["status"] == "ENVIRONMENT_BLOCKED": return finish(res, "d")
+    c0 = comparator_run(ws, log)
+    res["control_before"] = {"rc": c0["rc"], "elapsed_s": c0["elapsed_s"], "last_line": c0["stdout"].strip().splitlines()[-1:] }
+    if c0["rc"] != 0:
+        res["status"] = "FAIL"; res["reason"] = "control (unmodified) run did not pass; mutations not interpretable"
+        return finish(res, "d")
+    rows = []
+    for mid, rel, desc, fn in MUTATIONS:
+        fp = ws / rel; orig = fp.read_bytes(); new = fn(orig)
+        if new == orig:
+            rows.append({"id": mid, "status": "FAIL", "reason": "mutation was a no-op"}); continue
+        fp.write_bytes(new)
+        r = comparator_run(ws, log)
+        fp.write_bytes(orig)
+        text = r["stdout"] + r["stderr"]
+        keys = [l for l in text.splitlines() if any(k in l.lower() for k in ("error", "sorry", "axiom", "mismatch", "not found", "does not", "differ", "okay", "accepts", "rejected", "unknown"))]
+        rows.append({"id": mid, "description": desc, "mutated_file": rel, "mutated_sha256": sha(new), "restored_ok": sha(fp.read_bytes()) == sha(orig),
+                     "comparator_rc": r["rc"], "rejected": r["rc"] != 0, "elapsed_s": r["elapsed_s"], "key_lines": keys[-12:],
+                     "bus_failure": "Failed to connect to bus" in r["stderr"]})
+    # D4: provenance mismatch of the dependency pin (P10's own check, not Comparator): flip one hex digit of Mathlib's rev in the manifest copy
+    mf = ws / "lake-manifest.json"; orig = mf.read_bytes(); rev = b"d13f23b723b8a846827a245b89c10fc7d3f11612"
+    mf.write_bytes(orig.replace(rev, b"d13f23b723b8a846827a245b89c10fc7d3f11613", 1))
+    rows.append({"id": "D4", "description": "dependency provenance mismatch: Mathlib rev in the workspace manifest altered by one hex digit; P10 profile check (verify_ws) must detect it. Tests P10's check, NOT Comparator/Lake.",
+                 "detected_mismatches": verify_ws(ws), "rejected": "lake-manifest.json" in verify_ws(ws)})
+    mf.write_bytes(orig)
+    c1 = comparator_run(ws, log)
+    res["control_after_restore"] = {"rc": c1["rc"], "elapsed_s": c1["elapsed_s"], "last_line": c1["stdout"].strip().splitlines()[-1:], "mismatched_sources": verify_ws(ws)}
+    res["mutations"] = rows
+    ok = all(r.get("rejected") and not r.get("bus_failure") and r.get("restored_ok", True) for r in rows) and c1["rc"] == 0 and not res["control_after_restore"]["mismatched_sources"]
+    res["status"] = "PASS" if ok else "FAIL"
+    res["caveat"] = "a rejection counts only if the control passes before and after AND the key_lines show the intended reason (read them; rc != 0 alone is not sufficient)"
+    return finish(res, "d")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
     ws = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 and sys.argv[2] == "--ws" else WSROOT / cmd
     if cmd == "snapshot": print(json.dumps(snapshot("pre", ws), indent=1))
+    elif cmd == "b": sys.exit(0 if stage_b(ws)["status"] == "PASS" else 4)
+    elif cmd == "d": sys.exit(0 if stage_d(ws)["status"] == "PASS" else 4)
     elif cmd == "c": sys.exit(0 if stage_c(ws, "--reuse" in sys.argv)["status"] == "PASS" else 4)
