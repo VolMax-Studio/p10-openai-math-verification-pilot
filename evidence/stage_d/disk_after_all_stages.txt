@@ -1,0 +1,5 @@
+Wed Oct  7 14:04:31 UTC 2026
+/dev/nvme0n1p7  234G  190G   33G  86% /
+896M	/home/volmax-studio/.cache/mathlib
+4.5G	p10-tools
+4.0K	p10-ws

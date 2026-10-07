@@ -1,0 +1,8 @@
+{
+ "profile_check": [],
+ "profile_sha256": {
+  "lakefile.toml": "2d1fcec67c092b4768de22507c3b63fc1c268743fe9c3fb7a072cced8abf9f9a",
+  "lake-manifest.json": "fc1c3ed8b3852dab03b7b34351a79e9369a0db5255401da41903389151cd8eb4"
+ },
+ "note": "run post hoc after stages B and C (their runners predate profile_check); stage D rerun recorded it natively"
+}
