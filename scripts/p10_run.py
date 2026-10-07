@@ -20,6 +20,10 @@ ENV = dict(os.environ, ELAN_HOME=str(TOOLS / "elan"),
            PATH=f"{TOOLS/'bin'}:{TOOLS/'elan'/'bin'}:{os.environ['PATH']}",
            COMPARATOR_LANDRUN=str(TOOLS / "bin" / "landrun"),
            COMPARATOR_LEAN4EXPORT=str(TOOLS / "bin" / "lean4export"))
+_bus = pathlib.Path(f"/run/user/{os.getuid()}")
+if (_bus / "bus").exists():  # session bus exists but a detached launcher may not export its address
+    ENV.setdefault("XDG_RUNTIME_DIR", str(_bus))
+    ENV.setdefault("DBUS_SESSION_BUS_ADDRESS", f"unix:path={_bus}/bus")
 
 
 def sha(b): return hashlib.sha256(b).hexdigest()
@@ -69,7 +73,7 @@ def snapshot(stage, ws):
     d["tool_commits"] = {n: sh(["git", "-C", str(TOOLS / "src" / n), "rev-parse", "HEAD"])["stdout"].strip()
                          for n in ("comparator", "lean4export", "landrun")}
     d["tool_binary_sha256"] = {n: sha((TOOLS / "bin" / n).read_bytes()) for n in ("comparator", "lean4export", "landrun")}
-    d["env"] = {k: ENV.get(k, "") for k in ("ELAN_HOME", "COMPARATOR_LANDRUN", "COMPARATOR_LEAN4EXPORT", "LAKE_HOME", "LEAN_PATH", "LAKE_ARTIFACT_CACHE")}
+    d["env"] = {k: ENV.get(k, "") for k in ("ELAN_HOME", "XDG_RUNTIME_DIR", "DBUS_SESSION_BUS_ADDRESS", "COMPARATOR_LANDRUN", "COMPARATOR_LEAN4EXPORT", "LAKE_HOME", "LEAN_PATH", "LAKE_ARTIFACT_CACHE")}
     d["lsm"] = pathlib.Path("/sys/kernel/security/lsm").read_text().strip() if pathlib.Path("/sys/kernel/security/lsm").exists() else None
     d["network"] = {u: sh(["curl", "-4", "-sS", "-o", "/dev/null", "-m", "15", "-w", "%{http_code}", u])["stdout"]
                     for u in ("https://github.com", "https://releases.lean-lang.org", "https://lakecache.blob.core.windows.net")}
@@ -80,9 +84,13 @@ def snapshot(stage, ws):
     return d
 
 
-def make_ws(ws, extra=None):
+def make_ws(ws, reuse=False):
     """Materialise the minimal workspace from frozen git blobs + P10 profile files; verify hashes vs lock."""
-    if ws.exists(): shutil.rmtree(ws)
+    if ws.exists():
+        if reuse:  # keep only .lake (cloned deps + cache); every source file is rewritten and re-hashed below
+            for x in ws.iterdir():
+                if x.name != ".lake": shutil.rmtree(x) if x.is_dir() else x.unlink()
+        else: shutil.rmtree(ws)
     files, want = source_files()
     rec = {}
     for f in files:
@@ -113,12 +121,12 @@ def comparator_cmd(ws):
             "--working-directory", str(ws), "--"] + base, True
 
 
-def stage_c(ws):
+def stage_c(ws, reuse=False):
     out = REPO / "evidence" / "stage_c"; log = out / "logs"
     if log.exists(): shutil.rmtree(log)
     res = {"stage": "C", "status": "NOT_EXECUTED", "steps": []}
     res["snapshot"] = snapshot("c", ws)
-    res["workspace_files_sha256"] = make_ws(ws)
+    res["workspace_files_sha256"] = make_ws(ws, reuse)
     for argv, to in ((["lake", "exe", "cache", "get"], 3600),):
         r = sh(argv, cwd=ws, log=log, timeout=to)
         res["steps"].append({k: r[k] for k in ("argv", "rc", "elapsed_s")})
@@ -131,7 +139,9 @@ def stage_c(ws):
         r = sh(argv, cwd=ws, log=log, timeout=7200)
         res["comparator"] = {k: r[k] for k in ("argv", "rc", "elapsed_s")}
         res["comparator"]["stdout_tail"] = r["stdout"][-2000:]; res["comparator"]["stderr_tail"] = r["stderr"][-2000:]
-        res["status"] = "PASS" if r["rc"] == 0 else "FAIL"
+        launch_failed = guarded and r["rc"] != 0 and "Failed to connect to bus" in r["stderr"]
+        res["status"] = "PASS" if r["rc"] == 0 else ("ENVIRONMENT_BLOCKED" if launch_failed else "FAIL")
+        if launch_failed: res["blocker"] = {"step": argv[:1], "stderr_tail": r["stderr"][-500:], "note": "comparator never started"}
     (out / "stage_c_result.json").write_text(json.dumps(res, indent=1))
     print("C:", res["status"])
     return res
@@ -141,4 +151,4 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     ws = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 and sys.argv[2] == "--ws" else WSROOT / cmd
     if cmd == "snapshot": print(json.dumps(snapshot("pre", ws), indent=1))
-    elif cmd == "c": sys.exit(0 if stage_c(ws)["status"] == "PASS" else 4)
+    elif cmd == "c": sys.exit(0 if stage_c(ws, "--reuse" in sys.argv)["status"] == "PASS" else 4)
