@@ -3,7 +3,7 @@
 # deliberately NOT used: the selected subject's import closure is local modules + Mathlib only (Stage A, A3),
 # so the 23 patched third-party packages are irrelevant to it. Source files are byte-identical to the frozen commit.
 # Mathlib is pinned to the same rev as upstream's lake-manifest.json; the sibling lake-manifest.json is a SUBSET of
-# upstream's manifest (9 entries, byte-for-byte equal JSON; checked by Stage A R4). `lake update` must never be run.
+# upstream's manifest (9 entries, byte-for-byte equal JSON; checked by scripts/p10_run.py profile_check()). `lake update` must never be run.
 name = "OAI"
 version = "0.1.0"
 defaultTargets = ["OAI"]

@@ -1,0 +1,29 @@
+{
+ "argv": [
+  "systemd-run",
+  "--user",
+  "--wait",
+  "--pipe",
+  "--collect",
+  "--property=RestrictAddressFamilies=~AF_UNIX",
+  "-E",
+  "PATH=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin:/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/elan/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.npm/_npx/4b4c857f6efdfb61/node_modules/.bin:/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-replay-verifier/node_modules/.bin:/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/node_modules/.bin:/home/volmax-studio/volmax-projects/iot2/node_modules/.bin:/home/volmax-studio/volmax-projects/node_modules/.bin:/home/volmax-studio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/volmax-studio/.elan/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/volmax-projects/IoT/volmax_env/bin:/home/volmax-studio/.npm-global/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin",
+  "-E",
+  "ELAN_HOME=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/elan",
+  "-E",
+  "COMPARATOR_LANDRUN=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/landrun",
+  "-E",
+  "COMPARATOR_LEAN4EXPORT=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/lean4export",
+  "--working-directory",
+  "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/d",
+  "--",
+  "bash",
+  "-c",
+  "cd /home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/d && lake env /home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/comparator ComparatorChallenges/InfiniteMatroid.json"
+ ],
+ "cwd": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/d",
+ "rc": 0,
+ "elapsed_s": 37.6,
+ "stdout": "Building ComparatorChallenges.InfiniteMatroid\n\u26a0 [8924/8924] Replayed ComparatorChallenges.InfiniteMatroid\nwarning: ComparatorChallenges/InfiniteMatroid.lean:23:8: declaration uses `sorry`\nBuild completed successfully (8924 jobs).\nExporting #[Quot, Quot.mk, Quot.lift, Quot.ind, OAI.InfiniteMatroidCounterexample.main, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ComparatorChallenges.InfiniteMatroid\nBuilding OAI.Combinatorics.InfiniteMatroid.Main\n\u2714 [8948/8948] Built OAI.Combinatorics.InfiniteMatroid.Main (3.6s)\nBuild completed successfully (8948 jobs).\nExporting #[Quot, Quot.mk, Quot.lift, Quot.ind, OAI.InfiniteMatroidCounterexample.main, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from OAI.Combinatorics.InfiniteMatroid.Main\nRunning Lean default kernel on solution.\nLean default kernel accepts the solution\nYour solution is okay!\n",
+ "stderr": "Running as unit: run-u1376.service; invocation ID: 9713b1df23ef4912b1ba125d65027860\nFinished with result: success\nMain processes terminated with: code=exited/status=0\nService runtime: 37.537s\nCPU time consumed: 45.126s\nMemory peak: 512.0K\nMemory swap peak: 0B\n"
+}
