@@ -1,0 +1,34 @@
+lean: Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+lake: Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)
+go: go version go1.24.13 linux/amd64
+elan: elan 4.2.4 (227caca13 2026-08-25)
+landrun HEAD 811cfff51ceaf3d9843708aa6d22e9b84ccac8b4 status=[]
+lean4export HEAD 076e8e57707e813375e8f9da8bf989799ace9680 status=[]
+comparator HEAD d03acab154d269c06e60e4de7e4cc85deebff94b status=[]
+afa65e57a1770f5961efe7681626a9a1cd99705262421658abd30b705f66e4a2  bin/comparator
+0fbdfcb1bb379b50e216ed43a74ede756c0dfee380988bc75948cb5a357f494a  bin/landrun
+8c5d64ba68f4d3a68b3bcb7e1c5f188e35ae573b29470b8d4530a62324c9ddd1  bin/lean4export
+42b94d4244e8353142c456ec0e4ca6528fd898a6c604d4059f494e706e431f63  ../p10-dl/elan.tgz
+1fc94b57134d51669c72173ad5d49fd62afb0f1db9bf3f798fd98ee423f8d730  dl/go.tgz
+1fc94b57134d51669c72173ad5d49fd62afb0f1db9bf3f798fd98ee423f8d730
+DONE.cmp
+DONE.elan
+DONE.go
+DONE.l4e
+DONE.landrun
+DONE.lean
+cmp.err
+cmp.out
+commands.txt
+elan.err
+elan.out
+go.err
+go.out
+l4e.err
+l4e.out
+landrun.attempt1.err
+landrun.err
+landrun.out
+lean.attempt1.err
+lean.err
+lean.out

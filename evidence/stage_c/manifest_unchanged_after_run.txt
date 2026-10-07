@@ -1,0 +1,4 @@
+fc1c3ed8b3852dab03b7b34351a79e9369a0db5255401da41903389151cd8eb4  p10-ws/c/lake-manifest.json
+fcccc85fcf43e7990e1a73052be39fd63351845f71db3197b72fc9cbe92a2023  p10-ws/c/lakefile.toml
+fc1c3ed8b3852dab03b7b34351a79e9369a0db5255401da41903389151cd8eb4  p10-openai-math-verification-pilot/profiles/minimal/lake-manifest.json
+fcccc85fcf43e7990e1a73052be39fd63351845f71db3197b72fc9cbe92a2023  p10-openai-math-verification-pilot/profiles/minimal/lakefile.toml

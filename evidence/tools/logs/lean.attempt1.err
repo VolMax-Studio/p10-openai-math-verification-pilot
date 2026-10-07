@@ -1,0 +1,2 @@
+error: error during download
+info: caused by: [6] Could not resolve hostname (Could not resolve host: release.lean-lang.org)

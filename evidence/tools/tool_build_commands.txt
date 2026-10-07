@@ -1,0 +1,17 @@
+### elan: step_elan
+rc=0 elapsed=2s
+### go: step_go
+rc=0 elapsed=22s
+### landrun: step_landrun
+rc=1 elapsed=24s
+### landrun: step_landrun
+rc=0 elapsed=8s
+### lean: step_lean
+rc=1 elapsed=9s
+### lean: step_lean
+### lean: step_lean
+rc=0 elapsed=123s
+### l4e: step_l4e
+rc=0 elapsed=8s
+### cmp: step_cmp
+rc=0 elapsed=13s
