@@ -1,0 +1,541 @@
+{
+ "schema": "p10-subject-lock/1",
+ "status": "SELECTED_SUBJECT_FROZEN__NO_VERDICT",
+ "selection": {
+  "candidate": "InfiniteMatroid",
+  "decided_by": "Ivan (ratifier)",
+  "decision_date": "2026-10-07",
+  "basis": "explicit instruction to the working session; candidate table in candidate_results.md; not a verification verdict"
+ },
+ "upstream": {
+  "repository": "https://github.com/openai/math",
+  "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "commit_date": "2026-10-06T14:58:50-07:00",
+  "retrieved_utc": "2026-10-07T08:34:47Z"
+ },
+ "selected_candidate": "InfiniteMatroid",
+ "subject": {
+  "manuscript_family": "185",
+  "manuscript_path": "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+  "manuscript_sources_path": "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/",
+  "formalization_metadata_path": "lean/formalization.yaml",
+  "formalization_docs_path": "lean/docs/185.md",
+  "challenge_path": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+  "solution_path": "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+  "primary_declaration": "OAI.InfiniteMatroidCounterexample.main",
+  "comparator_config": "lean/ComparatorChallenges/InfiniteMatroid.json"
+ },
+ "binding_chain": [
+  {
+   "id": "E1",
+   "role": "catalogue entry (family headline + manuscript list + link to docs bridge)",
+   "path": "CONTENTS.md",
+   "files_sha256": {
+    "CONTENTS.md": "c492802b53fb4c4161e45fc678bb67bd526add72ca2635493a367ff7fb860bf9"
+   },
+   "identifier": "family 185",
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "PROSE_METADATA_ONLY",
+   "detail": "Markdown entry '**185. ...** ([Lean](lean/docs/185.md))' followed by one manuscript link. Hyperlink only; no hash, no declaration name."
+  },
+  {
+   "id": "E2",
+   "role": "manuscript (informal claim source; TeX sources + PDF)",
+   "path": "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026",
+   "files_sha256": {
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/README.md": "353c3e4301661a9531b9962d161b04258329b897384c610bec9415060e9bac5d",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf": "320eb5d308aabe2d7ab5d206329aed63091745888f021a77a9ad97d625477b9e",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/paper.tex": "710e1b8a7ed9f1282e8140f14d164fb04efaa54c0a2166179b600b4b09f43c98",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/references.bib": "daadba0eb27928755cf26574d50bce89d0ab5cd1ad1022a54feec2cdd516b3c1",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/figures/double-ray.tex": "ed46bd9773b71f656d4aed733c4d007c35cd8a19b0279bfe4c1785c24ef700bb",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex": "8abfb85a2dfbd5cd8e59c0304042386d6042e04c2afaa2ade038bbcf3abe7c0b",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/02-matroids.tex": "bae0a031c7b396d983b1400ceacca93ebc5710f4bce44327e6497c9022c330d7",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/03-filters.tex": "8e42dc4d8357c73d65a84818660d6e4adb36d623df3393cb045c474397f1060e",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/04-local-bases.tex": "7381a033de70740a88591ba1e0a45e1e164869d65b9cc7a006981a3612daad4d",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/05-assembly.tex": "af45cbb4f7702465732fc5c901ccb11d585a3ea95b150652106b09f5fab74741",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/06-counterexample.tex": "af35ed0d1dfef3a22274eb826d3f716cad9eea89b29ac33155231979cf70059f",
+    "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/07-consequences.tex": "4ef12b1f28b49bde9c2e41eace07e8689befdd81419ec6aab052c1a0e8a8373f"
+   },
+   "identifier": "TeX labels thm:main, cor:intersection, cor:separate-covering-packing (sections/01-introduction.tex, 07-consequences.tex)",
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "NONE",
+   "detail": "Informal text. Nothing in upstream machine-checks that paper.pdf corresponds to build/*.tex or that either corresponds to any Lean declaration."
+  },
+  {
+   "id": "E3",
+   "role": "formalization bridge document (scope prose + links to paper and challenge)",
+   "path": "lean/docs/185.md",
+   "files_sha256": {
+    "lean/docs/185.md": "00d22dbd780928870fe1c9a9a63c31c202ef513df975d1f07bde4ffb2261a64d"
+   },
+   "identifier": "Comparator links table",
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "PROSE_METADATA_ONLY",
+   "detail": "Human-written scope text. Links InfiniteMatroid.lean and InfiniteMatroidCorollaries.lean to one paper by relative hyperlinks. No hashes, no declaration names."
+  },
+  {
+   "id": "E4",
+   "role": "formalization catalogue metadata (machine-readable)",
+   "path": "lean/formalization.yaml",
+   "files_sha256": {
+    "lean/formalization.yaml": "2dcbd0d6e6a22475f53d49bfdfcac9b6d2b470653c332a9f56522f5be166edb9"
+   },
+   "identifier": {
+    "main_results_entry": {
+     "comparator_config": "ComparatorChallenges/InfiniteMatroid.json",
+     "declaration": "OAI.InfiniteMatroidCounterexample.main",
+     "file": "OAI/Combinatorics/InfiniteMatroid/Main.lean"
+    },
+    "sources_entry_id": "../preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf"
+   },
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "METADATA_ONLY_UNLINKED",
+   "detail": "main_results entry binds comparator_config+declaration+file but carries no manuscript/source field; sources[] lists the paper separately. review.status=unchecked."
+  },
+  {
+   "id": "E5",
+   "role": "Comparator challenge statement (sorry'd theorem + local definitions)",
+   "path": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "files_sha256": {
+    "lean/ComparatorChallenges/InfiniteMatroid.lean": "802e9bf69b2c5d9be56f2899ef69f5470910cf059b419d3e8f770f1523cae3a7"
+   },
+   "identifier": "OAI.InfiniteMatroidCounterexample.main",
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "MACHINE_ENFORCED_CONDITIONAL",
+   "detail": "Comparator checks solution proves the same statement as this challenge (given its trust assumptions). NOT EXECUTED here."
+  },
+  {
+   "id": "E6",
+   "role": "Comparator configuration",
+   "path": "lean/ComparatorChallenges/InfiniteMatroid.json",
+   "files_sha256": {
+    "lean/ComparatorChallenges/InfiniteMatroid.json": "8d56594400ee353792bc7153086072fc05762cc5cafd4d9cc7e48db525e13b82"
+   },
+   "identifier": {
+    "challenge_module": "ComparatorChallenges.InfiniteMatroid",
+    "solution_module": "OAI.Combinatorics.InfiniteMatroid.Main",
+    "theorem_names": [
+     "OAI.InfiniteMatroidCounterexample.main"
+    ],
+    "definition_names": [],
+    "permitted_axioms": [
+     "propext",
+     "Quot.sound",
+     "Classical.choice"
+    ],
+    "enable_nanoda": false
+   },
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "MACHINE_ENFORCED_CONDITIONAL",
+   "detail": "Consumed by Comparator. Binds challenge_module -> solution_module -> theorem_names."
+  },
+  {
+   "id": "E7",
+   "role": "solution module and complete local import closure",
+   "path": "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "files_sha256": {
+    "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean": "4c47af8f801dac7b53cc4429295eae85a1e7ea8607b7faf2c17320c0d060b25b",
+    "lean/OAI/Combinatorics/InfiniteMatroid/PackingCovering.lean": "4d6e51e628ecc47fc5d351dff23d93896a168dbbb03464e2b29c367bda1cf324",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Basic.lean": "6f1ccdc7b455855635fe9eb1c817da82f998f45da1f15cf310a2be0ddcf070ad",
+    "lean/OAI/Combinatorics/InfiniteMatroid/RankDescent.lean": "f05a9c6e2924cae5e5b82bfad2649cfcb5116678a934f74c0dc90202d6cc2c84",
+    "lean/OAI/Combinatorics/InfiniteMatroid/DoubleRay.lean": "f815f478e04461664413e18ac9a4e37366cf240aaf511963a8b28758bdf614f1",
+    "lean/OAI/Combinatorics/InfiniteMatroid/TransfiniteConstruction.lean": "e15a7f706eadeec5cb6dbf26e9adadef0f1ce016abd5a046b45e5a5a20fdfb7c",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Matroid.lean": "b8de571908911b74f1ab9c93c8dfd048d608a2e2cf162b01596e09df71e2ebdb",
+    "lean/OAI/Combinatorics/InfiniteMatroid/PrototypeExtension.lean": "872e85ab009677128b0fe1341ab8854aac1f1f7a3f14025fb421d523b643e744",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Prototype.lean": "77092696ec686cf19f5f407b48039bc0aee4aa3d1127e8aba917a0b794af604c",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Separation.lean": "c9099810649f2cdb6c24a00bd9fbc8d1c262be1a476e36473c38c00612ca69bf",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Zones.lean": "2cafe90a9621eba3c33ba805b01ed6b612ba063050ff76481ac25b3f1c4c2b34",
+    "lean/OAI/Combinatorics/InfiniteMatroid/BasisExtension.lean": "9b472c7c34d8ff3a77048ce9ed15a948ce879fb59424a9a3d5ba40a36851556e",
+    "lean/OAI/Combinatorics/InfiniteMatroid/LocalBases.lean": "5f93d385b2050a3ef18b573f494a9c9e9d027bb2593b738260ff2b9e9c561a2c",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Interpolation.lean": "3ddd6e723e1d73503010a49c5cc6d48bcc099af6120857f6392ea10d38427699",
+    "lean/OAI/Combinatorics/InfiniteMatroid/SparsePerturbation.lean": "7ef60b16ff516427cc19c58bb4d4b1cf8807ebfa248b1d6b50fd713f3bdca11c",
+    "lean/OAI/Combinatorics/InfiniteMatroid/ProbeLimits.lean": "131148e71a2d16f949b6e47f1cbe52ea40c21289d373162587174b0a3accb684",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Cesaro.lean": "b8748a92e765071c53e3ca4eec79d6a2e09a0735e06d573375cc5c4338b35d22",
+    "lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean": "d529a1a09923c1cda1f9f82e879175211ef9b9493fae83f5c0b496b0d5b44a02",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Reservations.lean": "de971eed25696ef1de1616c99a0d38a197fef58cf792e1b397f6905fd2d47c8c",
+    "lean/OAI/Combinatorics/InfiniteMatroid/DensityIdeal.lean": "964f1744cb37d895b1ad0c5d0876b26aa07a185bb374de1ab57f38142823424d",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Columns.lean": "0cfc84d0509a504c7aaaf3d79aa7e4eca3bbaf29232ce9284f7551e995a1e095",
+    "lean/OAI/Combinatorics/InfiniteMatroid/FiniteCounting.lean": "a59b005f142514d29d41166cf247d5cd1032cbd4c7b22635d726dcb3efae74ab",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Cardinality.lean": "b745acbb00b0852aa29a00e3419a29923dcdb4646d039f0f80561a300c262529",
+    "lean/OAI/Combinatorics/InfiniteMatroid/OrdinalRank.lean": "24cea019a5e4c7dbe83b026ba4e787a1d59363350110a62810d2a170a2024e1a",
+    "lean/OAI/Combinatorics/InfiniteMatroid/Ideals.lean": "43f127320015e3af11b6021e973008dcf60411c6e10f1ed5f78ccb94fdfff1a3"
+   },
+   "identifier": {
+    "solution_module": "OAI.Combinatorics.InfiniteMatroid.Main",
+    "closure_modules": [
+     "OAI.Combinatorics.InfiniteMatroid.Basic",
+     "OAI.Combinatorics.InfiniteMatroid.BasisExtension",
+     "OAI.Combinatorics.InfiniteMatroid.BlockDensity",
+     "OAI.Combinatorics.InfiniteMatroid.Cardinality",
+     "OAI.Combinatorics.InfiniteMatroid.Cesaro",
+     "OAI.Combinatorics.InfiniteMatroid.Columns",
+     "OAI.Combinatorics.InfiniteMatroid.DensityIdeal",
+     "OAI.Combinatorics.InfiniteMatroid.DoubleRay",
+     "OAI.Combinatorics.InfiniteMatroid.FiniteCounting",
+     "OAI.Combinatorics.InfiniteMatroid.Ideals",
+     "OAI.Combinatorics.InfiniteMatroid.Interpolation",
+     "OAI.Combinatorics.InfiniteMatroid.LocalBases",
+     "OAI.Combinatorics.InfiniteMatroid.Main",
+     "OAI.Combinatorics.InfiniteMatroid.Matroid",
+     "OAI.Combinatorics.InfiniteMatroid.OrdinalRank",
+     "OAI.Combinatorics.InfiniteMatroid.PackingCovering",
+     "OAI.Combinatorics.InfiniteMatroid.ProbeLimits",
+     "OAI.Combinatorics.InfiniteMatroid.Prototype",
+     "OAI.Combinatorics.InfiniteMatroid.PrototypeExtension",
+     "OAI.Combinatorics.InfiniteMatroid.RankDescent",
+     "OAI.Combinatorics.InfiniteMatroid.Reservations",
+     "OAI.Combinatorics.InfiniteMatroid.Separation",
+     "OAI.Combinatorics.InfiniteMatroid.SparsePerturbation",
+     "OAI.Combinatorics.InfiniteMatroid.TransfiniteConstruction",
+     "OAI.Combinatorics.InfiniteMatroid.Zones"
+    ],
+    "closure_digest_sha256": "4be7bf5f2df538aadd83f2c113ae8362fc19471cc685eee137f6fde15fcfb37a"
+   },
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "MACHINE_ENFORCED_CONDITIONAL",
+   "detail": "Elaborated and kernel-checked by Lean when built. External (non-local) imports: Mathlib only (scan). NOT EXECUTED here."
+  },
+  {
+   "id": "E8",
+   "role": "primary declaration",
+   "path": "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "files_sha256": {},
+   "identifier": "OAI.InfiniteMatroidCounterexample.main",
+   "source_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+   "enforcement": "MACHINE_ENFORCED_CONDITIONAL",
+   "detail": "Comparator: same statement as challenge, axioms subset of permitted_axioms, kernel accepted."
+  },
+  {
+   "id": "E9",
+   "role": "Lean kernel acceptance evidence",
+   "path": null,
+   "files_sha256": {},
+   "identifier": null,
+   "source_commit": null,
+   "enforcement": "NOT_EXECUTED",
+   "detail": "No build or Comparator run has happened in any environment recorded in this repository."
+  }
+ ],
+ "adjacent_not_in_subject": {
+  "note": "Same family; separate Comparator unit carrying the partitional/intersection and separate covering/packing corollaries. Recorded, NOT frozen as part of this subject.",
+  "config": "lean/ComparatorChallenges/InfiniteMatroidCorollaries.json",
+  "files_sha256": {
+   "lean/ComparatorChallenges/InfiniteMatroidCorollaries.json": "a4b6a0de47c462845e55367f6b7dac6fa5ce24ac272a1416451de5c8282c0dda",
+   "lean/ComparatorChallenges/InfiniteMatroidCorollaries.lean": "f58dc50f5ba15e039e1b859c3b217083f9b04a57b7f0ad9ec7160f2a83b92d39"
+  }
+ },
+ "environment_layer": {
+  "toolchain": {
+   "lean": "leanprover/lean4:v4.34.1",
+   "source": "lean/lean-toolchain"
+  },
+  "files_sha256": {
+   "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+   "lean/lakefile.lean": "4cca977ebece444b6c999d99755c1ad3c93119bafc127ea761f7f703c7279e74",
+   "lean/lake-manifest.json": "cf6105a25d9dca2f166b241d9191bd12c7e13305890dc9c4d0952351cccc0794"
+  },
+  "patches_sha256": {
+   "lean/patches/AINTLIB-lean4341.patch": "076bee4cee068ad938e611d266bb32f7f1798189336087e88c08c8b3ac58dff1",
+   "lean/patches/AbsorptionCutoff-lean4341.patch": "8b35104dc12f807f594f7a61f7a183d967edcd0e601c7172e0e851e4c3adb3ba",
+   "lean/patches/ClassFieldTheory-lean4341.patch": "0275686e2febd9c14523a94cbfae105e6cf30997ed0b2a1ea28c84d0d0c12ba5",
+   "lean/patches/PrimeNumberTheoremAnd-lean4341.patch": "0890432340c0025973bcfe070b634355fa366cc831595f68526e4c73c8903d82",
+   "lean/patches/SphereEversion-lean4341.patch": "5c7c8dba85e4636ed2fec14a5765e937f2b1c428eadb12168645b9d2c0046098",
+   "lean/patches/StrongPNT-lean4341.patch": "2cac5cbef22987314f9293bebcf243d0a3341caaf0227925d1f8d4c31be924d7",
+   "lean/patches/Zeta3Irrational-lean4341.patch": "169eb72e9d12740688467a0e6abf63923a60ec5f7ce8f49ca4b3684a22418901",
+   "lean/patches/belyi-lean4341.patch": "f54c2e211464c0f8194ce63a80a6562489f23f688b1c233efe3c2debfc1b9f66",
+   "lean/patches/carleson-lean4341.patch": "8aa67adaeb6ef56967aa78c47a6c743f03ac72c125f503219a72dee5be23168c",
+   "lean/patches/elliptic-curves-lean4341.patch": "69e6575dae5797d43242694dc737b400b3e1e8fcb854094fead2a204a1f58632",
+   "lean/patches/fixed-point-theorems-lean4341.patch": "d70872e41e80b25191538d1659c4aa3a001349b5bd16f806c9e3833a502516e5",
+   "lean/patches/formal-schemes-lean4341.patch": "5376716aa94fe0c6907570d650dd6604f170687c218cea7028d09b9f95877cea",
+   "lean/patches/genl-lean4341.patch": "3a9edd7dd539e98f81145a3b6cc980c9d62a821b7d41e2591f9aa5c557a7b6fa",
+   "lean/patches/gromov-lean4341.patch": "26a1924bef774183a2e0865f144b782dc1f78eb0246993a31a5d63193b7781bb",
+   "lean/patches/heights-lean4341.patch": "bd3b58a301df273a199d9a0fe486b25d194df176afe32583289d42b64ab583a3",
+   "lean/patches/iut-lean4341.patch": "610ef069f7de5a5d500ead287287b60f193269ea4ddc0011101a9c7c98356dd4",
+   "lean/patches/oka-lean4341.patch": "02995b860e7d566a10adc3488439d38abc06dcb317ae4576d504c71c921816e7",
+   "lean/patches/orbicurve-cores-lean4341.patch": "4376110b9b7c823057cda21479a45de688c5138c81e5d4f1c050b632f168b93d",
+   "lean/patches/pi1-lean4341.patch": "816e0d8123d5622c5b3415675638053ae31126a829e4f21d96f7af28db292f5f",
+   "lean/patches/rellich-kondrachov-lean4341.patch": "0c121d8517dfeadc93ef24fe2deb56beec7cb3998e2552dee8f61c780b1408c8",
+   "lean/patches/schoenflies-lean-lean4341.patch": "4cbc255a2be785e6b617ecd61cdaf67e6d236d65a87f284380f2713670c8e350",
+   "lean/patches/tate-curves-theta-lean4341.patch": "885a19a0dc2d004aaece1987e2b7d2ff4745aef8881cbc53971a852cc5644c3f",
+   "lean/patches/tempered-fundamental-groups-lean4341.patch": "f2e51b5f38459f11515c21801c92c39de85a8feb5f2b490ebbe07a93511a8860"
+  },
+  "patches_digest_sha256": "1726de5f3927e8b96b13d631e567610bcbbb90b836b2f6eb65aed158fde6f7fe",
+  "dependency_pins": {
+   "mathlib": {
+    "url": "https://github.com/leanprover-community/mathlib4.git",
+    "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "inherited": false,
+    "inputRev": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+   },
+   "checkdecls": {
+    "url": "https://github.com/PatrickMassot/checkdecls.git",
+    "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
+    "inherited": false,
+    "inputRev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4"
+   },
+   "doc-gen4": {
+    "url": "https://github.com/leanprover/doc-gen4.git",
+    "rev": "953c8992d174b4e56955e01e101d46668c68f2bb",
+    "inherited": false,
+    "inputRev": "953c8992d174b4e56955e01e101d46668c68f2bb"
+   },
+   "PrimeCert": {
+    "url": "https://github.com/b-mehta/PrimeCert.git",
+    "rev": "0803c2f6bd289c09704c7d352bb8fcf770cbb9b2",
+    "inherited": false,
+    "inputRev": "0803c2f6bd289c09704c7d352bb8fcf770cbb9b2"
+   },
+   "LeanArchitect": {
+    "url": "https://github.com/hanwenzhu/LeanArchitect.git",
+    "rev": "468e8f58fb4ad6e6ad672a08da6d0d0531e95a97",
+    "inherited": false,
+    "inputRev": "468e8f58fb4ad6e6ad672a08da6d0d0531e95a97"
+   },
+   "leancert": {
+    "url": "https://github.com/alerad/leancert.git",
+    "rev": "7f91b6eb3567437f6cfac03ed279706603ee22f4",
+    "inherited": false,
+    "inputRev": "7f91b6eb3567437f6cfac03ed279706603ee22f4"
+   },
+   "PrimeNumberTheoremAnd": {
+    "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+    "rev": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+    "inherited": false,
+    "inputRev": "c39a751132c88b6e8080b74c74023fd95b3d8be0"
+   },
+   "belyi": {
+    "url": "https://github.com/lana-agents/belyi.git",
+    "rev": "9ce4d3f793d3bc831f2fc7214b7dbad90ea012d8",
+    "inherited": false,
+    "inputRev": "9ce4d3f793d3bc831f2fc7214b7dbad90ea012d8"
+   },
+   "formal-schemes": {
+    "url": "https://github.com/lana-agents/formal-schemes.git",
+    "rev": "51aa935079537bf4dc580751a6e70727fb23ca93",
+    "inherited": false,
+    "inputRev": "51aa935079537bf4dc580751a6e70727fb23ca93"
+   },
+   "elliptic-curves": {
+    "url": "https://github.com/lana-agents/elliptic-curves.git",
+    "rev": "bebec3fc9f2602e81c83e5236789572a541c85fb",
+    "inherited": false,
+    "inputRev": "bebec3fc9f2602e81c83e5236789572a541c85fb"
+   },
+   "tempered-fundamental-groups": {
+    "url": "https://github.com/lana-agents/tempered-fundamental-groups.git",
+    "rev": "2006651f52b70ea2fe3388238c7d9db14d21748f",
+    "inherited": false,
+    "inputRev": "2006651f52b70ea2fe3388238c7d9db14d21748f"
+   },
+   "oka": {
+    "url": "https://github.com/lana-agents/oka.git",
+    "rev": "75dcdc3faadd10b986afb9283e89902bcdddecd4",
+    "inherited": false,
+    "inputRev": "75dcdc3faadd10b986afb9283e89902bcdddecd4"
+   },
+   "orbicurve-cores": {
+    "url": "https://github.com/lana-agents/orbicurve-cores.git",
+    "rev": "61616dcd77fbe45c083a8ebfa7cc80728f86e841",
+    "inherited": false,
+    "inputRev": "61616dcd77fbe45c083a8ebfa7cc80728f86e841"
+   },
+   "pi1": {
+    "url": "https://github.com/lana-agents/pi1.git",
+    "rev": "ca7def953193f861a462aa0831eec8f0a31ff69f",
+    "inherited": false,
+    "inputRev": "ca7def953193f861a462aa0831eec8f0a31ff69f"
+   },
+   "heights": {
+    "url": "https://github.com/lana-agents/heights.git",
+    "rev": "721496ca4c158e511d25d8ccf6bfe8503eda73c1",
+    "inherited": false,
+    "inputRev": "721496ca4c158e511d25d8ccf6bfe8503eda73c1"
+   },
+   "genl": {
+    "url": "https://github.com/lana-agents/genl.git",
+    "rev": "ea2846c877d1e16d8f0b911a5fed07f5ee69eaaf",
+    "inherited": false,
+    "inputRev": "ea2846c877d1e16d8f0b911a5fed07f5ee69eaaf"
+   },
+   "tate-curves-theta": {
+    "url": "https://github.com/lana-agents/tate-curves-theta.git",
+    "rev": "ca6c2279d3cea0690cdb01328e727118d5485d68",
+    "inherited": false,
+    "inputRev": "ca6c2279d3cea0690cdb01328e727118d5485d68"
+   },
+   "iut": {
+    "url": "https://github.com/lana-agents/iut.git",
+    "rev": "d9465c111ec4073709f67e9fccec7e3eb374a816",
+    "inherited": false,
+    "inputRev": "d9465c111ec4073709f67e9fccec7e3eb374a816"
+   },
+   "gromov": {
+    "url": "https://github.com/Aaron1011/gromov.git",
+    "rev": "8db79f13cf211b570e3116301d91379fbc01cf3e",
+    "inherited": false,
+    "inputRev": "8db79f13cf211b570e3116301d91379fbc01cf3e"
+   },
+   "TauCeti": {
+    "url": "https://github.com/TauCetiProject/TauCeti.git",
+    "rev": "3bed7e37f3c504a99e8c07e9f309540812a7aa90",
+    "inherited": false,
+    "inputRev": "3bed7e37f3c504a99e8c07e9f309540812a7aa90"
+   },
+   "SphereEversion": {
+    "url": "https://github.com/leanprover-community/sphere-eversion.git",
+    "rev": "9c53f91e2a281199163ecea04dc4976cb79e2076",
+    "inherited": false,
+    "inputRev": "9c53f91e2a281199163ecea04dc4976cb79e2076"
+   },
+   "schoenflies-lean": {
+    "url": "https://github.com/alonamaloh/schoenflies-lean",
+    "rev": "05a43d29cde026618777db3d4e4316204ccca237",
+    "inherited": false,
+    "inputRev": "05a43d29cde026618777db3d4e4316204ccca237"
+   },
+   "ClassFieldTheory": {
+    "url": "https://github.com/n-yamaguchi-0729/ClassFieldTheory.git",
+    "rev": "2eb22d6485af45f29c5219de6c49f196a61c4f49",
+    "inherited": false,
+    "inputRev": "2eb22d6485af45f29c5219de6c49f196a61c4f49"
+   },
+   "AINTLIB": {
+    "url": "https://github.com/CBirkbeck/AINTLIB.git",
+    "rev": "160e446617a2168c34c95bbe7a76c4105b392434",
+    "inherited": false,
+    "inputRev": "160e446617a2168c34c95bbe7a76c4105b392434"
+   },
+   "AbsorptionCutoff": {
+    "url": "https://github.com/BennyAvelin/AbsorptionCutoff.git",
+    "rev": "41c45c6d72e979419e46224bb7b4be5cee31f2b5",
+    "inherited": false,
+    "inputRev": "41c45c6d72e979419e46224bb7b4be5cee31f2b5"
+   },
+   "StrongPNT": {
+    "url": "https://github.com/math-inc/strongpnt.git",
+    "rev": "2f5835c322314f55f1026ec2f139d704b7c45c69",
+    "inherited": false,
+    "inputRev": "2f5835c322314f55f1026ec2f139d704b7c45c69"
+   },
+   "carleson": {
+    "url": "https://github.com/fpvandoorn/carleson.git",
+    "rev": "306ae5b29300771aece1aa39f0a939183cc59486",
+    "inherited": false,
+    "inputRev": "306ae5b29300771aece1aa39f0a939183cc59486"
+   },
+   "rellich-kondrachov": {
+    "url": "https://github.com/abenenson/rellich-kondrachov.git",
+    "rev": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+    "inherited": false,
+    "inputRev": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23"
+   },
+   "Zeta3Irrational": {
+    "url": "https://github.com/ahhwuhu/zeta_3_irrational.git",
+    "rev": "e8785315a01c8fbcddaa0fc03b3c8b29a61bc1f1",
+    "inherited": false,
+    "inputRev": "e8785315a01c8fbcddaa0fc03b3c8b29a61bc1f1"
+   },
+   "fixed-point-theorems": {
+    "url": "https://github.com/harfe/fixed-point-theorems-lean4.git",
+    "rev": "770940ddf9878cf61952ed53d910b92bca841838",
+    "inherited": false,
+    "inputRev": "770940ddf9878cf61952ed53d910b92bca841838"
+   },
+   "plausible": {
+    "url": "https://github.com/leanprover-community/plausible",
+    "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+    "inherited": true,
+    "inputRev": "main"
+   },
+   "LeanSearchClient": {
+    "url": "https://github.com/leanprover-community/LeanSearchClient",
+    "rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+    "inherited": true,
+    "inputRev": "main"
+   },
+   "importGraph": {
+    "url": "https://github.com/leanprover-community/import-graph",
+    "rev": "e928b72544873815af278d38681b31c0293588e3",
+    "inherited": true,
+    "inputRev": "main"
+   },
+   "proofwidgets": {
+    "url": "https://github.com/leanprover-community/ProofWidgets4",
+    "rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+    "inherited": true,
+    "inputRev": "main"
+   },
+   "aesop": {
+    "url": "https://github.com/leanprover-community/aesop",
+    "rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+    "inherited": true,
+    "inputRev": "master"
+   },
+   "Qq": {
+    "url": "https://github.com/leanprover-community/quote4",
+    "rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+    "inherited": true,
+    "inputRev": "master"
+   },
+   "batteries": {
+    "url": "https://github.com/leanprover-community/batteries",
+    "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+    "inherited": true,
+    "inputRev": "main"
+   },
+   "leansqlite": {
+    "url": "https://github.com/leanprover/leansqlite",
+    "rev": "f9cdb9eacb5c8b8ecc02ee9fd9e568d7d28c1416",
+    "inherited": true,
+    "inputRev": "main"
+   },
+   "Cli": {
+    "url": "https://github.com/leanprover/lean4-cli",
+    "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+    "inherited": true,
+    "inputRev": "v4.34.0"
+   },
+   "UnicodeBasic": {
+    "url": "https://github.com/fgdorais/lean4-unicode-basic",
+    "rev": "0e569d08b6443ce0908d356884c765397253e2f0",
+    "inherited": true,
+    "inputRev": "main"
+   },
+   "BibtexQuery": {
+    "url": "https://github.com/dupuisf/BibtexQuery",
+    "rev": "4d8616fd4870d0a3453d845770833eac7951fe1c",
+    "inherited": true,
+    "inputRev": "master"
+   },
+   "MD4Lean": {
+    "url": "https://github.com/acmepjz/md4lean",
+    "rev": "31907cc18f48a95384f99cee5582c00fb39e0f67",
+    "inherited": true,
+    "inputRev": "main"
+   }
+  },
+  "mathlib_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_rev_note": "d13f23b7 is 'chore: bump toolchain to v4.34.1' (2026-09-24T22:34+02:00); its own lake-manifest pins match the 8 inherited Mathlib deps in upstream's manifest (evidence/discovery/dependency_provenance.md)"
+ },
+ "p10_profile": {
+  "note": "P10-AUTHORED files (not upstream artifacts) used to build the InfiniteMatroid closure without the 30-package upstream lakefile. Stage A (P1-P4) checks their hashes and derives their meaning from the frozen upstream manifest.",
+  "files_sha256": {
+   "profiles/minimal/lakefile.toml": "2d1fcec67c092b4768de22507c3b63fc1c268743fe9c3fb7a072cced8abf9f9a",
+   "profiles/minimal/lake-manifest.json": "fc1c3ed8b3852dab03b7b34351a79e9369a0db5255401da41903389151cd8eb4"
+  }
+ },
+ "verifier_tooling": {
+  "upstream_as_is": {
+   "comparator": null,
+   "lean4export": null,
+   "landrun": null,
+   "status": "NOT DEMONSTRATED: exact verifier implementation used upstream (no revision recoverable; see evidence/discovery/comparator_provenance.md)"
+  },
+  "p10_frozen_profile": "profiles/verifier_profiles.json#p10-frozen-v1"
+ },
+ "upstream_file_sha256": {
+  "README.md": "af984f110f6583ba57ec1af907dc989bfce86713161e9c8b0543b052a138ff64",
+  "lean/ComparatorChallenges/README.md": "051459a45da1bedd1c0a6585a5b5e5425c7c40a369f2922d7b519e2fd02333b0",
+  "lean/docs/185.md": "00d22dbd780928870fe1c9a9a63c31c202ef513df975d1f07bde4ffb2261a64d"
+ }
+}

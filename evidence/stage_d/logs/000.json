@@ -1,0 +1,13 @@
+{
+ "argv": [
+  "lake",
+  "exe",
+  "cache",
+  "get"
+ ],
+ "cwd": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/d",
+ "rc": 0,
+ "elapsed_s": 3.9,
+ "stdout": "Current branch: HEAD\nUsing cache from origin: (some leanprover-community/mathlib4)\nNo files to download\nAlready decompressed 8908 file(s)\n",
+ "stderr": ""
+}

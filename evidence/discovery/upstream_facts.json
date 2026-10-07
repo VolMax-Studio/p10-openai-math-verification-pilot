@@ -1,0 +1,427 @@
+{
+ "upstream": "https://github.com/openai/math",
+ "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+ "commit_date": "2026-10-06T14:58:50-07:00",
+ "commit_count_in_checkout": "1",
+ "lean_toolchain": "leanprover/lean4:v4.34.1",
+ "dependencies": [
+  {
+   "name": "mathlib",
+   "url": "https://github.com/leanprover-community/mathlib4.git",
+   "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+   "inherited": false
+  },
+  {
+   "name": "checkdecls",
+   "url": "https://github.com/PatrickMassot/checkdecls.git",
+   "rev": "3d425859e73fcfbef85b9638c2a91708ef4a22d4",
+   "inherited": false
+  },
+  {
+   "name": "doc-gen4",
+   "url": "https://github.com/leanprover/doc-gen4.git",
+   "rev": "953c8992d174b4e56955e01e101d46668c68f2bb",
+   "inherited": false
+  },
+  {
+   "name": "PrimeCert",
+   "url": "https://github.com/b-mehta/PrimeCert.git",
+   "rev": "0803c2f6bd289c09704c7d352bb8fcf770cbb9b2",
+   "inherited": false
+  },
+  {
+   "name": "LeanArchitect",
+   "url": "https://github.com/hanwenzhu/LeanArchitect.git",
+   "rev": "468e8f58fb4ad6e6ad672a08da6d0d0531e95a97",
+   "inherited": false
+  },
+  {
+   "name": "leancert",
+   "url": "https://github.com/alerad/leancert.git",
+   "rev": "7f91b6eb3567437f6cfac03ed279706603ee22f4",
+   "inherited": false
+  },
+  {
+   "name": "PrimeNumberTheoremAnd",
+   "url": "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git",
+   "rev": "c39a751132c88b6e8080b74c74023fd95b3d8be0",
+   "inherited": false
+  },
+  {
+   "name": "belyi",
+   "url": "https://github.com/lana-agents/belyi.git",
+   "rev": "9ce4d3f793d3bc831f2fc7214b7dbad90ea012d8",
+   "inherited": false
+  },
+  {
+   "name": "formal-schemes",
+   "url": "https://github.com/lana-agents/formal-schemes.git",
+   "rev": "51aa935079537bf4dc580751a6e70727fb23ca93",
+   "inherited": false
+  },
+  {
+   "name": "elliptic-curves",
+   "url": "https://github.com/lana-agents/elliptic-curves.git",
+   "rev": "bebec3fc9f2602e81c83e5236789572a541c85fb",
+   "inherited": false
+  },
+  {
+   "name": "tempered-fundamental-groups",
+   "url": "https://github.com/lana-agents/tempered-fundamental-groups.git",
+   "rev": "2006651f52b70ea2fe3388238c7d9db14d21748f",
+   "inherited": false
+  },
+  {
+   "name": "oka",
+   "url": "https://github.com/lana-agents/oka.git",
+   "rev": "75dcdc3faadd10b986afb9283e89902bcdddecd4",
+   "inherited": false
+  },
+  {
+   "name": "orbicurve-cores",
+   "url": "https://github.com/lana-agents/orbicurve-cores.git",
+   "rev": "61616dcd77fbe45c083a8ebfa7cc80728f86e841",
+   "inherited": false
+  },
+  {
+   "name": "pi1",
+   "url": "https://github.com/lana-agents/pi1.git",
+   "rev": "ca7def953193f861a462aa0831eec8f0a31ff69f",
+   "inherited": false
+  },
+  {
+   "name": "heights",
+   "url": "https://github.com/lana-agents/heights.git",
+   "rev": "721496ca4c158e511d25d8ccf6bfe8503eda73c1",
+   "inherited": false
+  },
+  {
+   "name": "genl",
+   "url": "https://github.com/lana-agents/genl.git",
+   "rev": "ea2846c877d1e16d8f0b911a5fed07f5ee69eaaf",
+   "inherited": false
+  },
+  {
+   "name": "tate-curves-theta",
+   "url": "https://github.com/lana-agents/tate-curves-theta.git",
+   "rev": "ca6c2279d3cea0690cdb01328e727118d5485d68",
+   "inherited": false
+  },
+  {
+   "name": "iut",
+   "url": "https://github.com/lana-agents/iut.git",
+   "rev": "d9465c111ec4073709f67e9fccec7e3eb374a816",
+   "inherited": false
+  },
+  {
+   "name": "gromov",
+   "url": "https://github.com/Aaron1011/gromov.git",
+   "rev": "8db79f13cf211b570e3116301d91379fbc01cf3e",
+   "inherited": false
+  },
+  {
+   "name": "TauCeti",
+   "url": "https://github.com/TauCetiProject/TauCeti.git",
+   "rev": "3bed7e37f3c504a99e8c07e9f309540812a7aa90",
+   "inherited": false
+  },
+  {
+   "name": "SphereEversion",
+   "url": "https://github.com/leanprover-community/sphere-eversion.git",
+   "rev": "9c53f91e2a281199163ecea04dc4976cb79e2076",
+   "inherited": false
+  },
+  {
+   "name": "schoenflies-lean",
+   "url": "https://github.com/alonamaloh/schoenflies-lean",
+   "rev": "05a43d29cde026618777db3d4e4316204ccca237",
+   "inherited": false
+  },
+  {
+   "name": "ClassFieldTheory",
+   "url": "https://github.com/n-yamaguchi-0729/ClassFieldTheory.git",
+   "rev": "2eb22d6485af45f29c5219de6c49f196a61c4f49",
+   "inherited": false
+  },
+  {
+   "name": "AINTLIB",
+   "url": "https://github.com/CBirkbeck/AINTLIB.git",
+   "rev": "160e446617a2168c34c95bbe7a76c4105b392434",
+   "inherited": false
+  },
+  {
+   "name": "AbsorptionCutoff",
+   "url": "https://github.com/BennyAvelin/AbsorptionCutoff.git",
+   "rev": "41c45c6d72e979419e46224bb7b4be5cee31f2b5",
+   "inherited": false
+  },
+  {
+   "name": "StrongPNT",
+   "url": "https://github.com/math-inc/strongpnt.git",
+   "rev": "2f5835c322314f55f1026ec2f139d704b7c45c69",
+   "inherited": false
+  },
+  {
+   "name": "carleson",
+   "url": "https://github.com/fpvandoorn/carleson.git",
+   "rev": "306ae5b29300771aece1aa39f0a939183cc59486",
+   "inherited": false
+  },
+  {
+   "name": "rellich-kondrachov",
+   "url": "https://github.com/abenenson/rellich-kondrachov.git",
+   "rev": "70f85d4c1bf99c6e7d61e8be4daa6f3664d08d23",
+   "inherited": false
+  },
+  {
+   "name": "Zeta3Irrational",
+   "url": "https://github.com/ahhwuhu/zeta_3_irrational.git",
+   "rev": "e8785315a01c8fbcddaa0fc03b3c8b29a61bc1f1",
+   "inherited": false
+  },
+  {
+   "name": "fixed-point-theorems",
+   "url": "https://github.com/harfe/fixed-point-theorems-lean4.git",
+   "rev": "770940ddf9878cf61952ed53d910b92bca841838",
+   "inherited": false
+  },
+  {
+   "name": "plausible",
+   "url": "https://github.com/leanprover-community/plausible",
+   "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+   "inherited": true
+  },
+  {
+   "name": "LeanSearchClient",
+   "url": "https://github.com/leanprover-community/LeanSearchClient",
+   "rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+   "inherited": true
+  },
+  {
+   "name": "importGraph",
+   "url": "https://github.com/leanprover-community/import-graph",
+   "rev": "e928b72544873815af278d38681b31c0293588e3",
+   "inherited": true
+  },
+  {
+   "name": "proofwidgets",
+   "url": "https://github.com/leanprover-community/ProofWidgets4",
+   "rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+   "inherited": true
+  },
+  {
+   "name": "aesop",
+   "url": "https://github.com/leanprover-community/aesop",
+   "rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+   "inherited": true
+  },
+  {
+   "name": "Qq",
+   "url": "https://github.com/leanprover-community/quote4",
+   "rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+   "inherited": true
+  },
+  {
+   "name": "batteries",
+   "url": "https://github.com/leanprover-community/batteries",
+   "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+   "inherited": true
+  },
+  {
+   "name": "leansqlite",
+   "url": "https://github.com/leanprover/leansqlite",
+   "rev": "f9cdb9eacb5c8b8ecc02ee9fd9e568d7d28c1416",
+   "inherited": true
+  },
+  {
+   "name": "Cli",
+   "url": "https://github.com/leanprover/lean4-cli",
+   "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+   "inherited": true
+  },
+  {
+   "name": "UnicodeBasic",
+   "url": "https://github.com/fgdorais/lean4-unicode-basic",
+   "rev": "0e569d08b6443ce0908d356884c765397253e2f0",
+   "inherited": true
+  },
+  {
+   "name": "BibtexQuery",
+   "url": "https://github.com/dupuisf/BibtexQuery",
+   "rev": "4d8616fd4870d0a3453d845770833eac7951fe1c",
+   "inherited": true
+  },
+  {
+   "name": "MD4Lean",
+   "url": "https://github.com/acmepjz/md4lean",
+   "rev": "31907cc18f48a95384f99cee5582c00fb39e0f67",
+   "inherited": true
+  }
+ ],
+ "comparator_configs": 405,
+ "formalization_yaml": {
+  "yaml_version": "v0.4",
+  "sources_count": 162,
+  "main_results_count": 185,
+  "review_status": "unchecked",
+  "automation": [
+   "agent"
+  ],
+  "scope": "Partial progress."
+ },
+ "yaml_vs_config_mismatches": [
+  {
+   "config": "ComparatorChallenges/BorsukNine.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Geometry/Borsuk/Counterexample.lean",
+   "config_module": "OAI.Geometry.Borsuk.Main"
+  },
+  {
+   "config": "ComparatorChallenges/BoundedRecovery.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Analysis/ModularRecovery/Recovery.lean",
+   "config_module": "OAI.Analysis.ModularRecovery.Main"
+  },
+  {
+   "config": "ComparatorChallenges/CriticalSK.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/MathematicalPhysics/CriticalSK/Rayleigh.lean",
+   "config_module": "OAI.MathematicalPhysics.CriticalSK.Main"
+  },
+  {
+   "config": "ComparatorChallenges/DirectCrouzeix.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Analysis/DirectCrouzeix/CompleteBound.lean",
+   "config_module": "OAI.Analysis.DirectCrouzeix.Main"
+  },
+  {
+   "config": "ComparatorChallenges/GaussianReplacement.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Probability/GaussianReplacement/Hybrid.lean",
+   "config_module": "OAI.Probability.GaussianReplacement.FiberEquality"
+  },
+  {
+   "config": "ComparatorChallenges/GaussianReplacement.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Probability/GaussianReplacement/FiberBlock.lean",
+   "config_module": "OAI.Probability.GaussianReplacement.FiberEquality"
+  },
+  {
+   "config": "ComparatorChallenges/GrothendieckElementaryExpansion.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/CategoryTheory/Globular/ElementaryExpansion.lean",
+   "config_module": "OAI.CategoryTheory.Globular.Main"
+  },
+  {
+   "config": "ComparatorChallenges/HarmonicArtin.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Topology/ArtinGroups/Realizations/SalvettiCoverContractible.lean",
+   "config_module": "OAI.Topology.ArtinGroups.Main"
+  },
+  {
+   "config": "ComparatorChallenges/IndependentProducts.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Analysis/ProductSpaces/WeakNullity.lean",
+   "config_module": "OAI.Analysis.ProductSpaces.Main"
+  },
+  {
+   "config": "ComparatorChallenges/Jacobsthal.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/NumberTheory/Jacobsthal/Conclusions/QuadraticBound.lean",
+   "config_module": "OAI.NumberTheory.Jacobsthal.Main"
+  },
+  {
+   "config": "ComparatorChallenges/MatrixFields.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/LinearAlgebra/MatrixFields/Conclusions/AllFieldsBound.lean",
+   "config_module": "OAI.LinearAlgebra.MatrixFields.Main"
+  },
+  {
+   "config": "ComparatorChallenges/PartitionPrinciple.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/SetTheory/PartitionPrinciple/Models/Separation.lean",
+   "config_module": "OAI.SetTheory.PartitionPrinciple.Main"
+  },
+  {
+   "config": "ComparatorChallenges/PerfectCompleteness.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Computability/PerfectCompleteness/Theorem11.lean",
+   "config_module": "OAI.Computability.PerfectCompleteness.Main"
+  },
+  {
+   "config": "ComparatorChallenges/PeriodicTilingThree.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Geometry/PeriodicTiling/Counterexample.lean",
+   "config_module": "OAI.Geometry.PeriodicTiling.Main"
+  },
+  {
+   "config": "ComparatorChallenges/PlaneColoring.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Geometry/PlaneColoring/Seven.lean",
+   "config_module": "OAI.Geometry.PlaneColoring.Main"
+  },
+  {
+   "config": "ComparatorChallenges/RieszQuantitative.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Analysis/RieszRectifiability/Uniformity/Rectifiability.lean",
+   "config_module": "OAI.Analysis.RieszRectifiability.Main"
+  },
+  {
+   "config": "ComparatorChallenges/SiegelZeros.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/NumberTheory/SiegelZeros/Conclusions/Theorem.lean",
+   "config_module": "OAI.NumberTheory.SiegelZeros.Main"
+  },
+  {
+   "config": "ComparatorChallenges/SingletonLoopMatching.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Computability/LoopMatching/Main.lean",
+   "config_module": "OAI.Computability.LoopMatching.Endpoint"
+  },
+  {
+   "config": "ComparatorChallenges/SmoothYau.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Geometry/SmoothYau/SphereMetric/ThreeSphere.lean",
+   "config_module": "OAI.Geometry.SmoothYau.Main"
+  },
+  {
+   "config": "ComparatorChallenges/SmoothYau.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Geometry/SmoothYau/ProductMetric/SphereProduct.lean",
+   "config_module": "OAI.Geometry.SmoothYau.Main"
+  },
+  {
+   "config": "ComparatorChallenges/TingleySphereIsometry.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Analysis/SphereIsometry/Extension.lean",
+   "config_module": "OAI.Analysis.SphereIsometry.Main"
+  },
+  {
+   "config": "ComparatorChallenges/UniqueGamesTheorem.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Computability/UniqueGames/Theorem.lean",
+   "config_module": "OAI.Computability.UniqueGames.Main"
+  },
+  {
+   "config": "ComparatorChallenges/WeakMTWGlobalSupport.json",
+   "issue": "yaml file != config solution_module path",
+   "yaml": "OAI/Geometry/WeakMTW/Convexity.lean",
+   "config_module": "OAI.Geometry.WeakMTW.Main"
+  }
+ ],
+ "yaml_main_results_have_source_field": false,
+ "families_in_contents": 372,
+ "manuscripts_in_contents": 722,
+ "configs_referenced_by_yaml_main_results": 178,
+ "docs_files": 235,
+ "configs_linked_from_docs": 405,
+ "sha256": {
+  "README.md": "af984f110f6583ba57ec1af907dc989bfce86713161e9c8b0543b052a138ff64",
+  "CONTENTS.md": "c492802b53fb4c4161e45fc678bb67bd526add72ca2635493a367ff7fb860bf9",
+  "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+  "lean/lakefile.lean": "4cca977ebece444b6c999d99755c1ad3c93119bafc127ea761f7f703c7279e74",
+  "lean/lake-manifest.json": "cf6105a25d9dca2f166b241d9191bd12c7e13305890dc9c4d0952351cccc0794",
+  "lean/formalization.yaml": "2dcbd0d6e6a22475f53d49bfdfcac9b6d2b470653c332a9f56522f5be166edb9",
+  "lean/ComparatorChallenges/README.md": "051459a45da1bedd1c0a6585a5b5e5425c7c40a369f2922d7b519e2fd02333b0"
+ }
+}

@@ -1,0 +1,1 @@
+A: CLOSURE: 2 pass/0 fail, ENV: 4 pass/0 fail, HASH: 71 pass/0 fail, PROFILE: 5 pass/0 fail, ROOT: 73 pass/0 fail, STRUCT: 7 pass/0 fail  => PASS (provenance only)

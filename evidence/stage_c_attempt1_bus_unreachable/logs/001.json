@@ -1,0 +1,29 @@
+{
+ "argv": [
+  "systemd-run",
+  "--user",
+  "--wait",
+  "--pipe",
+  "--collect",
+  "--property=RestrictAddressFamilies=~AF_UNIX",
+  "-E",
+  "PATH=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin:/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/elan/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.npm/_npx/4b4c857f6efdfb61/node_modules/.bin:/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-replay-verifier/node_modules/.bin:/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/node_modules/.bin:/home/volmax-studio/volmax-projects/iot2/node_modules/.bin:/home/volmax-studio/volmax-projects/node_modules/.bin:/home/volmax-studio/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/volmax-studio/.elan/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/volmax-projects/IoT/volmax_env/bin:/home/volmax-studio/.npm-global/bin:/home/volmax-studio/.local/bin:/home/volmax-studio/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin",
+  "-E",
+  "ELAN_HOME=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/elan",
+  "-E",
+  "COMPARATOR_LANDRUN=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/landrun",
+  "-E",
+  "COMPARATOR_LEAN4EXPORT=/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/lean4export",
+  "--working-directory",
+  "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/c",
+  "--",
+  "bash",
+  "-c",
+  "cd /home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/c && lake env /home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/comparator ComparatorChallenges/InfiniteMatroid.json"
+ ],
+ "cwd": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/c",
+ "rc": 1,
+ "elapsed_s": 0.0,
+ "stdout": "",
+ "stderr": "Failed to connect to bus: No medium found\n"
+}

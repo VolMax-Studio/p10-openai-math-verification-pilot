@@ -1,0 +1,16 @@
+p10-openai-math-verification-pilot
+
+Original code and documents in this repository (scripts/, profiles/, evidence/ tooling, reports/, *.md authored here)
+are licensed under the Apache License 2.0 (see LICENSE), Copyright 2026 VolMax Studio contributors.
+(License choice is a placeholder pending the repository owner's confirmation.)
+
+THIRD-PARTY MATERIAL IS NOT RELICENSED BY THIS REPOSITORY.
+This repository does not redistribute the upstream artifacts it examines. It records identifiers (repository URLs,
+commit hashes, file paths) and SHA-256 hashes of upstream files, short quotations needed for audit, and facts derived
+from them. Upstream artifacts remain under their own original licenses and terms, including without limitation:
+  - OpenAI "math" repository (https://github.com/openai/math): manuscripts, Lean sources, metadata, as licensed there;
+  - Lean 4, Mathlib, Batteries, Aesop and other Lean packages: Apache-2.0 or their respective licenses;
+  - leanprover/comparator, leanprover/lean4export, Zouuup/landrun: their respective licenses;
+  - third-party Lean dependencies listed in evidence/discovery/dependency_table.md (and their compatibility patches).
+A locally fetched copy under upstream/ (git-ignored) is a convenience for verification, is not part of this
+repository's contents, and stays under the upstream licenses. Nothing here grants rights in upstream material.

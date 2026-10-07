@@ -1,0 +1,448 @@
+{
+ "stage": "A",
+ "kind": "tamper tests on a temporary copy of the pinned checkout",
+ "lock": "subject.lock.json",
+ "summary": {
+  "tests": 30,
+  "as_expected": 30,
+  "one_byte_mutations_detected": 12
+ },
+ "tests": [
+  {
+   "test": "T00 control (no mutation)",
+   "mutated": null,
+   "bytes_changed": null,
+   "stage_a_exit": 0,
+   "detected": false,
+   "failed_checks": [],
+   "failed_checks_total": 0,
+   "checks_run": 162,
+   "expected": "",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T01 challenge statement file +1 byte",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T02 Comparator JSON config +1 byte",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.json",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.json"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.json",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T03 solution module (Main.lean) +1 byte",
+   "mutated": "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T04 deep closure module (BlockDensity.lean) 1 bit flip",
+   "mutated": "lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
+   "bytes_changed": "in-place 1 byte",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T05 docs bridge (docs/185.md) +1 byte",
+   "mutated": "lean/docs/185.md",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/docs/185.md"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/docs/185.md",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T06 formalization.yaml +1 byte",
+   "mutated": "lean/formalization.yaml",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/formalization.yaml"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T07 CONTENTS.md +1 byte",
+   "mutated": "CONTENTS.md",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:CONTENTS.md"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:CONTENTS.md",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T08 manuscript PDF 1 bit flip",
+   "mutated": "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+   "bytes_changed": "in-place 1 byte",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T09 manuscript TeX source +1 byte",
+   "mutated": "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T10 lean-toolchain +1 byte",
+   "mutated": "lean/lean-toolchain",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/lean-toolchain"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/lean-toolchain",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T11 lake-manifest.json Mathlib rev 1 hex digit",
+   "mutated": "lean/lake-manifest.json",
+   "bytes_changed": "in-place 1 byte",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/lake-manifest.json"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/lake-manifest.json",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T12 dependency patch +1 byte",
+   "mutated": "lean/patches/AINTLIB-lean4341.patch",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/patches/AINTLIB-lean4341.patch"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/patches/AINTLIB-lean4341.patch",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T13 challenge file deleted",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T14 extra patch file injected",
+   "mutated": "lean/patches/Injected-lean4341.patch",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.worktree_membership:patches"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A2.worktree_membership:patches",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "bytes_changed": 44,
+   "test": "T15 forged lock+file: solution gains out-of-closure import",
+   "mutated": "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+    "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 162,
+   "expected": "R2.lock_hash:",
+   "outcome_as_expected": true,
+   "note": "lock forged to match the edited file: R2 compares the lock to the frozen commit and fails"
+  },
+  {
+   "bytes_changed": 1,
+   "test": "T16 forged lock+file: yaml main_results declaration changed",
+   "mutated": "lean/formalization.yaml",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:lean/formalization.yaml",
+    "A2.worktree:lean/formalization.yaml"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 162,
+   "expected": "R2.lock_hash:",
+   "outcome_as_expected": true,
+   "note": "self-consistent metadata+lock edit is rejected against the frozen commit"
+  },
+  {
+   "bytes_changed": -2,
+   "test": "T17 (formerly the LIMIT case) challenge statement edited AND lock forged consistently",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 162,
+   "expected": "R2.lock_hash:",
+   "outcome_as_expected": true,
+   "note": "CLOSES the earlier limit: the forged lock no longer authenticates the edited statement because expected hashes are derived from the frozen commit"
+  },
+  {
+   "test": "T19 lock names a different upstream commit",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R0.lock_commit_is_frozen_commit"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "R0.lock_commit_is_frozen_commit",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T20 lock drops a closure module (working copy untouched)",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A3.closure_set"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A3.closure_set",
+   "outcome_as_expected": true,
+   "note": "membership is derived from the frozen tree, not from the lock"
+  },
+  {
+   "test": "T21 lock hash for config edited (working copy untouched)",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:lean/ComparatorChallenges/InfiniteMatroid.json"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "R2.lock_hash:",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T22 lock adds a manuscript file absent from the frozen tree",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/injected.tex",
+    "R3.manuscript_membership"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 163,
+   "expected": "R3.manuscript_membership",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T23 git-replace ref substitutes the challenge blob; working copy untouched",
+   "mutated": "<object store refs>",
+   "stage_a_exit": 0,
+   "detected": false,
+   "failed_checks": [],
+   "failed_checks_total": 0,
+   "checks_run": 162,
+   "expected": "NEUTRALIZED (replace refs ignored; canonical bytes still re-verified)",
+   "outcome_as_expected": true,
+   "note": "attack has no effect on Stage A's canonical bytes; PASS is the correct outcome here (the working copy is the real, unmodified file)"
+  },
+  {
+   "test": "T24 object store: loose object with wrong content planted under the real blob id",
+   "mutated": "<.git/objects>",
+   "stage_a_exit": 0,
+   "detected": false,
+   "failed_checks": [],
+   "failed_checks_total": 0,
+   "checks_run": 162,
+   "expected": "any failure (re-hash) or NEUTRALIZED if git prefers the intact packed copy",
+   "outcome_as_expected": true,
+   "observed_ok": true,
+   "note": "outcome recorded as observed; either a re-verification failure or the genuine packed object being used is acceptable, a PASS using the planted bytes is not (the working copy would then differ from them and A2 fails)"
+  },
+  {
+   "test": "T25 profile lakefile +1 byte",
+   "mutated": "profiles/minimal/lakefile.toml",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "P1.profile_hash:profiles/minimal/lakefile.toml"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "P1.profile_hash:profiles/minimal/lakefile.toml",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T26 profile manifest +1 byte",
+   "mutated": "profiles/minimal/lake-manifest.json",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "P1.profile_hash:profiles/minimal/lake-manifest.json"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "P1.profile_hash:profiles/minimal/lake-manifest.json",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T27 profile manifest: Mathlib rev changed AND lock hash forged",
+   "mutated": "profiles/minimal/lake-manifest.json",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "P2.profile_manifest_entries_equal_frozen_upstream",
+    "P3.profile_mathlib_rev_equal_lock"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 162,
+   "expected": "P2.",
+   "outcome_as_expected": true,
+   "note": "forged lock hash"
+  },
+  {
+   "test": "T28 profile lakefile: Mathlib rev changed AND lock hash forged",
+   "mutated": "profiles/minimal/lakefile.toml",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "P3.profile_mathlib_rev_equal_lock"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "P3.",
+   "outcome_as_expected": true,
+   "note": "forged lock hash"
+  },
+  {
+   "test": "T29 profile lakefile: extra [[require]] added AND lock hash forged",
+   "mutated": "profiles/minimal/lakefile.toml",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "P4.profile_lakefile_requires_only_mathlib"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "P4.",
+   "outcome_as_expected": true,
+   "note": "forged lock hash"
+  },
+  {
+   "test": "T18 upstream HEAD moved (empty commit on temp copy)",
+   "mutated": "<git HEAD>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A1.worktree_HEAD"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 162,
+   "expected": "A1.worktree_HEAD",
+   "outcome_as_expected": true,
+   "note": ""
+  }
+ ]
+}

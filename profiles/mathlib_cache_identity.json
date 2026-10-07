@@ -1,0 +1,8 @@
+{
+ "digest": "51739e8da6b72d8424c7ccb44e843b5f41ff87bced9e1fe308d166f4615166d0",
+ "files": 8908,
+ "bytes": 451433503,
+ "definition": "sha256 over sorted lines `relative_path size sha256(content)` of every file in the private MATHLIB_CACHE_DIR after `lake exe cache get`",
+ "source": "first observation, stage C of the final RC rerun; B and D downloaded independently and must match",
+ "trust": "identifies the downloaded payload; does NOT make the Mathlib cache provider or its contents trusted"
+}
