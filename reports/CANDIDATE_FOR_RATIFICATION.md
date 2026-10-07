@@ -1,5 +1,7 @@
 # CANDIDATE FOR RATIFICATION — P10 pilot, subject `InfiniteMatroid`
 
+> **Superseded status note:** This was the candidate presented for ratification. Ratification was subsequently completed. The authoritative decision record is `RATIFICATION.md`.
+
 **This is not `Verified`, not `Ratified`, and not a P10 verdict.** It is a frozen local evidence state offered to the ratifier (Ivan). Nothing has been pushed, tagged, released, signed, published or deployed.
 
 - Candidate evidence commit: `1edd19c5a5694ff0e0a84ba43d9294849201cd42` (branch `claude/charming-noether-j0w6k4`, device repository; this document is committed on top of it and contains no new evidence).

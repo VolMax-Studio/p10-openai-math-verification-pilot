@@ -1,5 +1,7 @@
 # SUBJECT
 
+> **Historical status note:** This document records subject-selection and upstream-discovery state before final execution and ratification. Any statement below that no verdict exists is historical. See `RATIFICATION.md` for the authoritative final verdict and scope.
+
 Upstream: `https://github.com/openai/math`, commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`
 (commit date 2026-10-06T14:58:50-07:00, subject line "Initial commit"; history depth not examined).
 Retrieved 2026-10-07 (UTC). **Selected subject (Ivan, 2026-10-07): `InfiniteMatroid`**, openai/math family 185, frozen in `subject.lock.json`. Binding analysis: `reports/infinite_matroid_binding.md`. No verdict.

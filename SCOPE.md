@@ -1,5 +1,7 @@
 # SCOPE
 
+> **Historical status note:** This document was authored before the final RC execution and ratification. Statements below describing B/C as blocked or saying that no verdict exists are historical. The authoritative final result and scope are in `RATIFICATION.md`; final execution evidence is under `evidence/stage_rcfinal_*`.
+
 ## In scope (target, once a subject is selected)
 Demonstrate **separately**, never as one aggregate PASS:
 

@@ -1,5 +1,7 @@
 # Binding report: openai/math family 185 — `InfiniteMatroid`
 
+> **Historical status note:** This report was initially written before the final Lean/Comparator execution. Pre-execution statements such as “no Lean build”, “no Comparator run”, or “no verdict” describe that earlier state. See `RATIFICATION.md` and `evidence/stage_rcfinal_*` for the final ratified execution result.
+
 Status: **analysis of bindings only. No Lean build, no Comparator run, no verdict.** Nothing here states that the
 manuscript result has been independently verified. Subject selected by Ivan (ratifier) on 2026-10-07; frozen in `subject.lock.json`.
 Labels: **O** observed (path @ commit / command / hash) · **D** derived (method stated) · **N** not demonstrated.

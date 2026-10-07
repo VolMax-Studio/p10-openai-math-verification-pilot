@@ -1,5 +1,7 @@
 # Stage results — profile `p10-frozen-v1`, subject `InfiniteMatroid`
 
+> **Status note:** This report preserves execution history, including stages written before ratification. Any heading or statement saying that no verdict exists is superseded only with respect to verdict status by `RATIFICATION.md`; the underlying historical execution record remains unchanged.
+
 **No overall verdict is issued.** Four independent gate results follow. None of them is, or implies, `Verified`.
 Local only: nothing was pushed, tagged, released, signed, or opened as a PR. Ivan remains the final ratifier.
 
