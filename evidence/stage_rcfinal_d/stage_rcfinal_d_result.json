@@ -1,0 +1,593 @@
+{
+ "stage": "D",
+ "status": "PASS",
+ "steps": [
+  {
+   "argv": [
+    "lake",
+    "exe",
+    "cache",
+    "get"
+   ],
+   "rc": 0,
+   "elapsed_s": 262.3
+  }
+ ],
+ "snapshot": {
+  "stage": "rcfinal_d",
+  "utc": "2026-10-07T14:45:44Z",
+  "uname": "7.0.0-34-generic",
+  "uid": 1000,
+  "ws": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/d",
+  "disk_free_gib": 32.0,
+  "mem": "total        used        free      shared  buff/cache   available\nMem:           15660        5914        7637         963        3409        9745\nSwap:           6675        6173         502",
+  "lean": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "lake": "Lake version 5.0.0-src+5045d00 (Lean version 4.34.1)",
+  "tool_commits": {
+   "comparator": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+   "lean4export": "076e8e57707e813375e8f9da8bf989799ace9680",
+   "landrun": "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4"
+  },
+  "tool_binary_sha256": {
+   "comparator": "afa65e57a1770f5961efe7681626a9a1cd99705262421658abd30b705f66e4a2",
+   "lean4export": "8c5d64ba68f4d3a68b3bcb7e1c5f188e35ae573b29470b8d4530a62324c9ddd1",
+   "landrun": "0fbdfcb1bb379b50e216ed43a74ede756c0dfee380988bc75948cb5a357f494a"
+  },
+  "env": {
+   "ELAN_HOME": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/elan",
+   "XDG_RUNTIME_DIR": "/run/user/1000",
+   "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+   "COMPARATOR_LANDRUN": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/landrun",
+   "COMPARATOR_LEAN4EXPORT": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/lean4export",
+   "LAKE_HOME": "",
+   "LEAN_PATH": "",
+   "LAKE_ARTIFACT_CACHE": "",
+   "MATHLIB_CACHE_DIR": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/cache-d"
+  },
+  "lsm": "lockdown,capability,landlock,yama,apparmor,ima,evm",
+  "network": {
+   "https://github.com": "200",
+   "https://releases.lean-lang.org": "302",
+   "https://lakecache.blob.core.windows.net": "000"
+  },
+  "frozen_head": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+ },
+ "profile_check": [],
+ "workspace_files_sha256": {
+  "lean/ComparatorChallenges/InfiniteMatroid.json": "8d56594400ee353792bc7153086072fc05762cc5cafd4d9cc7e48db525e13b82",
+  "lean/ComparatorChallenges/InfiniteMatroid.lean": "802e9bf69b2c5d9be56f2899ef69f5470910cf059b419d3e8f770f1523cae3a7",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Basic.lean": "6f1ccdc7b455855635fe9eb1c817da82f998f45da1f15cf310a2be0ddcf070ad",
+  "lean/OAI/Combinatorics/InfiniteMatroid/BasisExtension.lean": "9b472c7c34d8ff3a77048ce9ed15a948ce879fb59424a9a3d5ba40a36851556e",
+  "lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean": "d529a1a09923c1cda1f9f82e879175211ef9b9493fae83f5c0b496b0d5b44a02",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Cardinality.lean": "b745acbb00b0852aa29a00e3419a29923dcdb4646d039f0f80561a300c262529",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Cesaro.lean": "b8748a92e765071c53e3ca4eec79d6a2e09a0735e06d573375cc5c4338b35d22",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Columns.lean": "0cfc84d0509a504c7aaaf3d79aa7e4eca3bbaf29232ce9284f7551e995a1e095",
+  "lean/OAI/Combinatorics/InfiniteMatroid/DensityIdeal.lean": "964f1744cb37d895b1ad0c5d0876b26aa07a185bb374de1ab57f38142823424d",
+  "lean/OAI/Combinatorics/InfiniteMatroid/DoubleRay.lean": "f815f478e04461664413e18ac9a4e37366cf240aaf511963a8b28758bdf614f1",
+  "lean/OAI/Combinatorics/InfiniteMatroid/FiniteCounting.lean": "a59b005f142514d29d41166cf247d5cd1032cbd4c7b22635d726dcb3efae74ab",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Ideals.lean": "43f127320015e3af11b6021e973008dcf60411c6e10f1ed5f78ccb94fdfff1a3",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Interpolation.lean": "3ddd6e723e1d73503010a49c5cc6d48bcc099af6120857f6392ea10d38427699",
+  "lean/OAI/Combinatorics/InfiniteMatroid/LocalBases.lean": "5f93d385b2050a3ef18b573f494a9c9e9d027bb2593b738260ff2b9e9c561a2c",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean": "4c47af8f801dac7b53cc4429295eae85a1e7ea8607b7faf2c17320c0d060b25b",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Matroid.lean": "b8de571908911b74f1ab9c93c8dfd048d608a2e2cf162b01596e09df71e2ebdb",
+  "lean/OAI/Combinatorics/InfiniteMatroid/OrdinalRank.lean": "24cea019a5e4c7dbe83b026ba4e787a1d59363350110a62810d2a170a2024e1a",
+  "lean/OAI/Combinatorics/InfiniteMatroid/PackingCovering.lean": "4d6e51e628ecc47fc5d351dff23d93896a168dbbb03464e2b29c367bda1cf324",
+  "lean/OAI/Combinatorics/InfiniteMatroid/ProbeLimits.lean": "131148e71a2d16f949b6e47f1cbe52ea40c21289d373162587174b0a3accb684",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Prototype.lean": "77092696ec686cf19f5f407b48039bc0aee4aa3d1127e8aba917a0b794af604c",
+  "lean/OAI/Combinatorics/InfiniteMatroid/PrototypeExtension.lean": "872e85ab009677128b0fe1341ab8854aac1f1f7a3f14025fb421d523b643e744",
+  "lean/OAI/Combinatorics/InfiniteMatroid/RankDescent.lean": "f05a9c6e2924cae5e5b82bfad2649cfcb5116678a934f74c0dc90202d6cc2c84",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Reservations.lean": "de971eed25696ef1de1616c99a0d38a197fef58cf792e1b397f6905fd2d47c8c",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Separation.lean": "c9099810649f2cdb6c24a00bd9fbc8d1c262be1a476e36473c38c00612ca69bf",
+  "lean/OAI/Combinatorics/InfiniteMatroid/SparsePerturbation.lean": "7ef60b16ff516427cc19c58bb4d4b1cf8807ebfa248b1d6b50fd713f3bdca11c",
+  "lean/OAI/Combinatorics/InfiniteMatroid/TransfiniteConstruction.lean": "e15a7f706eadeec5cb6dbf26e9adadef0f1ce016abd5a046b45e5a5a20fdfb7c",
+  "lean/OAI/Combinatorics/InfiniteMatroid/Zones.lean": "2cafe90a9621eba3c33ba805b01ed6b612ba063050ff76481ac25b3f1c4c2b34",
+  "lean/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+  "P10:lakefile.toml": "2d1fcec67c092b4768de22507c3b63fc1c268743fe9c3fb7a072cced8abf9f9a",
+  "P10:lake-manifest.json": "fc1c3ed8b3852dab03b7b34351a79e9369a0db5255401da41903389151cd8eb4"
+ },
+ "mathlib_cache_identity": {
+  "files": 8908,
+  "bytes": 451433503,
+  "digest": "51739e8da6b72d8424c7ccb44e843b5f41ff87bced9e1fe308d166f4615166d0",
+  "definition": "sha256 over sorted lines `relative_path size sha256(content)` of every file in the private MATHLIB_CACHE_DIR after `lake exe cache get`",
+  "frozen_expected": "51739e8da6b72d8424c7ccb44e843b5f41ff87bced9e1fe308d166f4615166d0",
+  "matches_frozen": true
+ },
+ "control_before": {
+  "deps_pre": {
+   "ok": true,
+   "state_digest": "cd60aa529a2e818969c79f4f51616f8d5b797f579b8e9ce2b2ab049253036a11",
+   "problems": [],
+   "packages": [
+    {
+     "name": "mathlib",
+     "manifest_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head_tree": "efa132418a56d0e38c56cc412a06df22178dac5c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "plausible",
+     "manifest_rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head_tree": "65aa28b2b3ba59d49736535935e4190f835b6ebc",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "LeanSearchClient",
+     "manifest_rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head_tree": "04caafd1f6cc74938c7ad7d67a718c5104d5c95a",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "importGraph",
+     "manifest_rev": "e928b72544873815af278d38681b31c0293588e3",
+     "head": "e928b72544873815af278d38681b31c0293588e3",
+     "head_tree": "92d47162cff41653a118b5fe376ab1428bd2e623",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "proofwidgets",
+     "manifest_rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head_tree": "1a37533eb21ffa2595b3b782cd3a4909110a872c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "aesop",
+     "manifest_rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head_tree": "141698829a678f60c8a7fd0e54f9493ad05b986c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Qq",
+     "manifest_rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head_tree": "c43f2cecf2a68cb6ef836660ec4d276ab5f9dcb4",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "batteries",
+     "manifest_rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head_tree": "d6c196fbbaafd91f64547af4d95a36bd17d50c38",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Cli",
+     "manifest_rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head_tree": "6357519cce94feba4126121f34ea73cfdefc9b72",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    }
+   ]
+  },
+  "executed": true,
+  "rc": 0,
+  "elapsed_s": 137.8,
+  "stdout_tail": "ics.InfiniteMatroid.RankDescent (10s)\n\u2714 [8937/8948] Built OAI.Combinatorics.InfiniteMatroid.Columns (10s)\n\u2714 [8938/8948] Built OAI.Combinatorics.InfiniteMatroid.SparsePerturbation (4.7s)\n\u2714 [8939/8948] Built OAI.Combinatorics.InfiniteMatroid.LocalBases (3.6s)\n\u2714 [8940/8948] Built OAI.Combinatorics.InfiniteMatroid.DensityIdeal (5.7s)\n\u2714 [8941/8948] Built OAI.Combinatorics.InfiniteMatroid.Reservations (6.7s)\n\u2714 [8942/8948] Built OAI.Combinatorics.InfiniteMatroid.BasisExtension (20s)\n\u2714 [8943/8948] Built OAI.Combinatorics.InfiniteMatroid.Zones (4.1s)\n\u2714 [8944/8948] Built OAI.Combinatorics.InfiniteMatroid.Separation (3.8s)\n\u2714 [8945/8948] Built OAI.Combinatorics.InfiniteMatroid.Prototype (10s)\n\u2714 [8946/8948] Built OAI.Combinatorics.InfiniteMatroid.PrototypeExtension (3.7s)\n\u2714 [8947/8948] Built OAI.Combinatorics.InfiniteMatroid.TransfiniteConstruction (3.7s)\n\u2714 [8948/8948] Built OAI.Combinatorics.InfiniteMatroid.Main (3.5s)\nBuild completed successfully (8948 jobs).\nExporting #[Quot, Quot.mk, Quot.lift, Quot.ind, OAI.InfiniteMatroidCounterexample.main, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from OAI.Combinatorics.InfiniteMatroid.Main\nRunning Lean default kernel on solution.\nLean default kernel accepts the solution\nYour solution is okay!\n",
+  "stderr_tail": "Running as unit: run-u1385.service; invocation ID: 45d8198ae5d2480d900c3b336af8dc8b\nFinished with result: success\nMain processes terminated with: code=exited/status=0\nService runtime: 2min 17.741s\nCPU time consumed: 6min 7.136s\nMemory peak: 256.0K\nMemory swap peak: 0B\n",
+  "deps_post": {
+   "ok": true,
+   "state_digest": "cd60aa529a2e818969c79f4f51616f8d5b797f579b8e9ce2b2ab049253036a11",
+   "problems": [],
+   "packages": [
+    {
+     "name": "mathlib",
+     "manifest_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head_tree": "efa132418a56d0e38c56cc412a06df22178dac5c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "plausible",
+     "manifest_rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head_tree": "65aa28b2b3ba59d49736535935e4190f835b6ebc",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "LeanSearchClient",
+     "manifest_rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head_tree": "04caafd1f6cc74938c7ad7d67a718c5104d5c95a",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "importGraph",
+     "manifest_rev": "e928b72544873815af278d38681b31c0293588e3",
+     "head": "e928b72544873815af278d38681b31c0293588e3",
+     "head_tree": "92d47162cff41653a118b5fe376ab1428bd2e623",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "proofwidgets",
+     "manifest_rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head_tree": "1a37533eb21ffa2595b3b782cd3a4909110a872c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "aesop",
+     "manifest_rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head_tree": "141698829a678f60c8a7fd0e54f9493ad05b986c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Qq",
+     "manifest_rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head_tree": "c43f2cecf2a68cb6ef836660ec4d276ab5f9dcb4",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "batteries",
+     "manifest_rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head_tree": "d6c196fbbaafd91f64547af4d95a36bd17d50c38",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Cli",
+     "manifest_rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head_tree": "6357519cce94feba4126121f34ea73cfdefc9b72",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    }
+   ]
+  },
+  "deps_unchanged": true,
+  "ok": true
+ },
+ "control_after_restore": {
+  "deps_pre": {
+   "ok": true,
+   "state_digest": "cd60aa529a2e818969c79f4f51616f8d5b797f579b8e9ce2b2ab049253036a11",
+   "problems": [],
+   "packages": [
+    {
+     "name": "mathlib",
+     "manifest_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head_tree": "efa132418a56d0e38c56cc412a06df22178dac5c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "plausible",
+     "manifest_rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head_tree": "65aa28b2b3ba59d49736535935e4190f835b6ebc",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "LeanSearchClient",
+     "manifest_rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head_tree": "04caafd1f6cc74938c7ad7d67a718c5104d5c95a",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "importGraph",
+     "manifest_rev": "e928b72544873815af278d38681b31c0293588e3",
+     "head": "e928b72544873815af278d38681b31c0293588e3",
+     "head_tree": "92d47162cff41653a118b5fe376ab1428bd2e623",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "proofwidgets",
+     "manifest_rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head_tree": "1a37533eb21ffa2595b3b782cd3a4909110a872c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "aesop",
+     "manifest_rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head_tree": "141698829a678f60c8a7fd0e54f9493ad05b986c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Qq",
+     "manifest_rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head_tree": "c43f2cecf2a68cb6ef836660ec4d276ab5f9dcb4",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "batteries",
+     "manifest_rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head_tree": "d6c196fbbaafd91f64547af4d95a36bd17d50c38",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Cli",
+     "manifest_rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head_tree": "6357519cce94feba4126121f34ea73cfdefc9b72",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    }
+   ]
+  },
+  "executed": true,
+  "rc": 0,
+  "elapsed_s": 28.8,
+  "stdout_tail": "Building ComparatorChallenges.InfiniteMatroid\n\u26a0 [8924/8924] Replayed ComparatorChallenges.InfiniteMatroid\nwarning: ComparatorChallenges/InfiniteMatroid.lean:23:8: declaration uses `sorry`\nBuild completed successfully (8924 jobs).\nExporting #[Quot, Quot.mk, Quot.lift, Quot.ind, OAI.InfiniteMatroidCounterexample.main, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from ComparatorChallenges.InfiniteMatroid\nBuilding OAI.Combinatorics.InfiniteMatroid.Main\n\u2714 [8948/8948] Built OAI.Combinatorics.InfiniteMatroid.Main (2.9s)\nBuild completed successfully (8948 jobs).\nExporting #[Quot, Quot.mk, Quot.lift, Quot.ind, OAI.InfiniteMatroidCounterexample.main, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from OAI.Combinatorics.InfiniteMatroid.Main\nRunning Lean default kernel on solution.\nLean default kernel accepts the solution\nYour solution is okay!\n",
+  "stderr_tail": "Running as unit: run-u1390.service; invocation ID: 4fe1fafdb2334b63a799ee1682930748\nFinished with result: success\nMain processes terminated with: code=exited/status=0\nService runtime: 28.766s\nCPU time consumed: 34.846s\nMemory peak: 512.0K\nMemory swap peak: 0B\n",
+  "deps_post": {
+   "ok": true,
+   "state_digest": "cd60aa529a2e818969c79f4f51616f8d5b797f579b8e9ce2b2ab049253036a11",
+   "problems": [],
+   "packages": [
+    {
+     "name": "mathlib",
+     "manifest_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+     "head_tree": "efa132418a56d0e38c56cc412a06df22178dac5c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "plausible",
+     "manifest_rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+     "head_tree": "65aa28b2b3ba59d49736535935e4190f835b6ebc",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "LeanSearchClient",
+     "manifest_rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+     "head_tree": "04caafd1f6cc74938c7ad7d67a718c5104d5c95a",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "importGraph",
+     "manifest_rev": "e928b72544873815af278d38681b31c0293588e3",
+     "head": "e928b72544873815af278d38681b31c0293588e3",
+     "head_tree": "92d47162cff41653a118b5fe376ab1428bd2e623",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "proofwidgets",
+     "manifest_rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+     "head_tree": "1a37533eb21ffa2595b3b782cd3a4909110a872c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "aesop",
+     "manifest_rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head": "355695d523e41d0554926416cba2a2b3544fbbc9",
+     "head_tree": "141698829a678f60c8a7fd0e54f9493ad05b986c",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Qq",
+     "manifest_rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+     "head_tree": "c43f2cecf2a68cb6ef836660ec4d276ab5f9dcb4",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "batteries",
+     "manifest_rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+     "head_tree": "d6c196fbbaafd91f64547af4d95a36bd17d50c38",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    },
+    {
+     "name": "Cli",
+     "manifest_rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+     "head_tree": "6357519cce94feba4126121f34ea73cfdefc9b72",
+     "clean": true,
+     "modified_tracked": [],
+     "untracked_non_lake": []
+    }
+   ]
+  },
+  "deps_unchanged": true,
+  "ok": true
+ },
+ "mutations": [
+  {
+   "id": "D1",
+   "kind": "comparator negative control",
+   "description": "modified theorem statement in the challenge (first '\u2260' -> '=')",
+   "mutated_file": "ComparatorChallenges/InfiniteMatroid.lean",
+   "mutated_sha256": "88b203d4c29ebea4983c60b4ce840a4ed0f6083f01cc26dd8ec2aaf125353236",
+   "restored_ok": true,
+   "deps_pre_ok": true,
+   "executed": true,
+   "comparator_rc": 1,
+   "rejected": true,
+   "deps_post_ok": true,
+   "key_lines": [
+    "warning: ComparatorChallenges/InfiniteMatroid.lean:23:8: declaration uses `sorry`",
+    "uncaught exception: Challenge and solution theorem statement do not match: 'OAI.InfiniteMatroidCounterexample.main'"
+   ]
+  },
+  {
+   "id": "D2",
+   "kind": "comparator negative control",
+   "description": "modified solution: proof of `main` replaced by sorry",
+   "mutated_file": "OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "mutated_sha256": "942c3987e50d43a7f944358b527cd42e83e9a7cfb11216dd1268baf3f5bb99bd",
+   "restored_ok": true,
+   "deps_pre_ok": true,
+   "executed": true,
+   "comparator_rc": 1,
+   "rejected": true,
+   "deps_post_ok": true,
+   "key_lines": [
+    "warning: ComparatorChallenges/InfiniteMatroid.lean:23:8: declaration uses `sorry`",
+    "warning: OAI/Combinatorics/InfiniteMatroid/Main.lean:12:8: declaration uses `sorry`",
+    "uncaught exception: Illegal axiom detected: 'sorryAx'"
+   ]
+  },
+  {
+   "id": "D3",
+   "kind": "comparator negative control",
+   "description": "incorrect challenge<->solution binding: config names a declaration the solution does not have",
+   "mutated_file": "ComparatorChallenges/InfiniteMatroid.json",
+   "mutated_sha256": "208a94375bd5b0e88074aeefcef51e870314befbe824f35221203d507c6d9bf6",
+   "restored_ok": true,
+   "deps_pre_ok": true,
+   "executed": true,
+   "comparator_rc": 1,
+   "rejected": true,
+   "deps_post_ok": true,
+   "key_lines": [
+    "warning: ComparatorChallenges/InfiniteMatroid.lean:23:8: declaration uses `sorry`",
+    "PANIC at dumpConstant Export:237:48: Constant OAI.InfiniteMatroidCounterexample.nonexistent not found in environment.",
+    "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/lean4export(lean_panic_fn_borrowed+0x2b) [0x5801687c9adb]",
+    "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-tools/bin/lean4export(panic spec at dumpConstant (lean4export)+0x2ae) [0x58016227319e]",
+    "uncaught exception: Child exited with 134"
+   ]
+  },
+  {
+   "id": "D5b",
+   "kind": "comparator negative control",
+   "description": "solution proves `main` from an injected axiom `p10_bad : False` (axiom outside the permitted set; elaborates cleanly)",
+   "mutated_file": "OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "mutated_sha256": "b395ca6da3e45a033d32439ffe0d919a08f9b4ac456ed145b7c9d1a421f6e76e",
+   "restored_ok": true,
+   "deps_pre_ok": true,
+   "executed": true,
+   "comparator_rc": 1,
+   "rejected": true,
+   "deps_post_ok": true,
+   "key_lines": [
+    "warning: ComparatorChallenges/InfiniteMatroid.lean:23:8: declaration uses `sorry`",
+    "uncaught exception: Illegal axiom detected: 'OAI.InfiniteMatroidCounterexample.p10_bad'"
+   ]
+  }
+ ],
+ "dependency_gate_controls": [
+  {
+   "id": "D4",
+   "kind": "P10 dependency gate (NOT a Comparator negative control)",
+   "description": "dependency source mutated: comment appended to Mathlib `Mathlib/Combinatorics/Matroid/Closure.lean` (compiles; this is the M1 case Comparator accepted in the RC pass)",
+   "deps_pre_ok": false,
+   "deps_pre_problems": [
+    "mathlib: head==pin True, modified [' M Mathlib/Combinatorics/Matroid/Closure.lean'], untracked []"
+   ],
+   "comparator_executed": false,
+   "gate_blocked_execution": true,
+   "restored_clean": true
+  },
+  {
+   "id": "D4b",
+   "kind": "P10 dependency gate (NOT a Comparator negative control)",
+   "description": "untracked .lean file injected into dependency `batteries`",
+   "deps_pre_ok": false,
+   "deps_pre_problems": [
+    "batteries: head==pin True, modified [], untracked ['?? Batteries/P10Injected.lean']"
+   ],
+   "comparator_executed": false,
+   "gate_blocked_execution": true,
+   "restored_clean": true
+  },
+  {
+   "id": "D4c",
+   "kind": "P10 dependency gate (NOT a Comparator negative control)",
+   "description": "dependency `aesop` HEAD moved off its pin by a local empty commit",
+   "deps_pre_ok": false,
+   "deps_pre_problems": [
+    "aesop: head==pin False, modified [], untracked []"
+   ],
+   "comparator_executed": false,
+   "gate_blocked_execution": true,
+   "restored_clean": true
+  },
+  {
+   "id": "D4d",
+   "kind": "P10 profile hash check (workspace manifest rev altered by one hex digit)",
+   "detected": true,
+   "findings": [
+    "lake-manifest.json"
+   ],
+   "restored_clean": true
+  }
+ ],
+ "caveats": [
+  "D3 is rejected through a lean4export PANIC, not a clean diagnostic",
+  "D1 edits the trusted challenge file: it shows statement binding, not resistance to a malicious challenge",
+  "D4/D4b/D4c/D4d test P10's gates; Comparator is deliberately not executed there",
+  "a rejection counts only with key_lines showing the intended reason"
+ ]
+}
