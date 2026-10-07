@@ -1,0 +1,23 @@
+# Environment/tooling probe -- OBSERVED 2026-10-07 (UTC ~08:30), cloud sandbox, outbound HTTPS via proxy.
+# Reproduce the SHAs with: git ls-remote <url> HEAD   (they move; these are what was seen)
+
+$ git ls-remote https://github.com/openai/math HEAD
+adc7f1241b42e322a6451854ab7e4b4c146bf78a  HEAD
+$ git ls-remote https://github.com/leanprover/comparator HEAD
+ca04cfc72b550331658ec314bf47685281bfd4bf  HEAD     (commit date 2026-10-06T16:25:04+02:00; its lean-toolchain: leanprover/lean4:v4.35.0-rc4)
+$ git ls-remote https://github.com/leanprover/lean4export HEAD
+05d43a2bc773b40ecfdebb32294192a5ef756951  HEAD     (commit date 2026-10-06T16:08:20+02:00; its lean-toolchain: leanprover/lean4:v4.35.0-rc4)
+$ git ls-remote https://github.com/zouuup/landrun HEAD
+811cfff51ceaf3d9843708aa6d22e9b84ccac8b4  HEAD     (commit date 2026-07-23T13:23:09+01:00)
+
+Upstream project toolchain (lean/lean-toolchain @ adc7f12): leanprover/lean4:v4.34.1
+=> default-branch Comparator/lean4export target v4.35.0-rc4, project targets v4.34.1. A compatible
+   Comparator/lean4export revision has NOT been identified. (Comparator README: lean4export must be
+   "at a version compatible with whatever Lean version your project is targeting".)
+
+$ which lean lake elan landrun lean4export comparator      -> none found (no Lean toolchain in this sandbox)
+$ curl -I https://release.lean-lang.org/                     -> no response (proxy tunnel failed)
+$ curl -I https://github.com/leanprover/lean4/releases/download/v4.34.1/lean-4.34.1-linux.tar.zst
+                                                            -> HTTP 302 then 200 when following redirects (asset reachable; NOT downloaded)
+$ curl -I https://lakecache.blob.core.windows.net/mathlib4   -> no response (Mathlib cache host not reached; may be proxy policy)
+Nothing was built. No Lean, Lake, Comparator or Mathlib code was executed in this bootstrap.

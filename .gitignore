@@ -1,0 +1,5 @@
+upstream/openai-math/
+work/
+*.olean
+.lake/
+__pycache__/

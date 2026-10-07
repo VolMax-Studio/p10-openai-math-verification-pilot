@@ -1,0 +1,6980 @@
+[
+ {
+  "config": "AbhyankarSathaye.json",
+  "solution_module": "OAI.AlgebraicGeometry.AbhyankarSathaye.Counterexample",
+  "theorems": 1,
+  "closure_modules": 15,
+  "closure_lines": 1460,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/049.md"
+  ],
+  "papers": [
+   "An-explicit-noncoordinate-polynomial-with-affine-three-space-zero-fibre-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "AffineBernstein.json",
+  "solution_module": "OAI.Analysis.AffineBernstein.Main",
+  "theorems": 1,
+  "closure_modules": 322,
+  "closure_lines": 40776,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/353.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "AlgorithmicThinTrees.json",
+  "solution_module": "OAI.Combinatorics.ThinTrees.AlgorithmicMain",
+  "theorems": 1,
+  "closure_modules": 736,
+  "closure_lines": 101837,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/174.md"
+  ],
+  "papers": [
+   "A-polynomial-time-construction-of-strong-thin-trees-September-23-2026",
+   "The-strong-thin-tree-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "AmplitudeDamping.json",
+  "solution_module": "OAI.InformationTheory.AmplitudeDamping.Main",
+  "theorems": 1,
+  "closure_modules": 35,
+  "closure_lines": 6241,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/276.md"
+  ],
+  "papers": [
+   "Classical-capacity-and-entropy-inequalities-for-generalized-amplitude-damping-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ArnoldCounterexample.json",
+  "solution_module": "OAI.Geometry.Arnold.Main",
+  "theorems": 1,
+  "closure_modules": 36,
+  "closure_lines": 5877,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/347.md"
+  ],
+  "papers": [
+   "A-degenerate-counterexample-to-the-critical-number-Arnold-bound-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ArtinCAT0.json",
+  "solution_module": "OAI.GroupTheory.ArtinCAT0.Main",
+  "theorems": 1,
+  "closure_modules": 20,
+  "closure_lines": 9439,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/254.md"
+  ],
+  "papers": [
+   "An-Artin-group-with-no-geometric-CAT-0-action-September-23-2026",
+   "Harmonic-heights-and-the-Artin-K-pi-1-conjecture-September-23-2026",
+   "Parabolic-intersections-in-Artin-groups-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ArtinParabolicIntersections.json",
+  "solution_module": "OAI.Topology.ArtinGroups.ParabolicIntersections.Main",
+  "theorems": 4,
+  "closure_modules": 782,
+  "closure_lines": 73879,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/254.md"
+  ],
+  "papers": [
+   "An-Artin-group-with-no-geometric-CAT-0-action-September-23-2026",
+   "Harmonic-heights-and-the-Artin-K-pi-1-conjecture-September-23-2026",
+   "Parabolic-intersections-in-Artin-groups-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "AsymptoticallyMinimalLittlewood.json",
+  "solution_module": "OAI.Analysis.Littlewood.Main",
+  "theorems": 1,
+  "closure_modules": 24,
+  "closure_lines": 9339,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/076.md"
+  ],
+  "papers": [
+   "Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "AtomicGaussian.json",
+  "solution_module": "OAI.Analysis.Triangular.Main",
+  "theorems": 1,
+  "closure_modules": 215,
+  "closure_lines": 64841,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/090.md"
+  ],
+  "papers": [
+   "A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026",
+   "An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "AuslanderReiten.json",
+  "solution_module": "OAI.Algebra.AuslanderReiten.All",
+  "theorems": 1,
+  "closure_modules": 732,
+  "closure_lines": 56263,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/199.md"
+  ],
+  "papers": [
+   "A-counterexample-to-Tachikawas-second-conjecture-September-23-2026",
+   "An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BackwardIntertwiners.json",
+  "solution_module": "OAI.Analysis.BackwardIntertwiners.AlgebraCorollary",
+  "theorems": 1,
+  "closure_modules": 23,
+  "closure_lines": 5825,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/293.md"
+  ],
+  "papers": [
+   "Backward-intertwiners-and-a-transitive-commutant-September-27-2026",
+   "Invariant-projection-counterexamples-for-every-irrational-rotation-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BalancedBoxRouting.json",
+  "solution_module": "OAI.Analysis.BoxTransport.Routing",
+  "theorems": 1,
+  "closure_modules": 7,
+  "closure_lines": 3487,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/376.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BalancedRyser.json",
+  "solution_module": "OAI.Combinatorics.BalancedRyser.Main",
+  "theorems": 1,
+  "closure_modules": 698,
+  "closure_lines": 89726,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/162.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-Rysers-Covering-Conjecture-September-23-2026",
+   "Balanced-Counterexamples-to-Rysers-Conjecture-at-Prime-Orders-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BalancedThreeStack.json",
+  "solution_module": "OAI.MathematicalPhysics.NavierStokes.BalancedTransport.MainResult",
+  "theorems": 1,
+  "closure_modules": 60,
+  "closure_lines": 11169,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/376.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BallPacking.json",
+  "solution_module": "OAI.Geometry.BallPacking.Main",
+  "theorems": 1,
+  "closure_modules": 169,
+  "closure_lines": 89344,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/343.md"
+  ],
+  "papers": [
+   "Symplectic-Ball-Packings-in-Higher-Dimensions-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BallPackingNecessity.json",
+  "solution_module": "OAI.Geometry.BallPacking.Necessity.Main",
+  "theorems": 1,
+  "closure_modules": 65,
+  "closure_lines": 33085,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/343.md"
+  ],
+  "papers": [
+   "Symplectic-Ball-Packings-in-Higher-Dimensions-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BarnetteHamiltonian.json",
+  "solution_module": "OAI.Combinatorics.Hamiltonian.Main",
+  "theorems": 1,
+  "closure_modules": 31,
+  "closure_lines": 8967,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/180.md"
+  ],
+  "papers": [
+   "Paired-states-and-Hamiltonian-cycles-in-cubic-bipartite-planar-graphs-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BassTorsionFree.json",
+  "solution_module": "OAI.RingTheory.BassTrace.TorsionFree",
+  "theorems": 1,
+  "closure_modules": 73,
+  "closure_lines": 24230,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/207.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BassTrace.json",
+  "solution_module": "OAI.RingTheory.BassTrace.Main",
+  "theorems": 1,
+  "closure_modules": 69,
+  "closure_lines": 23665,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/207.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BenjaminiSchramm.json",
+  "solution_module": "OAI.Probability.BenjaminiSchramm.Main",
+  "theorems": 3,
+  "closure_modules": 970,
+  "closure_lines": 152029,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/214.md"
+  ],
+  "papers": [
+   "Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BernoulliNonflatInSeven.json",
+  "solution_module": "OAI.Analysis.BernoulliCone.Main",
+  "theorems": 1,
+  "closure_modules": 91,
+  "closure_lines": 13636,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/367.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BiholderTransport.json",
+  "solution_module": "OAI.Analysis.BiholderTransport.Main",
+  "theorems": 1,
+  "closure_modules": 645,
+  "closure_lines": 74677,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/360.md"
+  ],
+  "papers": [
+   "Global-Support-and-Convex-Injectivity-Domains-under-Weak-MTW-September-25-2026",
+   "Uniform-Bi-Holder-Transport-from-Weak-MTW-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BinPackingGap.json",
+  "solution_module": "OAI.Computability.BinPacking.Main",
+  "theorems": 1,
+  "closure_modules": 284,
+  "closure_lines": 158811,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/118.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BinaryEditLower.json",
+  "solution_module": "OAI.Combinatorics.BinaryEdit.BinaryLowerBound",
+  "theorems": 1,
+  "closure_modules": 84,
+  "closure_lines": 10884,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/099.md"
+  ],
+  "papers": [
+   "Edit-Distance-in-l1-Matching-Bounds-up-to-Constants-in-the-Exponent-September-27-2026",
+   "Finite-Circle-Obstructions-Binary-Codes-and-Histogram-Embeddings-for-Edit-Distance-September-27-2026",
+   "Tree-Constructions-for-the-l1-Distortion-of-Binary-Edit-Distance-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BinaryMatching.json",
+  "solution_module": "OAI.Computability.MatchingCount.BinarySolve",
+  "theorems": 1,
+  "closure_modules": 112,
+  "closure_lines": 14701,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/113.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BinarySweep.json",
+  "solution_module": "OAI.Probability.BinarySweep.Main",
+  "theorems": 1,
+  "closure_modules": 192,
+  "closure_lines": 26724,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BipartiteCrossing.json",
+  "solution_module": "OAI.Combinatorics.Crossing.Main",
+  "theorems": 1,
+  "closure_modules": 339,
+  "closure_lines": 20956,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/165.md"
+  ],
+  "papers": [
+   "The-crossing-number-of-complete-bipartite-graphs-September-23-2026",
+   "The-crossing-number-of-complete-graphs-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BogomolovPopInjectivity.json",
+  "solution_module": "OAI.Algebra.BogomolovPop.Injectivity",
+  "theorems": 1,
+  "closure_modules": 5,
+  "closure_lines": 3344,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/009.md"
+  ],
+  "papers": [
+   "The-Bogomolov-Pop-reconstruction-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BoltzmannNonuniqueness.json",
+  "solution_module": "OAI.MathematicalPhysics.Boltzmann.Main",
+  "theorems": 1,
+  "closure_modules": 525,
+  "closure_lines": 160035,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/363.md"
+  ],
+  "papers": [
+   "Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BooneHigman.json",
+  "solution_module": "OAI.GroupTheory.BooneHigman.Main",
+  "theorems": 1,
+  "closure_modules": 47,
+  "closure_lines": 37244,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/250.md"
+  ],
+  "papers": [
+   "A-universal-group-of-type-F-infinity-September-23-2026",
+   "Finite-algebraic-envelopes-and-the-Boone-Higman-conjecture-September-23-2026",
+   "Simple-F-infinity-overgroups-of-groups-with-decidable-word-problem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "BorsukNine.json",
+  "solution_module": "OAI.Geometry.Borsuk.Main",
+  "theorems": 1,
+  "closure_modules": 269,
+  "closure_lines": 79233,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/156.md"
+  ],
+  "papers": [
+   "A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BoundedRecovery.json",
+  "solution_module": "OAI.Analysis.ModularRecovery.Main",
+  "theorems": 1,
+  "closure_modules": 27,
+  "closure_lines": 8131,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/290.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BoundedTreePotentials.json",
+  "solution_module": "OAI.Analysis.TreePotential.Main",
+  "theorems": 1,
+  "closure_modules": 46,
+  "closure_lines": 13131,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/331.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BoundedTreewidthL1.json",
+  "solution_module": "OAI.Combinatorics.TreewidthL1.Main",
+  "theorems": 1,
+  "closure_modules": 33,
+  "closure_lines": 14946,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/089.md"
+  ],
+  "papers": [
+   "L1-Embeddings-of-Graphs-of-Bounded-Treewidth-September-23-2026",
+   "Planar-Graph-Metrics-Embed-into-L1-with-Constant-Distortion-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "Brenier.json",
+  "solution_module": "OAI.Analysis.Brenier.Stability",
+  "theorems": 2,
+  "closure_modules": 89,
+  "closure_lines": 33109,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/374.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Brennan.json",
+  "solution_module": "OAI.Analysis.IntegralMeans.Main",
+  "theorems": 1,
+  "closure_modules": 38,
+  "closure_lines": 13744,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/072.md"
+  ],
+  "papers": [
+   "A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026",
+   "Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BrennanSharp.json",
+  "solution_module": "OAI.Analysis.IntegralMeans.SharpEndpoints",
+  "theorems": 1,
+  "closure_modules": 47,
+  "closure_lines": 14235,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/072.md"
+  ],
+  "papers": [
+   "A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026",
+   "Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "BufferedIsing.json",
+  "solution_module": "OAI.Probability.Ising.Main",
+  "theorems": 1,
+  "closure_modules": 15,
+  "closure_lines": 3129,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/218.md"
+  ],
+  "papers": [
+   "Buffered-comparison-and-stopping-band-resolution-in-critical-Ising-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "C0Absorption.json",
+  "solution_module": "OAI.Analysis.C0Absorption.Main",
+  "theorems": 1,
+  "closure_modules": 34,
+  "closure_lines": 7952,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/324.md"
+  ],
+  "papers": [
+   "Bi-Lipschitz-Absorption-of-c0-Without-a-Linear-Copy-of-c0-September-26-2026",
+   "Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "C1EntropyCounterexample.json",
+  "solution_module": "OAI.Dynamics.EntropyCounterexample.Counterexample",
+  "theorems": 1,
+  "closure_modules": 201,
+  "closure_lines": 23079,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/151.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CHObstruction.json",
+  "solution_module": "OAI.ModelTheory.Categoricity.Main",
+  "theorems": 1,
+  "closure_modules": 15,
+  "closure_lines": 5104,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/240.md"
+  ],
+  "papers": [
+   "A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CKSBondiPenrose.json",
+  "solution_module": "OAI.Geometry.Relativity.CKS.ComparatorMain",
+  "theorems": 2,
+  "closure_modules": 336,
+  "closure_lines": 59239,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/260.md"
+  ],
+  "papers": [
+   "Area-controlled-end-replacement-and-the-Bondi-Penrose-inequality-in-the-CKS-class-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CannonGeometricAction.json",
+  "solution_module": "OAI.Geometry.Cannon.Main",
+  "theorems": 1,
+  "closure_modules": 299,
+  "closure_lines": 69835,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/246.md"
+  ],
+  "papers": [
+   "A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Catalan.json",
+  "solution_module": "OAI.NumberTheory.Catalan.Main",
+  "theorems": 1,
+  "closure_modules": 988,
+  "closure_lines": 575890,
+  "external_packages": [
+   "PrimeNumberTheoremAnd"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/005.md"
+  ],
+  "papers": [
+   "Catalans-constant-is-irrational-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CayleyPercolation.json",
+  "solution_module": "OAI.Probability.UnimodularPercolation.CayleyMain",
+  "theorems": 1,
+  "closure_modules": 78,
+  "closure_lines": 55873,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/214.md"
+  ],
+  "papers": [
+   "Nonuniqueness-of-percolation-on-nonamenable-quasi-transitive-graphs-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CharacterCriterion.json",
+  "solution_module": "OAI.Analysis.CharacterCriterion.Main",
+  "theorems": 1,
+  "closure_modules": 62,
+  "closure_lines": 25356,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/299.md"
+  ],
+  "papers": [
+   "The-Kirchberg-Rordam-character-criterion-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ChoicelessPolynomialTime.json",
+  "solution_module": "OAI.ModelTheory.Choiceless.Separation",
+  "theorems": 1,
+  "closure_modules": 26,
+  "closure_lines": 18487,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/243.md"
+  ],
+  "papers": [
+   "Choiceless-polynomial-time-with-counting-does-not-capture-polynomial-time-September-23-2026",
+   "Witnessed-symmetric-choice-is-strictly-stronger-than-choiceless-polynomial-time-with-counting-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CirculantHadamard.json",
+  "solution_module": "OAI.LinearAlgebra.CirculantHadamard.Main",
+  "theorems": 1,
+  "closure_modules": 68,
+  "closure_lines": 9564,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/179.md"
+  ],
+  "papers": [
+   "The-circulant-Hadamard-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ClassicalON.json",
+  "solution_module": "OAI.Probability.ClassicalON.Main",
+  "theorems": 1,
+  "closure_modules": 117,
+  "closure_lines": 13024,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/215.md"
+  ],
+  "papers": [
+   "Exponential-decay-in-two-dimensional-classical-On-models-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CliqueFreeLog.json",
+  "solution_module": "OAI.Combinatorics.CliqueFree.Main",
+  "theorems": 1,
+  "closure_modules": 31,
+  "closure_lines": 5570,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/184.md"
+  ],
+  "papers": [
+   "A-Logarithmic-Independence-Bound-for-Clique-Free-Graphs-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CoarseAssembly.json",
+  "solution_module": "OAI.Topology.CoarseAssembly",
+  "theorems": 1,
+  "closure_modules": 347,
+  "closure_lines": 44969,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/307.md"
+  ],
+  "papers": [
+   "A-counterexample-to-the-coarse-Novikov-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CoboundaryExpanders.json",
+  "solution_module": "OAI.Combinatorics.Coboundary.Main",
+  "theorems": 1,
+  "closure_modules": 36,
+  "closure_lines": 33161,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/177.md"
+  ],
+  "papers": [
+   "Bounded-degree-coboundary-expanders-in-every-dimension-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CommonBasesFPRAS.json",
+  "solution_module": "OAI.Combinatorics.MatroidCounting.CommonBases",
+  "theorems": 1,
+  "closure_modules": 1,
+  "closure_lines": 26127,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/114.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CommutingDerivations.json",
+  "solution_module": "OAI.AlgebraicGeometry.CommutingDerivations.OrdinaryExtraMain",
+  "theorems": 1,
+  "closure_modules": 32,
+  "closure_lines": 3272,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/049.md"
+  ],
+  "papers": [
+   "An-explicit-noncoordinate-polynomial-with-affine-three-space-zero-fibre-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CompactBanach.json",
+  "solution_module": "OAI.Geometry.DoublingHilbert.CompactBanach",
+  "theorems": 1,
+  "closure_modules": 28,
+  "closure_lines": 4692,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/098.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CompleteCrossing.json",
+  "solution_module": "OAI.Combinatorics.CompleteCrossing.Main",
+  "theorems": 1,
+  "closure_modules": 300,
+  "closure_lines": 33727,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/165.md"
+  ],
+  "papers": [
+   "The-crossing-number-of-complete-bipartite-graphs-September-23-2026",
+   "The-crossing-number-of-complete-graphs-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CompleteCrouzeix.json",
+  "solution_module": "OAI.Analysis.NumericalRange.Main",
+  "theorems": 1,
+  "closure_modules": 48,
+  "closure_lines": 14243,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/325.md"
+  ],
+  "papers": [
+   "A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026",
+   "The-complete-Crouzeix-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ComplexCancellation.json",
+  "solution_module": "OAI.Algebra.AffineCancellation.Main",
+  "theorems": 1,
+  "closure_modules": 55,
+  "closure_lines": 5628,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/047.md"
+  ],
+  "papers": [
+   "An-explicit-failure-of-complex-affine-space-cancellation-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "Conductivity.json",
+  "solution_module": "OAI.Analysis.Conductivity.Main",
+  "theorems": 1,
+  "closure_modules": 595,
+  "closure_lines": 76115,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/365.md"
+  ],
+  "papers": [
+   "Nonuniqueness-for-Bounded-Measurable-Scalar-Conductivities-in-Three-Dimensions-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ConjugatePoints.json",
+  "solution_module": "OAI.Geometry.ConjugatePoints.ThreeManifold",
+  "theorems": 1,
+  "closure_modules": 19,
+  "closure_lines": 24993,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/358.md"
+  ],
+  "papers": [
+   "A-Three-Manifold-Without-Conjugate-Points-and-Without-a-Nonpositively-Curved-Metric-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ContingencyTables.json",
+  "solution_module": "OAI.Combinatorics.ContingencyTables.UnconditionalMain",
+  "theorems": 3,
+  "closure_modules": 1297,
+  "closure_lines": 193110,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/115.md",
+   "lean/docs/115.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ContinuousCircleWeight.json",
+  "solution_module": "OAI.Analysis.RotationWeights.Main",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 18401,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/293.md"
+  ],
+  "papers": [
+   "Backward-intertwiners-and-a-transitive-commutant-September-27-2026",
+   "Invariant-projection-counterexamples-for-every-irrational-rotation-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ContinuumCoulombHardness.json",
+  "solution_module": "OAI.MathematicalPhysics.ContinuumCoulomb.Reduction.Hardness",
+  "theorems": 2,
+  "closure_modules": 2086,
+  "closure_lines": 224570,
+  "external_packages": [
+   "RellichKondrachov"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/275.md",
+   "lean/docs/275.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ContinuumTransition.json",
+  "solution_module": "OAI.Probability.ContinuumTransition.Main",
+  "theorems": 1,
+  "closure_modules": 161,
+  "closure_lines": 15149,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/228.md"
+  ],
+  "papers": [
+   "A-continuum-temperature-singularity-for-a-radial-pair-potential-September-24-2026",
+   "A-radial-continuum-phase-transition-with-algebraic-decay-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CoordinateSweeps.json",
+  "solution_module": "OAI.Probability.CoordinateSweeps.Main",
+  "theorems": 2,
+  "closure_modules": 34,
+  "closure_lines": 22931,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CoordinateTrace.json",
+  "solution_module": "OAI.Probability.ThorpRouting.RegularTrace",
+  "theorems": 1,
+  "closure_modules": 28,
+  "closure_lines": 20974,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Cotype.json",
+  "solution_module": "OAI.Analysis.Cotype.Main",
+  "theorems": 1,
+  "closure_modules": 125,
+  "closure_lines": 11884,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/326.md"
+  ],
+  "papers": [
+   "The-cotype-cotype-conjecture-under-the-approximation-property-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CoulombCounterexample.json",
+  "solution_module": "OAI.Analysis.CoulombTransport.Main",
+  "theorems": 1,
+  "closure_modules": 97,
+  "closure_lines": 10765,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/373.md"
+  ],
+  "papers": [
+   "A-counterexample-to-the-Monge-ansatz-for-the-three-marginal-Coulomb-cost-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CoulombIonization.json",
+  "solution_module": "OAI.Analysis.CoulombIonization.Main",
+  "theorems": 1,
+  "closure_modules": 607,
+  "closure_lines": 95969,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/263.md"
+  ],
+  "papers": [
+   "Generalized-ionization-energies-for-full-Coulomb-atoms-September-24-2026",
+   "Generalized-outer-electron-radii-of-neutral-Coulomb-atoms-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CoulombRadii.json",
+  "solution_module": "OAI.Analysis.CoulombRadii.Main",
+  "theorems": 1,
+  "closure_modules": 428,
+  "closure_lines": 77674,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/263.md"
+  ],
+  "papers": [
+   "Generalized-ionization-energies-for-full-Coulomb-atoms-September-24-2026",
+   "Generalized-outer-electron-radii-of-neutral-Coulomb-atoms-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CourtadeKumar.json",
+  "solution_module": "OAI.InformationTheory.BooleanNoise.Main",
+  "theorems": 1,
+  "closure_modules": 43,
+  "closure_lines": 7833,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/119.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CoveringDensity.json",
+  "solution_module": "OAI.Geometry.CoveringDensity.Main",
+  "theorems": 1,
+  "closure_modules": 143,
+  "closure_lines": 40240,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/092.md"
+  ],
+  "papers": [
+   "A-single-lattice-covering-bound-of-order-n-log-n-September-23-2026",
+   "Translative-covering-densities-of-order-n-log-n-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CriticalPercolation.json",
+  "solution_module": "OAI.Probability.CriticalPercolation.Main",
+  "theorems": 1,
+  "closure_modules": 627,
+  "closure_lines": 68851,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/213.md"
+  ],
+  "papers": [
+   "Critical-bond-and-site-percolation-on-the-cubic-lattice-September-24-2026",
+   "No-percolation-at-criticality-on-quasi-transitive-graphs-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CriticalSK.json",
+  "solution_module": "OAI.MathematicalPhysics.CriticalSK.Main",
+  "theorems": 3,
+  "closure_modules": 35,
+  "closure_lines": 19075,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/227.md"
+  ],
+  "papers": [
+   "Critical-slowing-down-in-the-Sherrington-Kirkpatrick-model-September-24-2026",
+   "Cutoff-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026",
+   "Stretched-exponential-barriers-for-typical-SK-initial-states-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CriticalSKMixing.json",
+  "solution_module": "OAI.MathematicalPhysics.CriticalMixing.Main",
+  "theorems": 1,
+  "closure_modules": 593,
+  "closure_lines": 119913,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/227.md"
+  ],
+  "papers": [
+   "Critical-slowing-down-in-the-Sherrington-Kirkpatrick-model-September-24-2026",
+   "Cutoff-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026",
+   "Stretched-exponential-barriers-for-typical-SK-initial-states-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CriticalStripMass.json",
+  "solution_module": "OAI.Combinatorics.StripMass.Main",
+  "theorems": 1,
+  "closure_modules": 130,
+  "closure_lines": 62974,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/237.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CriticalZ3.json",
+  "solution_module": "OAI.Probability.CriticalZ3.Main",
+  "theorems": 1,
+  "closure_modules": 34,
+  "closure_lines": 10392,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/213.md"
+  ],
+  "papers": [
+   "Critical-bond-and-site-percolation-on-the-cubic-lattice-September-24-2026",
+   "No-percolation-at-criticality-on-quasi-transitive-graphs-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CrouzeixHilbert.json",
+  "solution_module": "OAI.Analysis.Crouzeix.Main",
+  "theorems": 1,
+  "closure_modules": 90,
+  "closure_lines": 15745,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/325.md"
+  ],
+  "papers": [
+   "A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026",
+   "The-complete-Crouzeix-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CubicTorus.json",
+  "solution_module": "OAI.Geometry.CubicTorus.Main",
+  "theorems": 1,
+  "closure_modules": 162,
+  "closure_lines": 140653,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/354.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CycleCliqueRamsey.json",
+  "solution_module": "OAI.Combinatorics.Ramsey.CycleClique.Main",
+  "theorems": 1,
+  "closure_modules": 443,
+  "closure_lines": 2796150,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/189.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "CycleDecomposition.json",
+  "solution_module": "OAI.Combinatorics.CycleDecomposition.Main",
+  "theorems": 1,
+  "closure_modules": 34,
+  "closure_lines": 21485,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/181.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "CylinderCovering.json",
+  "solution_module": "OAI.Geometry.CylinderCovering.Main",
+  "theorems": 1,
+  "closure_modules": 641,
+  "closure_lines": 71264,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/100.md",
+   "lean/docs/100.md",
+   "lean/docs/100.md",
+   "lean/docs/100.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DaugavetModuli.json",
+  "solution_module": "OAI.Analysis.Daugavet.Main",
+  "theorems": 3,
+  "closure_modules": 28,
+  "closure_lines": 4335,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/331.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DefocusingNLS.json",
+  "solution_module": "OAI.MathematicalPhysics.DefocusingNLS.MainTheorems",
+  "theorems": 3,
+  "closure_modules": 2415,
+  "closure_lines": 182564,
+  "external_packages": [
+   "FixedPointTheorems"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/371.md"
+  ],
+  "papers": [
+   "Stable-Self-Similar-Blowup-for-a-Supercritical-Defocusing-Schrodinger-Equation-on-the-Torus-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DegreeRigidity.json",
+  "solution_module": "OAI.Computability.DegreeRigidity.Main",
+  "theorems": 1,
+  "closure_modules": 974,
+  "closure_lines": 85055,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/241.md"
+  ],
+  "papers": [
+   "Rigidity-of-the-Turing-degrees-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DeligneDrinfeld.json",
+  "solution_module": "OAI.Algebra.Drinfeld.Completion",
+  "theorems": 1,
+  "closure_modules": 21,
+  "closure_lines": 29754,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/008.md"
+  ],
+  "papers": [
+   "The-Deligne-Drinfeld-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DepthFive.json",
+  "solution_module": "OAI.Algebra.DepthFive.Bounds",
+  "theorems": 1,
+  "closure_modules": 164,
+  "closure_lines": 20487,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/135.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DepthThree.json",
+  "solution_module": "OAI.Computability.DepthThree.Main",
+  "theorems": 1,
+  "closure_modules": 175,
+  "closure_lines": 24484,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/112.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DiamondDistortion.json",
+  "solution_module": "OAI.Analysis.DiamondDistortion.Descent",
+  "theorems": 1,
+  "closure_modules": 32,
+  "closure_lines": 10070,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/331.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DilutedSpin.json",
+  "solution_module": "OAI.Probability.DilutedSpin.Main",
+  "theorems": 1,
+  "closure_modules": 405,
+  "closure_lines": 56690,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/221.md"
+  ],
+  "papers": [
+   "The-Mezard-Parisi-formula-for-diluted-spin-glasses-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DimensionTenChannel.json",
+  "solution_module": "OAI.Analysis.Quantum.DimensionTen.Channel",
+  "theorems": 1,
+  "closure_modules": 148,
+  "closure_lines": 44821,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/272.md"
+  ],
+  "papers": [
+   "Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DimensionTenPair.json",
+  "solution_module": "OAI.Analysis.Quantum.DimensionTen.Main",
+  "theorems": 1,
+  "closure_modules": 129,
+  "closure_lines": 30293,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/272.md"
+  ],
+  "papers": [
+   "Entanglement-with-zero-distillable-secret-key-in-local-dimension-ten-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DirectCrouzeix.json",
+  "solution_module": "OAI.Analysis.DirectCrouzeix.Main",
+  "theorems": 2,
+  "closure_modules": 42,
+  "closure_lines": 7431,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/325.md"
+  ],
+  "papers": [
+   "A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026",
+   "The-complete-Crouzeix-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DirectedFeedback.json",
+  "solution_module": "OAI.Computability.DirectedFeedback.Main",
+  "theorems": 1,
+  "closure_modules": 224,
+  "closure_lines": 188373,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/102.md"
+  ],
+  "papers": [
+   "A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026",
+   "Constant-factor-hardness-of-Min-UnCut-September-23-2026",
+   "Constant-factor-hardness-of-directed-feedback-vertex-set-September-23-2026",
+   "The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026",
+   "The-Unique-Games-Theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DirectionalBallisticity.json",
+  "solution_module": "OAI.Probability.Ballisticity.Main",
+  "theorems": 1,
+  "closure_modules": 513,
+  "closure_lines": 98925,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/220.md"
+  ],
+  "papers": [
+   "A-directional-zero-one-law-under-strict-ellipticity-September-23-2026",
+   "Directional-transience-implies-ballisticity-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DirectionalWalk.json",
+  "solution_module": "OAI.Probability.DirectionalWalk.Main",
+  "theorems": 1,
+  "closure_modules": 69,
+  "closure_lines": 18263,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/220.md"
+  ],
+  "papers": [
+   "A-directional-zero-one-law-under-strict-ellipticity-September-23-2026",
+   "Directional-transience-implies-ballisticity-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DirichletSevenEighths.json",
+  "solution_module": "OAI.NumberTheory.DirichletL.Nonvanishing",
+  "theorems": 1,
+  "closure_modules": 2924,
+  "closure_lines": 489414,
+  "external_packages": [
+   "PrimeNumberTheoremAnd",
+   "RellichKondrachov"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/003.md"
+  ],
+  "papers": [
+   "The-Quasi-Riemann-Hypothesis-September-30-2026",
+   "Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DiscreteLipschitzFree.json",
+  "solution_module": "OAI.Analysis.LipschitzFree.Main",
+  "theorems": 1,
+  "closure_modules": 32,
+  "closure_lines": 4373,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/330.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DiskMaximal.json",
+  "solution_module": "OAI.Analysis.DiskMaximal.Main",
+  "theorems": 1,
+  "closure_modules": 30,
+  "closure_lines": 19427,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/085.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Dixmier.json",
+  "solution_module": "OAI.Analysis.Unitarizability.UniverseTransport",
+  "theorems": 1,
+  "closure_modules": 32,
+  "closure_lines": 3591,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/251.md"
+  ],
+  "papers": [
+   "Unitarizability-Implies-Amenability-for-Countable-Groups-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DixmierAllDiscrete.json",
+  "solution_module": "OAI.Analysis.Unitarizability.AllDiscrete",
+  "theorems": 1,
+  "closure_modules": 39,
+  "closure_lines": 4131,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/251.md"
+  ],
+  "papers": [
+   "Unitarizability-Implies-Amenability-for-Countable-Groups-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DoublingHilbert.json",
+  "solution_module": "OAI.Geometry.DoublingHilbert.Main",
+  "theorems": 1,
+  "closure_modules": 12,
+  "closure_lines": 3471,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/098.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "DukePrimeDegree.json",
+  "solution_module": "OAI.NumberTheory.DukePrimeDegree.MainUnconditional",
+  "theorems": 2,
+  "closure_modules": 877,
+  "closure_lines": 131329,
+  "external_packages": [
+   "ClassFieldTheory"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/015.md"
+  ],
+  "papers": [
+   "Equidistribution-of-Prime-Degree-Torus-Packets-with-Arbitrary-Local-Type-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DuttaDomain.json",
+  "solution_module": "OAI.RingTheory.Multiplicity.Main",
+  "theorems": 1,
+  "closure_modules": 278,
+  "closure_lines": 54231,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/194.md"
+  ],
+  "papers": [
+   "Lechs-multiplicity-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "DyadicAvoidance.json",
+  "solution_module": "OAI.MeasureTheory.DyadicAvoidance.Main",
+  "theorems": 1,
+  "closure_modules": 75,
+  "closure_lines": 8530,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/084.md"
+  ],
+  "papers": [
+   "The-dyadic-case-of-the-Erdos-similarity-conjecture-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EditApproximation.json",
+  "solution_module": "OAI.Combinatorics.EditApproximation.Specification.RawBandMain",
+  "theorems": 1,
+  "closure_modules": 1024,
+  "closure_lines": 138291,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/121.md"
+  ],
+  "papers": [
+   "An-Almost-Linear-Approximation-Scheme-for-Edit-Distance-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EditDistance.json",
+  "solution_module": "OAI.Combinatorics.EditDistance.Main",
+  "theorems": 1,
+  "closure_modules": 46,
+  "closure_lines": 25470,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/099.md"
+  ],
+  "papers": [
+   "Edit-Distance-in-l1-Matching-Bounds-up-to-Constants-in-the-Exponent-September-27-2026",
+   "Finite-Circle-Obstructions-Binary-Codes-and-Histogram-Embeddings-for-Edit-Distance-September-27-2026",
+   "Tree-Constructions-for-the-l1-Distortion-of-Binary-Edit-Distance-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EgyptianFractions.json",
+  "solution_module": "OAI.NumberTheory.EgyptianFractions.Main",
+  "theorems": 9,
+  "closure_modules": 290,
+  "closure_lines": 36351,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/025.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "EilenbergGanea.json",
+  "solution_module": "OAI.Topology.EilenbergGanea.Main",
+  "theorems": 1,
+  "closure_modules": 40,
+  "closure_lines": 34163,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/249.md"
+  ],
+  "papers": [
+   "A-finitely-generated-counterexample-to-the-Eilenberg-Ganea-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EinsteinFour.json",
+  "solution_module": "OAI.Geometry.EinsteinFour.Classification",
+  "theorems": 3,
+  "closure_modules": 402,
+  "closure_lines": 208217,
+  "external_packages": [
+   "RellichKondrachov"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/348.md"
+  ],
+  "papers": [
+   "Positively-curved-Einstein-four-manifolds-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ElasticityUniqueness.json",
+  "solution_module": "OAI.MathematicalPhysics.Elasticity.Uniqueness",
+  "theorems": 1,
+  "closure_modules": 42,
+  "closure_lines": 31687,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/372.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ElementaryPositivity.json",
+  "solution_module": "OAI.Combinatorics.Chromatic.Main",
+  "theorems": 0,
+  "closure_modules": 549,
+  "closure_lines": 75124,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/169.md"
+  ],
+  "papers": [
+   "Elementary-Positivity-of-Chromatic-Quasisymmetric-Functions-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EntangledGames.json",
+  "solution_module": "OAI.Probability.EntangledGames.Main",
+  "theorems": 1,
+  "closure_modules": 30,
+  "closure_lines": 7264,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/277.md"
+  ],
+  "papers": [
+   "Threshold-parallel-repetition-for-finite-dimensional-entangled-games-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "EntropyPhotonNumber.json",
+  "solution_module": "OAI.InformationTheory.PhotonNumber.Inequality",
+  "theorems": 1,
+  "closure_modules": 26,
+  "closure_lines": 27864,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/273.md"
+  ],
+  "papers": [
+   "The-entropy-photon-number-inequality-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ErdosReciprocal.json",
+  "solution_module": "OAI.Combinatorics.Progressions.Main",
+  "theorems": 1,
+  "closure_modules": 4774,
+  "closure_lines": 1127757,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/159.md"
+  ],
+  "papers": [
+   "Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EuclideanFiveColor.json",
+  "solution_module": "OAI.Geometry.PlaneColoring.Five",
+  "theorems": 1,
+  "closure_modules": 70,
+  "closure_lines": 30406,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/158.md"
+  ],
+  "papers": [
+   "The-Euclidean-plane-is-not-five-colorable-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "EuclideanRamsey.json",
+  "solution_module": "OAI.Combinatorics.EuclideanRamsey.Main",
+  "theorems": 1,
+  "closure_modules": 28,
+  "closure_lines": 6586,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/172.md"
+  ],
+  "papers": [
+   "A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "EuclideanRamseyCircle.json",
+  "solution_module": "OAI.Combinatorics.EuclideanRamsey.Circle",
+  "theorems": 1,
+  "closure_modules": 35,
+  "closure_lines": 7344,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/172.md"
+  ],
+  "papers": [
+   "A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EuclideanRamseyNine.json",
+  "solution_module": "OAI.Combinatorics.EuclideanRamsey.NineStatement",
+  "theorems": 1,
+  "closure_modules": 16,
+  "closure_lines": 1914,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/172.md"
+  ],
+  "papers": [
+   "A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EuclideanRamseyQuadratic.json",
+  "solution_module": "OAI.Combinatorics.EuclideanRamsey.Quadratic",
+  "theorems": 1,
+  "closure_modules": 29,
+  "closure_lines": 6857,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/172.md"
+  ],
+  "papers": [
+   "A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EuclideanRamseySpherical.json",
+  "solution_module": "OAI.Combinatorics.EuclideanRamsey.Spherical",
+  "theorems": 1,
+  "closure_modules": 31,
+  "closure_lines": 6773,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/172.md"
+  ],
+  "papers": [
+   "A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EuclideanRamseyTransitive.json",
+  "solution_module": "OAI.Combinatorics.EuclideanRamsey.Transitive",
+  "theorems": 1,
+  "closure_modules": 29,
+  "closure_lines": 6747,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/172.md"
+  ],
+  "papers": [
+   "A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "EvenBarker.json",
+  "solution_module": "OAI.LinearAlgebra.Barker.Main",
+  "theorems": 1,
+  "closure_modules": 73,
+  "closure_lines": 9846,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/179.md"
+  ],
+  "papers": [
+   "The-circulant-Hadamard-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ExactFourier.json",
+  "solution_module": "OAI.Computability.FourierCircuit.Main",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 19154,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/130.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ExactInfiniteness.json",
+  "solution_module": "OAI.Analysis.WeakInfiniteness.Main",
+  "theorems": 2,
+  "closure_modules": 1012,
+  "closure_lines": 151762,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/303.md"
+  ],
+  "papers": [
+   "Weak-pure-infiniteness-and-O-infinity-absorption-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ExactQuantumFactoring.json",
+  "solution_module": "OAI.Computability.QuantumFactoring.Main",
+  "theorems": 1,
+  "closure_modules": 546,
+  "closure_lines": 54553,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/279.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FKCRT.json",
+  "solution_module": "OAI.Probability.FKMaps.Convergence",
+  "theorems": 1,
+  "closure_modules": 61,
+  "closure_lines": 40269,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/211.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FactorGeneration.json",
+  "solution_module": "OAI.Analysis.FactorGeneration.Main",
+  "theorems": 1,
+  "closure_modules": 93,
+  "closure_lines": 35228,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/296.md"
+  ],
+  "papers": [
+   "Relative-generation-and-the-generator-problem-for-finite-factors-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "FalconerAllDimensions.json",
+  "solution_module": "OAI.MeasureTheory.Falconer.Campaign123PlanarFurstenbergProof",
+  "theorems": 1,
+  "closure_modules": 2384,
+  "closure_lines": 187481,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/073.md"
+  ],
+  "papers": [
+   "The-Falconer-distance-conjecture-in-all-dimensions-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FillingCoefficient.json",
+  "solution_module": "OAI.Geometry.IntegralFillings.Main",
+  "theorems": 1,
+  "closure_modules": 112,
+  "closure_lines": 15765,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/337.md"
+  ],
+  "papers": [
+   "Sharp-integral-fillings-in-CAT(0)-spaces-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FiniteCircle.json",
+  "solution_module": "OAI.Combinatorics.FiniteCircle.Main",
+  "theorems": 1,
+  "closure_modules": 36,
+  "closure_lines": 9823,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/099.md"
+  ],
+  "papers": [
+   "Edit-Distance-in-l1-Matching-Bounds-up-to-Constants-in-the-Exponent-September-27-2026",
+   "Finite-Circle-Obstructions-Binary-Codes-and-Histogram-Embeddings-for-Edit-Distance-September-27-2026",
+   "Tree-Constructions-for-the-l1-Distortion-of-Binary-Edit-Distance-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FiniteCongruenceGraph.json",
+  "solution_module": "OAI.Algebra.Universal.GraphCriterion",
+  "theorems": 1,
+  "closure_modules": 2,
+  "closure_lines": 471,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/206.md"
+  ],
+  "papers": [
+   "Finite-Congruence-Lattices-Characterization-and-Undecidability-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FiniteEntropySeparation.json",
+  "solution_module": "OAI.Analysis.FreeEntropy.Main",
+  "theorems": 1,
+  "closure_modules": 153,
+  "closure_lines": 15710,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/298.md"
+  ],
+  "papers": [
+   "A-finite-entropy-separation-of-microstates-and-nonmicrostates-free-entropy-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FiniteFactor.json",
+  "solution_module": "OAI.Analysis.FiniteFactor.Main",
+  "theorems": 1,
+  "closure_modules": 271,
+  "closure_lines": 22872,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/293.md"
+  ],
+  "papers": [
+   "Backward-intertwiners-and-a-transitive-commutant-September-27-2026",
+   "Invariant-projection-counterexamples-for-every-irrational-rotation-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FinitisticAsymmetry.json",
+  "solution_module": "OAI.Algebra.FinitisticAsymmetry.Main",
+  "theorems": 1,
+  "closure_modules": 588,
+  "closure_lines": 50779,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/198.md"
+  ],
+  "papers": [
+   "An-algebra-of-infinite-little-finitistic-dimension-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "FixedClauseThreshold.json",
+  "solution_module": "OAI.Probability.RandomSAT.Main",
+  "theorems": 1,
+  "closure_modules": 15,
+  "closure_lines": 4833,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/235.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ForcedNavierStokesComputation.json",
+  "solution_module": "OAI.MathematicalPhysics.NavierStokes.BalancedTransport.MainResult",
+  "theorems": 1,
+  "closure_modules": 60,
+  "closure_lines": 11169,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/376.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ForestSpace.json",
+  "solution_module": "OAI.Analysis.ForestSpace.Main",
+  "theorems": 1,
+  "closure_modules": 20,
+  "closure_lines": 4651,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/331.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "FormulaHitting.json",
+  "solution_module": "OAI.Algebra.FormulaHitting.Hitting",
+  "theorems": 1,
+  "closure_modules": 24,
+  "closure_lines": 3305,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/116.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FoulkesHowe.json",
+  "solution_module": "OAI.RepresentationTheory.FoulkesHowe.Stabilization",
+  "theorems": 1,
+  "closure_modules": 63,
+  "closure_lines": 5092,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/210.md"
+  ],
+  "papers": [
+   "Quadratic-Stabilization-of-the-Canonical-Foulkes-Howe-Map-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "FourRowPermanent.json",
+  "solution_module": "OAI.Combinatorics.Permanent.Main",
+  "theorems": 1,
+  "closure_modules": 5,
+  "closure_lines": 627,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "FreeIsing.json",
+  "solution_module": "OAI.Probability.FreeIsing.Main",
+  "theorems": 1,
+  "closure_modules": 891,
+  "closure_lines": 118326,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/236.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "FreeUniformSpanningForest.json",
+  "solution_module": "OAI.Probability.SpanningForest.Factor",
+  "theorems": 1,
+  "closure_modules": 224,
+  "closure_lines": 25486,
+  "external_packages": [
+   "all"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/231.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "GammaPassage.json",
+  "solution_module": "OAI.Probability.GammaPassage.Differentiability",
+  "theorems": 1,
+  "closure_modules": 203,
+  "closure_lines": 20309,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/212.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "GaussianFiniteEntropy.json",
+  "solution_module": "OAI.Probability.Localization.Main",
+  "theorems": 1,
+  "closure_modules": 15,
+  "closure_lines": 2428,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "GaussianInformation.json",
+  "solution_module": "OAI.Probability.GaussianInformation.Main",
+  "theorems": 4,
+  "closure_modules": 111,
+  "closure_lines": 15484,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "GaussianMoat.json",
+  "solution_module": "OAI.NumberTheory.GaussianMoat.Main",
+  "theorems": 1,
+  "closure_modules": 41,
+  "closure_lines": 12744,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/028.md"
+  ],
+  "papers": [
+   "Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "GaussianPropeller.json",
+  "solution_module": "OAI.Probability.GaussianPropeller.Main",
+  "theorems": 1,
+  "closure_modules": 47,
+  "closure_lines": 11669,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/096.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "GaussianReplacement.json",
+  "solution_module": "OAI.Probability.GaussianReplacement.FiberEquality",
+  "theorems": 11,
+  "closure_modules": 35,
+  "closure_lines": 14415,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "GeneralMahler.json",
+  "solution_module": "OAI.Geometry.Convex.GeneralMahler.Theorem",
+  "theorems": 1,
+  "closure_modules": 302,
+  "closure_lines": 40507,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/087.md"
+  ],
+  "papers": [
+   "Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026",
+   "The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026",
+   "The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "GeneralizedStarHeight.json",
+  "solution_module": "OAI.Computability.StarHeight.Main",
+  "theorems": 1,
+  "closure_modules": 37,
+  "closure_lines": 11993,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/134.md",
+   "lean/docs/134.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "GotsmanLinial.json",
+  "solution_module": "OAI.Combinatorics.GotsmanLinial.Main",
+  "theorems": 1,
+  "closure_modules": 22,
+  "closure_lines": 4044,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/127.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "GrahamSpherical.json",
+  "solution_module": "OAI.Combinatorics.SphericalRamsey.Main",
+  "theorems": 1,
+  "closure_modules": 18,
+  "closure_lines": 987,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/172.md"
+  ],
+  "papers": [
+   "A-classification-of-finite-Euclidean-Ramsey-configurations-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "GrothendieckElementaryExpansion.json",
+  "solution_module": "OAI.CategoryTheory.Globular.Main",
+  "theorems": 1,
+  "closure_modules": 58,
+  "closure_lines": 12811,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/312.md"
+  ],
+  "papers": [
+   "The-Grothendieck-homotopy-hypothesis-via-elementary-expansions-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "GroupRingDeterminant.json",
+  "solution_module": "OAI.Analysis.GroupDeterminants.Main",
+  "theorems": 1,
+  "closure_modules": 155,
+  "closure_lines": 16492,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/197.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026",
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Odd-Characteristic-September-26-2026",
+   "A-Counterexample-to-the-Group-Ring-Determinant-Conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "HadamardCubeFiber.json",
+  "solution_module": "OAI.LinearAlgebra.Hadamard.Main",
+  "theorems": 1,
+  "closure_modules": 6,
+  "closure_lines": 986,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/266.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HalvingLines.json",
+  "solution_module": "OAI.Combinatorics.HalvingLines.Main",
+  "theorems": 1,
+  "closure_modules": 47,
+  "closure_lines": 18284,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/183.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HardSphere.json",
+  "solution_module": "OAI.Analysis.HardSphere.Main",
+  "theorems": 1,
+  "closure_modules": 466,
+  "closure_lines": 72319,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/267.md"
+  ],
+  "papers": [
+   "Ground-state-condensation-in-the-dilute-hard-sphere-gas-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HarmonicArtin.json",
+  "solution_module": "OAI.Topology.ArtinGroups.Main",
+  "theorems": 1,
+  "closure_modules": 660,
+  "closure_lines": 63561,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/254.md"
+  ],
+  "papers": [
+   "An-Artin-group-with-no-geometric-CAT-0-action-September-23-2026",
+   "Harmonic-heights-and-the-Artin-K-pi-1-conjecture-September-23-2026",
+   "Parabolic-intersections-in-Artin-groups-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "HarmonicGrowth.json",
+  "solution_module": "OAI.Geometry.HarmonicGrowth.Main",
+  "theorems": 1,
+  "closure_modules": 36,
+  "closure_lines": 36768,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/361.md"
+  ],
+  "papers": [
+   "A-counterexample-to-integer-degree-harmonic-dimension-comparison-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "HeckeSevenEighths.json",
+  "solution_module": "OAI.NumberTheory.DirichletL.Hecke.Nonvanishing",
+  "theorems": 1,
+  "closure_modules": 2925,
+  "closure_lines": 489450,
+  "external_packages": [
+   "PrimeNumberTheoremAnd",
+   "RellichKondrachov"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/003.md"
+  ],
+  "papers": [
+   "The-Quasi-Riemann-Hypothesis-September-30-2026",
+   "Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "HeilbronnTriangle.json",
+  "solution_module": "OAI.Geometry.HeilbronnTriangle.Main",
+  "theorems": 2,
+  "closure_modules": 195,
+  "closure_lines": 24470,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/191.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Heisenberg.json",
+  "solution_module": "OAI.MathematicalPhysics.Heisenberg.Main",
+  "theorems": 1,
+  "closure_modules": 128,
+  "closure_lines": 25528,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/271.md"
+  ],
+  "papers": [
+   "Spontaneous-magnetization-in-the-quantum-Heisenberg-ferromagnet-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HenonEmden.json",
+  "solution_module": "OAI.Analysis.HenonEmden.Main",
+  "theorems": 1,
+  "closure_modules": 96,
+  "closure_lines": 12805,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/370.md"
+  ],
+  "papers": [
+   "The-Subcritical-Henon-Lane-Emden-Conjecture-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "HilbertCrouzeix.json",
+  "solution_module": "OAI.Analysis.HilbertCrouzeix.Main",
+  "theorems": 4,
+  "closure_modules": 7,
+  "closure_lines": 851,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/325.md"
+  ],
+  "papers": [
+   "A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026",
+   "The-complete-Crouzeix-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HoneycombBridgeFiniteness.json",
+  "solution_module": "OAI.Combinatorics.HoneycombCorridor.BridgeFiniteness",
+  "theorems": 1,
+  "closure_modules": 43,
+  "closure_lines": 7833,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/237.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HoneycombFreeEnergy.json",
+  "solution_module": "OAI.Probability.Honeycomb.FreeEnergy",
+  "theorems": 1,
+  "closure_modules": 1,
+  "closure_lines": 986,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/237.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HotSpots.json",
+  "solution_module": "OAI.Analysis.HotSpots.Main",
+  "theorems": 1,
+  "closure_modules": 31,
+  "closure_lines": 29369,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/369.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "HyperbolicCones.json",
+  "solution_module": "OAI.Analysis.HyperbolicCones.Main",
+  "theorems": 1,
+  "closure_modules": 86,
+  "closure_lines": 5735,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/095.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "HyperbolicObstruction.json",
+  "solution_module": "OAI.Geometry.HyperbolicGroups.Main",
+  "theorems": 1,
+  "closure_modules": 417,
+  "closure_lines": 57061,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/257.md"
+  ],
+  "papers": [
+   "A-hyperbolic-group-with-no-geometric-CAT0-action-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "HyperinvariantSubspaces.json",
+  "solution_module": "OAI.Analysis.Hyperinvariant.Main",
+  "theorems": 1,
+  "closure_modules": 277,
+  "closure_lines": 23253,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/293.md",
+   "lean/docs/293.md"
+  ],
+  "papers": [
+   "Backward-intertwiners-and-a-transitive-commutant-September-27-2026",
+   "Invariant-projection-counterexamples-for-every-irrational-rotation-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "IndependentProducts.json",
+  "solution_module": "OAI.Analysis.ProductSpaces.Main",
+  "theorems": 4,
+  "closure_modules": 22,
+  "closure_lines": 3900,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/331.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "IndependentSets.json",
+  "solution_module": "OAI.Combinatorics.IndependentSets.Main",
+  "theorems": 1,
+  "closure_modules": 454,
+  "closure_lines": 94549,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/106.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "IndividualStrongInfiniteness.json",
+  "solution_module": "OAI.Analysis.CStarAlgebra.PureInfiniteness.Main",
+  "theorems": 1,
+  "closure_modules": 25,
+  "closure_lines": 6110,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/303.md"
+  ],
+  "papers": [
+   "Weak-pure-infiniteness-and-O-infinity-absorption-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "InfiniteMatroid.json",
+  "solution_module": "OAI.Combinatorics.InfiniteMatroid.Main",
+  "theorems": 1,
+  "closure_modules": 25,
+  "closure_lines": 4041,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/185.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "InfiniteMatroidCorollaries.json",
+  "solution_module": "OAI.Combinatorics.InfiniteMatroid.Corollaries",
+  "theorems": 2,
+  "closure_modules": 33,
+  "closure_lines": 4510,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/185.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "InterpolatedFactors.json",
+  "solution_module": "OAI.Analysis.InterpolatedFactors.Interpolation",
+  "theorems": 1,
+  "closure_modules": 77,
+  "closure_lines": 26881,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/287.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "InvariantIsing.json",
+  "solution_module": "OAI.Probability.InvariantIsing.Unconditional",
+  "theorems": 11,
+  "closure_modules": 2123,
+  "closure_lines": 212878,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/234.md"
+  ],
+  "papers": [
+   "All-temperature-pressure-for-orthogonally-invariant-Ising-spin-glasses-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "IrrationalRotation.json",
+  "solution_module": "OAI.Analysis.IrrationalRotation.Main",
+  "theorems": 2,
+  "closure_modules": 735,
+  "closure_lines": 81862,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/293.md"
+  ],
+  "papers": [
+   "Backward-intertwiners-and-a-transitive-commutant-September-27-2026",
+   "Invariant-projection-counterexamples-for-every-irrational-rotation-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "IrrationalTriangleBilliard.json",
+  "solution_module": "OAI.Dynamics.TriangleBilliards.Main",
+  "theorems": 1,
+  "closure_modules": 39,
+  "closure_lines": 12402,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/150.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "IsingFiniteness.json",
+  "solution_module": "OAI.Probability.IsingPerceptron.VariationalFiniteness",
+  "theorems": 1,
+  "closure_modules": 45,
+  "closure_lines": 29215,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/222.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "IsometricImmersion.json",
+  "solution_module": "OAI.Geometry.IsometricImmersion.Main",
+  "theorems": 1,
+  "closure_modules": 446,
+  "closure_lines": 57032,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/334.md"
+  ],
+  "papers": [
+   "A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "Jacobsthal.json",
+  "solution_module": "OAI.NumberTheory.Jacobsthal.Main",
+  "theorems": 1,
+  "closure_modules": 819,
+  "closure_lines": 153313,
+  "external_packages": [
+   "AbsorptionCutoff",
+   "PrimeNumberTheoremAnd",
+   "StrongPNT"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/021.md"
+  ],
+  "papers": [
+   "A-quadratic-bound-for-Jacobsthals-function-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "JacobsthalImproved.json",
+  "solution_module": "OAI.NumberTheory.Jacobsthal.Main",
+  "theorems": 1,
+  "closure_modules": 819,
+  "closure_lines": 153313,
+  "external_packages": [
+   "AbsorptionCutoff",
+   "PrimeNumberTheoremAnd",
+   "StrongPNT"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/021.md"
+  ],
+  "papers": [
+   "A-quadratic-bound-for-Jacobsthals-function-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "JointDickman.json",
+  "solution_module": "OAI.NumberTheory.JointDickman.PaperMain",
+  "theorems": 3,
+  "closure_modules": 1792,
+  "closure_lines": 178254,
+  "external_packages": [
+   "PrimeNumberTheoremAnd",
+   "StrongPNT"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/012.md"
+  ],
+  "papers": [
+   "The-joint-Dickman-law-for-consecutive-integers-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KLInvariance.json",
+  "solution_module": "OAI.RepresentationTheory.KazhdanLusztig.Invariance",
+  "theorems": 1,
+  "closure_modules": 34,
+  "closure_lines": 42982,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/168.md"
+  ],
+  "papers": [
+   "Combinatorial-Invariance-of-Kazhdan-Lusztig-Polynomials-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KMedianRecovery.json",
+  "solution_module": "OAI.Combinatorics.KMedianRecovery.Main",
+  "theorems": 1,
+  "closure_modules": 506,
+  "closure_lines": 69767,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/125.md"
+  ],
+  "papers": [
+   "Single-Exponential-Recovery-and-Bounded-Price-Strictness-for-Metric-k-Median-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "KMedianRefinedRecovery.json",
+  "solution_module": "OAI.Combinatorics.KMedianRecovery.Refined.Recovery",
+  "theorems": 1,
+  "closure_modules": 586,
+  "closure_lines": 57546,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/125.md"
+  ],
+  "papers": [
+   "Single-Exponential-Recovery-and-Bounded-Price-Strictness-for-Metric-k-Median-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KMedianThreshold.json",
+  "solution_module": "OAI.Combinatorics.KMedian.Threshold",
+  "theorems": 1,
+  "closure_modules": 765,
+  "closure_lines": 73258,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/125.md"
+  ],
+  "papers": [
+   "Single-Exponential-Recovery-and-Bounded-Price-Strictness-for-Metric-k-Median-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KServer.json",
+  "solution_module": "OAI.Combinatorics.KServer.Main",
+  "theorems": 1,
+  "closure_modules": 37,
+  "closure_lines": 37402,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/110.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KadisonRingrose.json",
+  "solution_module": "OAI.Analysis.BoundedHochschild.MainResult",
+  "theorems": 1,
+  "closure_modules": 372,
+  "closure_lines": 63194,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/295.md"
+  ],
+  "papers": [
+   "Vanishing-of-higher-bounded-Hochschild-cohomology-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KadisonSimilarity.json",
+  "solution_module": "OAI.Analysis.KadisonSimilarity.UnconditionalSimilarity",
+  "theorems": 3,
+  "closure_modules": 816,
+  "closure_lines": 128496,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/288.md"
+  ],
+  "papers": [
+   "Kadisons-similarity-theorem-through-uniform-derivation-estimates-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KahlerSplitting.json",
+  "solution_module": "OAI.Geometry.KahlerSplitting.Main",
+  "theorems": 1,
+  "closure_modules": 46,
+  "closure_lines": 15031,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/052.md"
+  ],
+  "papers": [
+   "Universal-cover-splitting-for-compact-Kahler-manifolds-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "KaplanskyDirectFiniteness.json",
+  "solution_module": "OAI.RingTheory.DirectFiniteness.Main",
+  "theorems": 1,
+  "closure_modules": 121,
+  "closure_lines": 13131,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/197.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026",
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Odd-Characteristic-September-26-2026",
+   "A-Counterexample-to-the-Group-Ring-Determinant-Conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KaplanskyFinitelyPresented.json",
+  "solution_module": "OAI.RingTheory.DirectFiniteness.FinitelyPresented",
+  "theorems": 1,
+  "closure_modules": 126,
+  "closure_lines": 13436,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/197.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026",
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Odd-Characteristic-September-26-2026",
+   "A-Counterexample-to-the-Group-Ring-Determinant-Conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "KaplanskyQuasitrace.json",
+  "solution_module": "OAI.Analysis.Kaplansky.Main",
+  "theorems": 1,
+  "closure_modules": 123,
+  "closure_lines": 32329,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/294.md"
+  ],
+  "papers": [
+   "A-counterexample-to-Kaplanskys-quasitrace-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "KaplanskyStableFiniteness.json",
+  "solution_module": "OAI.Analysis.Kaplansky.StableFiniteness",
+  "theorems": 1,
+  "closure_modules": 181,
+  "closure_lines": 38077,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/294.md"
+  ],
+  "papers": [
+   "A-counterexample-to-Kaplanskys-quasitrace-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Kervaire.json",
+  "solution_module": "OAI.GroupTheory.Kervaire.Main",
+  "theorems": 1,
+  "closure_modules": 47,
+  "closure_lines": 11320,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/256.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "KoebeCircleDomains.json",
+  "solution_module": "OAI.Analysis.CircleDomains.Main",
+  "theorems": 2,
+  "closure_modules": 2790,
+  "closure_lines": 275589,
+  "external_packages": [
+   "Schoenflies",
+   "all"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/071.md",
+   "lean/docs/071.md"
+  ],
+  "papers": [
+   "Koebes-Circle-Domain-Conjecture-September-23-2026",
+   "Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Laughlin.json",
+  "solution_module": "OAI.Analysis.Laughlin.Main",
+  "theorems": 1,
+  "closure_modules": 1258,
+  "closure_lines": 76350,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/269.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "LaughlinFock.json",
+  "solution_module": "OAI.Analysis.LaughlinFock.Main",
+  "theorems": 1,
+  "closure_modules": 293,
+  "closure_lines": 124381,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/269.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "LaughlinGap.json",
+  "solution_module": "OAI.Analysis.LaughlinGap.Main",
+  "theorems": 1,
+  "closure_modules": 106,
+  "closure_lines": 27847,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/269.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "LaughlinPlanar.json",
+  "solution_module": "OAI.Analysis.Laughlin.UniformGap",
+  "theorems": 1,
+  "closure_modules": 1279,
+  "closure_lines": 78409,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/269.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "LiebThirring.json",
+  "solution_module": "OAI.Analysis.LiebThirring.Main",
+  "theorems": 1,
+  "closure_modules": 38,
+  "closure_lines": 13755,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/262.md"
+  ],
+  "papers": [
+   "Sharp-One-Dimensional-Lieb-Thirring-Constants-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "LipschitzEquivalence.json",
+  "solution_module": "OAI.Analysis.LipschitzEquivalence.Main",
+  "theorems": 1,
+  "closure_modules": 60,
+  "closure_lines": 10867,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/324.md"
+  ],
+  "papers": [
+   "Bi-Lipschitz-Absorption-of-c0-Without-a-Linear-Copy-of-c0-September-26-2026",
+   "Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "LipschitzHilbert.json",
+  "solution_module": "OAI.Analysis.LipschitzHilbert.Main",
+  "theorems": 2,
+  "closure_modules": 1910,
+  "closure_lines": 187490,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/083.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ListHadwiger.json",
+  "solution_module": "OAI.Combinatorics.ListHadwiger.Main",
+  "theorems": 1,
+  "closure_modules": 53,
+  "closure_lines": 20018,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/157.md"
+  ],
+  "papers": [
+   "A-linear-list-coloring-bound-in-terms-of-the-Hadwiger-number-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "LittleFinitistic.json",
+  "solution_module": "OAI.Algebra.Finitistic.Main",
+  "theorems": 1,
+  "closure_modules": 546,
+  "closure_lines": 45741,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/198.md"
+  ],
+  "papers": [
+   "An-algebra-of-infinite-little-finitistic-dimension-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "LittlewoodFiniteFlatness.json",
+  "solution_module": "OAI.Analysis.Littlewood.FiniteFlatness",
+  "theorems": 1,
+  "closure_modules": 28,
+  "closure_lines": 9740,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/076.md"
+  ],
+  "papers": [
+   "Asymptotically-minimal-maxima-of-real-Littlewood-polynomials-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "LogBrunnMinkowski.json",
+  "solution_module": "OAI.Geometry.LogVolume.BrunnMinkowski",
+  "theorems": 1,
+  "closure_modules": 1,
+  "closure_lines": 24491,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/091.md"
+  ],
+  "papers": [
+   "The-logarithmic-Brunn-Minkowski-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "LogConcaveQuery.json",
+  "solution_module": "OAI.Probability.LogConcave.Main",
+  "theorems": 1,
+  "closure_modules": 326,
+  "closure_lines": 64074,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/139.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "LogKodairaFiberNegative.json",
+  "solution_module": "OAI.AlgebraicGeometry.LogKodaira.FiberNegative",
+  "theorems": 1,
+  "closure_modules": 14,
+  "closure_lines": 3916,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/033.md"
+  ],
+  "papers": [
+   "The-reverse-logarithmic-Kodaira-inequality-and-additivity-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MUBSix.json",
+  "solution_module": "OAI.Analysis.MutuallyUnbiased.Main",
+  "theorems": 1,
+  "closure_modules": 3381,
+  "closure_lines": 2838008,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/266.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MahlerConjecture.json",
+  "solution_module": "OAI.Analysis.Mahler.MainTheorem",
+  "theorems": 1,
+  "closure_modules": 229,
+  "closure_lines": 21608,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/087.md"
+  ],
+  "papers": [
+   "Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026",
+   "The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026",
+   "The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MarkovType.json",
+  "solution_module": "OAI.Analysis.MarkovType.Main",
+  "theorems": 1,
+  "closure_modules": 207,
+  "closure_lines": 27261,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/327.md"
+  ],
+  "papers": [
+   "Nontrivial-Markov-Type-Forces-Superreflexivity-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MassAction.json",
+  "solution_module": "OAI.Analysis.MassAction.Main",
+  "theorems": 1,
+  "closure_modules": 71,
+  "closure_lines": 7829,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/149.md"
+  ],
+  "papers": [
+   "Boundedness-and-persistence-of-weakly-reversible-mass-action-systems-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MatchingAffineLift.json",
+  "solution_module": "OAI.Combinatorics.MatchingPSD.AffineLift",
+  "theorems": 1,
+  "closure_modules": 66,
+  "closure_lines": 7608,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/126.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MatchingEntropy.json",
+  "solution_module": "OAI.Combinatorics.PerfectMatching.Main",
+  "theorems": 1,
+  "closure_modules": 18,
+  "closure_lines": 3625,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/113.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MatchingEntropyBounds.json",
+  "solution_module": "OAI.Combinatorics.MatchingEntropy.Main",
+  "theorems": 1,
+  "closure_modules": 35,
+  "closure_lines": 7868,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/113.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MatchingFPRAS.json",
+  "solution_module": "OAI.Combinatorics.MatchingCount.Main",
+  "theorems": 1,
+  "closure_modules": 415,
+  "closure_lines": 66661,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/113.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MatchingPSD.json",
+  "solution_module": "OAI.Combinatorics.MatchingPSD.Main",
+  "theorems": 1,
+  "closure_modules": 53,
+  "closure_lines": 6920,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/126.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MatrixFields.json",
+  "solution_module": "OAI.LinearAlgebra.MatrixFields.Main",
+  "theorems": 1,
+  "closure_modules": 354,
+  "closure_lines": 182105,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/107.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MatrixMultiplication.json",
+  "solution_module": "OAI.LinearAlgebra.MatrixMultiplication.Main",
+  "theorems": 3,
+  "closure_modules": 504,
+  "closure_lines": 83127,
+  "external_packages": [
+   "FixedPointTheorems"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/107.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MatrixRemoval.json",
+  "solution_module": "OAI.Combinatorics.MatrixRemoval.Main",
+  "theorems": 1,
+  "closure_modules": 61,
+  "closure_lines": 7670,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/190.md"
+  ],
+  "papers": [
+   "Polynomial-removal-fails-for-ordered-binary-matrices-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MatroidProphet.json",
+  "solution_module": "OAI.Probability.MatroidProphet.Main",
+  "theorems": 1,
+  "closure_modules": 125,
+  "closure_lines": 14710,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/111.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MatroidSecretary.json",
+  "solution_module": "OAI.Probability.MatroidSecretary.Main",
+  "theorems": 3,
+  "closure_modules": 243,
+  "closure_lines": 26170,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/111.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MaximalSeshadriConstants.json",
+  "solution_module": "OAI.AlgebraicGeometry.Seshadri.Main",
+  "theorems": 1,
+  "closure_modules": 421,
+  "closure_lines": 56973,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/039.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MemoryPrecision.json",
+  "solution_module": "OAI.Probability.MemoryPrecision.Main",
+  "theorems": 1,
+  "closure_modules": 88,
+  "closure_lines": 16351,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MetricEntropyDuality.json",
+  "solution_module": "OAI.Analysis.MetricEntropy.Main",
+  "theorems": 1,
+  "closure_modules": 52,
+  "closure_lines": 6572,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/329.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MetricKMedian.json",
+  "solution_module": "OAI.Combinatorics.KMedian.Main",
+  "theorems": 1,
+  "closure_modules": 569,
+  "closure_lines": 55152,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/125.md"
+  ],
+  "papers": [
+   "Single-Exponential-Recovery-and-Bounded-Price-Strictness-for-Metric-k-Median-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "MidpointLenses.json",
+  "solution_module": "OAI.Analysis.SegmentLenses.Main",
+  "theorems": 1,
+  "closure_modules": 11,
+  "closure_lines": 3308,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/331.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "MinUncut.json",
+  "solution_module": "OAI.Computability.MinUncut.Main",
+  "theorems": 1,
+  "closure_modules": 375,
+  "closure_lines": 125244,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/102.md"
+  ],
+  "papers": [
+   "A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026",
+   "Constant-factor-hardness-of-Min-UnCut-September-23-2026",
+   "Constant-factor-hardness-of-directed-feedback-vertex-set-September-23-2026",
+   "The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026",
+   "The-Unique-Games-Theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Nagata.json",
+  "solution_module": "OAI.AlgebraicGeometry.PlaneCurves.Nagata",
+  "theorems": 3,
+  "closure_modules": 117,
+  "closure_lines": 37114,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/039.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "Naimark.json",
+  "solution_module": "OAI.Analysis.Naimark.Tracial",
+  "theorems": 1,
+  "closure_modules": 16,
+  "closure_lines": 25947,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/297.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "NavierStokesAlternating.json",
+  "solution_module": "OAI.MathematicalPhysics.AlternatingFlow.Development",
+  "theorems": 1,
+  "closure_modules": 41,
+  "closure_lines": 7912,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/376.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "NavierStokesVelocity.json",
+  "solution_module": "OAI.MathematicalPhysics.NavierStokes.VelocityDetection.Main",
+  "theorems": 1,
+  "closure_modules": 152,
+  "closure_lines": 22754,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/376.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "NodalLength.json",
+  "solution_module": "OAI.Analysis.NodalLength.Main",
+  "theorems": 1,
+  "closure_modules": 59,
+  "closure_lines": 32453,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/350.md"
+  ],
+  "papers": [
+   "Power-law-violations-of-Yaus-nodal-upper-bound-September-23-2026",
+   "Sharp-nodal-length-on-smooth-surfaces-September-23-2026",
+   "Smooth-counterexamples-to-Yaus-nodal-upper-bound-in-dimensions-three-and-four-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "NoiselessRegression.json",
+  "solution_module": "OAI.Probability.GaussianRegression.Main",
+  "theorems": 1,
+  "closure_modules": 22,
+  "closure_lines": 4512,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "NuclearUltrapower.json",
+  "solution_module": "OAI.Analysis.NuclearUltrapower.Main",
+  "theorems": 1,
+  "closure_modules": 39,
+  "closure_lines": 18512,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/292.md"
+  ],
+  "papers": [
+   "An-explicit-obstruction-to-nuclear-norm-ultrapower-embeddings-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "OccupiedOverlap.json",
+  "solution_module": "OAI.RepresentationTheory.RowColumn.Occupied",
+  "theorems": 2,
+  "closure_modules": 56,
+  "closure_lines": 24343,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "OddKaplansky.json",
+  "solution_module": "OAI.Algebra.OddKaplansky.Main",
+  "theorems": 1,
+  "closure_modules": 138,
+  "closure_lines": 18655,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/197.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026",
+   "A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Odd-Characteristic-September-26-2026",
+   "A-Counterexample-to-the-Group-Ring-Determinant-Conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "OneWayLiveness.json",
+  "solution_module": "OAI.Combinatorics.Automata.Main",
+  "theorems": 1,
+  "closure_modules": 16,
+  "closure_lines": 4070,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/129.md"
+  ],
+  "papers": [
+   "An-exponential-state-lower-bound-for-two-way-nondeterministic-complementation-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "OptimalMaxCut.json",
+  "solution_module": "OAI.Computability.MaxCut.Main",
+  "theorems": 1,
+  "closure_modules": 372,
+  "closure_lines": 187135,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/102.md"
+  ],
+  "papers": [
+   "A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026",
+   "Constant-factor-hardness-of-Min-UnCut-September-23-2026",
+   "Constant-factor-hardness-of-directed-feedback-vertex-set-September-23-2026",
+   "The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026",
+   "The-Unique-Games-Theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "OrdinaryElliott.json",
+  "solution_module": "OAI.NumberTheory.OrdinaryCorrelations.Elliott.Main",
+  "theorems": 1,
+  "closure_modules": 628,
+  "closure_lines": 71434,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/007.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "OrdinaryTwoPointCorrelations.json",
+  "solution_module": "OAI.NumberTheory.TwoPointCorrelations.FinalMain",
+  "theorems": 3,
+  "closure_modules": 1539,
+  "closure_lines": 154966,
+  "external_packages": [
+   "PrimeNumberTheoremAnd",
+   "StrongPNT"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/007.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "OstmannComplete.json",
+  "solution_module": "OAI.NumberTheory.Ostmann.Complete",
+  "theorems": 2,
+  "closure_modules": 3207,
+  "closure_lines": 290132,
+  "external_packages": [
+   "BernoulliRegular",
+   "PrimeNumberTheoremAnd"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/013.md"
+  ],
+  "papers": [
+   "the-additive-indecomposability-of-the-primes-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "OstmannPrimes.json",
+  "solution_module": "OAI.NumberTheory.Ostmann.Main",
+  "theorems": 1,
+  "closure_modules": 4358,
+  "closure_lines": 368874,
+  "external_packages": [
+   "PrimeNumberTheoremAnd",
+   "StrongPNT"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/013.md"
+  ],
+  "papers": [
+   "the-additive-indecomposability-of-the-primes-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ParityLifts.json",
+  "solution_module": "OAI.Combinatorics.ParityLifts.Main",
+  "theorems": 1,
+  "closure_modules": 22,
+  "closure_lines": 4722,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/133.md"
+  ],
+  "papers": [
+   "Parity-lifts-and-bounded-treewidth-witnesses-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "The-complexity-of-identifying-a-graph-by-Weisfeiler-Leman-refinement-September-25-2026",
+   "Unconditional-time-lower-bounds-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "Variable-dimension-Weisfeiler-Leman-equivalence-on-general-and-subcubic-graphs-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PartialPermutation.json",
+  "solution_module": "OAI.RepresentationTheory.PartialPermutation.Main",
+  "theorems": 1,
+  "closure_modules": 62,
+  "closure_lines": 6029,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PartitionConsistency.json",
+  "solution_module": "OAI.SetTheory.PartitionConsistency.Main",
+  "theorems": 1,
+  "closure_modules": 75,
+  "closure_lines": 32633,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/244.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PartitionPrinciple.json",
+  "solution_module": "OAI.SetTheory.PartitionPrinciple.Main",
+  "theorems": 1,
+  "closure_modules": 943,
+  "closure_lines": 234834,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/244.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PattersonFirstMoment.json",
+  "solution_module": "OAI.NumberTheory.CubicMoment.Theta.CubicThetaMains",
+  "theorems": 3,
+  "closure_modules": 3594,
+  "closure_lines": 309955,
+  "external_packages": [
+   "PrimeNumberTheoremAnd",
+   "RellichKondrachov",
+   "StrongPNT"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/023.md"
+  ],
+  "papers": [
+   "An-unconditional-first-moment-for-cubic-Gauss-sums-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PerceptronFreeEnergy.json",
+  "solution_module": "OAI.Probability.Perceptron.Main",
+  "theorems": 1,
+  "closure_modules": 411,
+  "closure_lines": 71648,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/222.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PerfectCompleteness.json",
+  "solution_module": "OAI.Computability.PerfectCompleteness.Main",
+  "theorems": 1,
+  "closure_modules": 863,
+  "closure_lines": 258126,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/105.md"
+  ],
+  "papers": [
+   "Perfect-completeness-for-2-to-1-games-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PeriodicGroup.json",
+  "solution_module": "OAI.GroupTheory.PeriodicGroups.Main",
+  "theorems": 1,
+  "closure_modules": 63,
+  "closure_lines": 38139,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/247.md"
+  ],
+  "papers": [
+   "An-infinite-finitely-presented-periodic-group-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PeriodicTilingThree.json",
+  "solution_module": "OAI.Geometry.PeriodicTiling.Main",
+  "theorems": 1,
+  "closure_modules": 122,
+  "closure_lines": 17021,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/155.md"
+  ],
+  "papers": [
+   "A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PermanentCubic.json",
+  "solution_module": "OAI.Algebra.Determinantal.Main",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 20790,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/108.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PettyProjectionVolume.json",
+  "solution_module": "OAI.Geometry.ProjectionBodies.Main",
+  "theorems": 1,
+  "closure_modules": 33,
+  "closure_lines": 13703,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/088.md"
+  ],
+  "papers": [
+   "A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026",
+   "Pettys-projection-volume-conjecture-in-dimensions-at-least-four-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PiExponent.json",
+  "solution_module": "OAI.NumberTheory.PiExponent.Main",
+  "theorems": 1,
+  "closure_modules": 869,
+  "closure_lines": 95817,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/017.md"
+  ],
+  "papers": [
+   "The-irrationality-exponent-of-pi-is-2-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PinchedKahler.json",
+  "solution_module": "OAI.Geometry.Kahler.Main",
+  "theorems": 3,
+  "closure_modules": 119,
+  "closure_lines": 18807,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/359.md"
+  ],
+  "papers": [
+   "A-negatively-pinched-Kahler-threefold-without-bounded-holomorphic-coordinates-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PinnedDistances.json",
+  "solution_module": "OAI.Geometry.PinnedDistances.Main",
+  "theorems": 1,
+  "closure_modules": 47,
+  "closure_lines": 15704,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/167.md"
+  ],
+  "papers": [
+   "A-power-saving-for-planar-unit-distances-September-23-2026",
+   "The-weak-pinned-planar-distance-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PlanarAndersonSpectrum.json",
+  "solution_module": "OAI.MathematicalPhysics.PlanarAnderson.Spectrum",
+  "theorems": 1,
+  "closure_modules": 1,
+  "closure_lines": 768,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/261.md"
+  ],
+  "papers": [
+   "Pure-Point-Spectrum-for-the-Two-Dimensional-Anderson-Model-at-Every-Positive-Disorder-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PlanarFalconer.json",
+  "solution_module": "OAI.MeasureTheory.Falconer.Main",
+  "theorems": 1,
+  "closure_modules": 719,
+  "closure_lines": 53991,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/073.md"
+  ],
+  "papers": [
+   "The-Falconer-distance-conjecture-in-all-dimensions-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PlanarFirstPassage.json",
+  "solution_module": "OAI.Probability.FirstPassage.BoundaryCurve",
+  "theorems": 1,
+  "closure_modules": 195,
+  "closure_lines": 18936,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/212.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PlanarL1.json",
+  "solution_module": "OAI.Combinatorics.PlanarL1.Embedding",
+  "theorems": 1,
+  "closure_modules": 63,
+  "closure_lines": 33869,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/089.md"
+  ],
+  "papers": [
+   "L1-Embeddings-of-Graphs-of-Bounded-Treewidth-September-23-2026",
+   "Planar-Graph-Metrics-Embed-into-L1-with-Constant-Distortion-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PlanarPacking.json",
+  "solution_module": "OAI.Analysis.PlanarPacking.Main",
+  "theorems": 1,
+  "closure_modules": 563,
+  "closure_lines": 916765,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/090.md"
+  ],
+  "papers": [
+   "A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026",
+   "An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PlanarUnitDistances.json",
+  "solution_module": "OAI.Geometry.UnitDistances.Main",
+  "theorems": 1,
+  "closure_modules": 40,
+  "closure_lines": 28153,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/167.md"
+  ],
+  "papers": [
+   "A-power-saving-for-planar-unit-distances-September-23-2026",
+   "The-weak-pinned-planar-distance-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PlaneColoring.json",
+  "solution_module": "OAI.Geometry.PlaneColoring.Main",
+  "theorems": 1,
+  "closure_modules": 9,
+  "closure_lines": 528,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/158.md"
+  ],
+  "papers": [
+   "The-Euclidean-plane-is-not-five-colorable-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PolycyclicRecognition.json",
+  "solution_module": "OAI.GroupTheory.PolycyclicRecognition.Recognition",
+  "theorems": 3,
+  "closure_modules": 2679,
+  "closure_lines": 235296,
+  "external_packages": [
+   "Gromov"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/255.md"
+  ],
+  "papers": [
+   "quasi-isometric-recognition-of-virtually-polycyclic-groups-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "PosteriorReplicas.json",
+  "solution_module": "OAI.Probability.PosteriorReplicas.Main",
+  "theorems": 1,
+  "closure_modules": 136,
+  "closure_lines": 14896,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PowerFreeValues.json",
+  "solution_module": "OAI.NumberTheory.PowerFree.Main",
+  "theorems": 1,
+  "closure_modules": 63,
+  "closure_lines": 23332,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/020.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "PrimeGaps.json",
+  "solution_module": "OAI.NumberTheory.PrimeGaps.RatioCorollary",
+  "theorems": 1,
+  "closure_modules": 56,
+  "closure_lines": 22589,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/026.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ProductBrown.json",
+  "solution_module": "OAI.Analysis.BrownMeasure.Main",
+  "theorems": 1,
+  "closure_modules": 292,
+  "closure_lines": 24649,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/293.md"
+  ],
+  "papers": [
+   "Backward-intertwiners-and-a-transitive-commutant-September-27-2026",
+   "Invariant-projection-counterexamples-for-every-irrational-rotation-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ProjectionCounterexample.json",
+  "solution_module": "OAI.Geometry.ProjectionBody.Counterexample",
+  "theorems": 1,
+  "closure_modules": 41,
+  "closure_lines": 3419,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/088.md"
+  ],
+  "papers": [
+   "A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026",
+   "Pettys-projection-volume-conjecture-in-dimensions-at-least-four-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ProjectionMoments.json",
+  "solution_module": "OAI.Probability.ProjectionMoments.Main",
+  "theorems": 1,
+  "closure_modules": 46,
+  "closure_lines": 10724,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ProjectionVolume.json",
+  "solution_module": "OAI.Geometry.ProjectionVolume.ProductCounterexample",
+  "theorems": 1,
+  "closure_modules": 29,
+  "closure_lines": 3031,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/088.md"
+  ],
+  "papers": [
+   "A-product-counterexample-to-the-simplex-maximum-for-projection-body-volume-September-24-2026",
+   "Pettys-projection-volume-conjecture-in-dimensions-at-least-four-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "QACParity.json",
+  "solution_module": "OAI.InformationTheory.QuantumCircuit.Parity",
+  "theorems": 1,
+  "closure_modules": 21,
+  "closure_lines": 3634,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/274.md",
+   "lean/docs/274.md"
+  ],
+  "papers": [
+   "Product-projection-localization-and-the-QAC0-parity-lower-bound-September-24-2026",
+   "Regular-trajectories-pruning-and-quantum-parity-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "QuadricBundles.json",
+  "solution_module": "OAI.Geometry.QuadricBundles.Main",
+  "theorems": 1,
+  "closure_modules": 34,
+  "closure_lines": 12290,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/050.md"
+  ],
+  "papers": [
+   "ample-rank-two-bundles-on-the-quadric-surface-without-griffiths-positive-metrics-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "QuantitativeVanDerWaerden.json",
+  "solution_module": "OAI.Combinatorics.ProgressionColoring.Main",
+  "theorems": 1,
+  "closure_modules": 115,
+  "closure_lines": 14952,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/160.md"
+  ],
+  "papers": [
+   "Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "QuasiRiemannHypothesis.json",
+  "solution_module": "OAI.NumberTheory.DirichletL.Nonvanishing",
+  "theorems": 1,
+  "closure_modules": 2924,
+  "closure_lines": 489414,
+  "external_packages": [
+   "PrimeNumberTheoremAnd",
+   "RellichKondrachov"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/003.md"
+  ],
+  "papers": [
+   "The-Quasi-Riemann-Hypothesis-September-30-2026",
+   "Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "QuinticLienard.json",
+  "solution_module": "OAI.Analysis.LienardCycles.Main",
+  "theorems": 1,
+  "closure_modules": 146,
+  "closure_lines": 16805,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/143.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "RadialDensityInterval.json",
+  "solution_module": "OAI.Probability.RadialTransition.DensityInterval",
+  "theorems": 1,
+  "closure_modules": 104,
+  "closure_lines": 14434,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/228.md"
+  ],
+  "papers": [
+   "A-continuum-temperature-singularity-for-a-radial-pair-potential-September-24-2026",
+   "A-radial-continuum-phase-transition-with-algebraic-decay-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "RadialTransition.json",
+  "solution_module": "OAI.Probability.RadialTransition.Main",
+  "theorems": 1,
+  "closure_modules": 103,
+  "closure_lines": 14324,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/228.md"
+  ],
+  "papers": [
+   "A-continuum-temperature-singularity-for-a-radial-pair-potential-September-24-2026",
+   "A-radial-continuum-phase-transition-with-algebraic-decay-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "RamseyFive.json",
+  "solution_module": "OAI.Combinatorics.RamseyFive.Main",
+  "theorems": 1,
+  "closure_modules": 482,
+  "closure_lines": 74160,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/170.md"
+  ],
+  "papers": [
+   "Sharp-Logarithmic-Exponents-for-Fixed-Off-Diagonal-Ramsey-Numbers-September-24-2026",
+   "The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "RandomizedMeanPayoff.json",
+  "solution_module": "OAI.Computability.RandomMean.Main",
+  "theorems": 1,
+  "closure_modules": 89,
+  "closure_lines": 27444,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/104.md"
+  ],
+  "papers": [
+   "Deterministic-quasipolynomial-time-mean-payoff-games-September-25-2026",
+   "Randomized-quasipolynomial-time-mean-payoff-games-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "RationalHitting.json",
+  "solution_module": "OAI.Computability.RationalHitting.Main",
+  "theorems": 1,
+  "closure_modules": 53,
+  "closure_lines": 15357,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/116.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "RealL1Renorming.json",
+  "solution_module": "OAI.Analysis.LipschitzFree.Renorming",
+  "theorems": 1,
+  "closure_modules": 33,
+  "closure_lines": 4549,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/330.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "RecursivePotentials.json",
+  "solution_module": "OAI.Analysis.RecursivePotentials.Challenge",
+  "theorems": 1,
+  "closure_modules": 12,
+  "closure_lines": 10152,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/331.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ReflexiveFixedPoints.json",
+  "solution_module": "OAI.Analysis.Nonexpansive.Main",
+  "theorems": 1,
+  "closure_modules": 86,
+  "closure_lines": 11626,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/328.md"
+  ],
+  "papers": [
+   "Fixed-Points-of-Nonexpansive-Maps-in-Reflexive-Banach-Spaces-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "RegularParity.json",
+  "solution_module": "OAI.InformationTheory.QuantumCircuit.Main",
+  "theorems": 1,
+  "closure_modules": 22,
+  "closure_lines": 3680,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/274.md",
+   "lean/docs/274.md"
+  ],
+  "papers": [
+   "Product-projection-localization-and-the-QAC0-parity-lower-bound-September-24-2026",
+   "Regular-trajectories-pruning-and-quantum-parity-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "RelativeGeneration.json",
+  "solution_module": "OAI.Analysis.RelativeGeneration.Main",
+  "theorems": 1,
+  "closure_modules": 102,
+  "closure_lines": 36123,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/296.md"
+  ],
+  "papers": [
+   "Relative-generation-and-the-generator-problem-for-finite-factors-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "RieszQuantitative.json",
+  "solution_module": "OAI.Analysis.RieszRectifiability.Main",
+  "theorems": 1,
+  "closure_modules": 824,
+  "closure_lines": 66462,
+  "external_packages": [
+   "FixedPointTheorems"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/081.md"
+  ],
+  "papers": [
+   "Riesz-transforms-and-uniform-rectifiability-in-higher-codimension-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "Rokhlin.json",
+  "solution_module": "OAI.Dynamics.MultipleMixing.Main",
+  "theorems": 1,
+  "closure_modules": 13,
+  "closure_lines": 27902,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/145.md"
+  ],
+  "papers": [
+   "Rokhlins-multiple-mixing-problem-for-one-transformation-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "RuledCovering.json",
+  "solution_module": "OAI.Geometry.RuledCovering.Main",
+  "theorems": 1,
+  "closure_modules": 30,
+  "closure_lines": 4333,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/100.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "RyserCovering.json",
+  "solution_module": "OAI.Combinatorics.Ryser.Construction.Main",
+  "theorems": 1,
+  "closure_modules": 217,
+  "closure_lines": 26895,
+  "external_packages": [
+   "all"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/162.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-Rysers-Covering-Conjecture-September-23-2026",
+   "Balanced-Counterexamples-to-Rysers-Conjecture-at-Prime-Orders-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "RyserOddExtensions.json",
+  "solution_module": "OAI.Combinatorics.Ryser.OddExtensions",
+  "theorems": 1,
+  "closure_modules": 219,
+  "closure_lines": 27173,
+  "external_packages": [
+   "all"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/162.md"
+  ],
+  "papers": [
+   "A-Counterexample-to-Rysers-Covering-Conjecture-September-23-2026",
+   "Balanced-Counterexamples-to-Rysers-Conjecture-at-Prime-Orders-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SATComputability.json",
+  "solution_module": "OAI.Probability.SATComputability.Main",
+  "theorems": 1,
+  "closure_modules": 592,
+  "closure_lines": 88128,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/235.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SATSharpness.json",
+  "solution_module": "OAI.Probability.SATVariance.Sharpness",
+  "theorems": 1,
+  "closure_modules": 26,
+  "closure_lines": 5299,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/235.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SATVariance.json",
+  "solution_module": "OAI.Probability.SATVariance.Main",
+  "theorems": 1,
+  "closure_modules": 35,
+  "closure_lines": 6775,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/235.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SKBarriers.json",
+  "solution_module": "OAI.Probability.SKBarriers.Main",
+  "theorems": 1,
+  "closure_modules": 574,
+  "closure_lines": 57195,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/227.md"
+  ],
+  "papers": [
+   "Critical-slowing-down-in-the-Sherrington-Kirkpatrick-model-September-24-2026",
+   "Cutoff-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026",
+   "Stretched-exponential-barriers-for-typical-SK-initial-states-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SKFullSupport.json",
+  "solution_module": "OAI.Probability.SKSupport.Main",
+  "theorems": 1,
+  "closure_modules": 135,
+  "closure_lines": 20492,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/281.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SKHighTemperature.json",
+  "solution_module": "OAI.Probability.SKGap.Main",
+  "theorems": 1,
+  "closure_modules": 556,
+  "closure_lines": 100666,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/227.md"
+  ],
+  "papers": [
+   "Critical-slowing-down-in-the-Sherrington-Kirkpatrick-model-September-24-2026",
+   "Cutoff-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026",
+   "Stretched-exponential-barriers-for-typical-SK-initial-states-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SKRatio.json",
+  "solution_module": "OAI.Probability.SKRatio.Main",
+  "theorems": 1,
+  "closure_modules": 260,
+  "closure_lines": 45876,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/227.md"
+  ],
+  "papers": [
+   "Critical-slowing-down-in-the-Sherrington-Kirkpatrick-model-September-24-2026",
+   "Cutoff-throughout-the-high-temperature-Sherrington-Kirkpatrick-phase-September-24-2026",
+   "Stretched-exponential-barriers-for-typical-SK-initial-states-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SKValue.json",
+  "solution_module": "OAI.Probability.SKValue.Main",
+  "theorems": 1,
+  "closure_modules": 212,
+  "closure_lines": 30056,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/281.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SLELowerPositivity.json",
+  "solution_module": "OAI.Probability.SLE.LowerPositivity",
+  "theorems": 1,
+  "closure_modules": 65,
+  "closure_lines": 45168,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/230.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "Saxl.json",
+  "solution_module": "OAI.RepresentationTheory.Saxl.Main",
+  "theorems": 1,
+  "closure_modules": 38,
+  "closure_lines": 7596,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/205.md"
+  ],
+  "papers": [
+   "A-Cyclic-Polytabloid-Proof-of-Saxls-Conjecture-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SecondKahnKalai.json",
+  "solution_module": "OAI.Combinatorics.GraphThreshold.Main",
+  "theorems": 1,
+  "closure_modules": 37,
+  "closure_lines": 6790,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/176.md"
+  ],
+  "papers": [
+   "The-second-Kahn-Kalai-conjecture-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SelfSimilar.json",
+  "solution_module": "OAI.MeasureTheory.SelfSimilar.Main",
+  "theorems": 1,
+  "closure_modules": 57,
+  "closure_lines": 11335,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/148.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SelfSimilarCorollaries.json",
+  "solution_module": "OAI.MeasureTheory.SelfSimilar.DimensionCorollaries",
+  "theorems": 2,
+  "closure_modules": 64,
+  "closure_lines": 12157,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/148.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SensitivitySeparation.json",
+  "solution_module": "OAI.Combinatorics.Sensitivity.Separation",
+  "theorems": 1,
+  "closure_modules": 42,
+  "closure_lines": 3878,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/132.md"
+  ],
+  "papers": [
+   "A-superquadratic-separation-between-sensitivity-and-block-sensitivity-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SeparableQuotientNegative.json",
+  "solution_module": "OAI.Analysis.SeparableQuotients.Main",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 14229,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/323.md"
+  ],
+  "papers": [
+   "Relative-independence-of-the-separable-quotient-problem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SeymourSecondNeighborhood.json",
+  "solution_module": "OAI.Combinatorics.SecondNeighborhood.Main",
+  "theorems": 1,
+  "closure_modules": 43,
+  "closure_lines": 4904,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/173.md"
+  ],
+  "papers": [
+   "A-proof-of-Seymours-second-neighborhood-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SharpCAT0Filling.json",
+  "solution_module": "OAI.Geometry.CAT0Fillings.Main",
+  "theorems": 1,
+  "closure_modules": 330,
+  "closure_lines": 50549,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/337.md"
+  ],
+  "papers": [
+   "Sharp-integral-fillings-in-CAT(0)-spaces-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SharpLogRamsey.json",
+  "solution_module": "OAI.Combinatorics.SharpRamsey.Main",
+  "theorems": 1,
+  "closure_modules": 408,
+  "closure_lines": 64203,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/170.md"
+  ],
+  "papers": [
+   "Sharp-Logarithmic-Exponents-for-Fixed-Off-Diagonal-Ramsey-Numbers-September-24-2026",
+   "The-Sharp-Logarithmic-Exponent-of-r-5-t-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SharpThreshold.json",
+  "solution_module": "OAI.Combinatorics.SharpThreshold.Main",
+  "theorems": 1,
+  "closure_modules": 78,
+  "closure_lines": 7777,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/186.md"
+  ],
+  "papers": [
+   "A-Sharp-Threshold-Bound-for-Monotone-Graph-Properties-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ShortEgyptianFractions.json",
+  "solution_module": "OAI.NumberTheory.ShortEgyptian.Main",
+  "theorems": 1,
+  "closure_modules": 58,
+  "closure_lines": 8198,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/025.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SidorenkoCounterexample.json",
+  "solution_module": "OAI.Combinatorics.Sidorenko.RandomHost",
+  "theorems": 1,
+  "closure_modules": 35,
+  "closure_lines": 23796,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/161.md"
+  ],
+  "papers": [
+   "A-counterexample-to-Sidorenkos-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SiegelZeros.json",
+  "solution_module": "OAI.NumberTheory.SiegelZeros.Main",
+  "theorems": 2,
+  "closure_modules": 306,
+  "closure_lines": 70124,
+  "external_packages": [
+   "PrimeNumberTheoremAnd"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/003.md"
+  ],
+  "papers": [
+   "The-Quasi-Riemann-Hypothesis-September-30-2026",
+   "Uniform-exclusion-of-Landau-Siegel-zeros-October-1-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SignedFiniteBand.json",
+  "solution_module": "OAI.Analysis.SignedDisk.Main",
+  "theorems": 1,
+  "closure_modules": 39,
+  "closure_lines": 17146,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/085.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SignedSweepMoment.json",
+  "solution_module": "OAI.Probability.SignedSweeps.Main",
+  "theorems": 1,
+  "closure_modules": 174,
+  "closure_lines": 25952,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SimpleAmenable.json",
+  "solution_module": "OAI.GroupTheory.SimpleAmenable.Main",
+  "theorems": 1,
+  "closure_modules": 550,
+  "closure_lines": 85398,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/253.md"
+  ],
+  "papers": [
+   "An-Infinite-Finitely-Presented-Simple-Amenable-Group-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SimpleOvergroups.json",
+  "solution_module": "OAI.GroupTheory.SimpleOvergroups.Main",
+  "theorems": 1,
+  "closure_modules": 238,
+  "closure_lines": 91004,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/250.md"
+  ],
+  "papers": [
+   "A-universal-group-of-type-F-infinity-September-23-2026",
+   "Finite-algebraic-envelopes-and-the-Boone-Higman-conjecture-September-23-2026",
+   "Simple-F-infinity-overgroups-of-groups-with-decidable-word-problem-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SingleFold.json",
+  "solution_module": "OAI.NumberTheory.SingleFold.Main",
+  "theorems": 1,
+  "closure_modules": 28,
+  "closure_lines": 7626,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/242.md"
+  ],
+  "papers": [
+   "Single-fold-Diophantine-representations-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SingleLatticeCovering.json",
+  "solution_module": "OAI.Geometry.LatticeCovering.Main",
+  "theorems": 1,
+  "closure_modules": 41,
+  "closure_lines": 25954,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/092.md"
+  ],
+  "papers": [
+   "A-single-lattice-covering-bound-of-order-n-log-n-September-23-2026",
+   "Translative-covering-densities-of-order-n-log-n-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SingletonLoopMatching.json",
+  "solution_module": "OAI.Computability.LoopMatching.Endpoint",
+  "theorems": 1,
+  "closure_modules": 136,
+  "closure_lines": 17370,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/113.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SmoothInitialForm.json",
+  "solution_module": "OAI.Algebra.Determinantal.InitialForm",
+  "theorems": 1,
+  "closure_modules": 17,
+  "closure_lines": 6568,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/108.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SmoothObstruction.json",
+  "solution_module": "OAI.Dynamics.SmoothObstruction.Main",
+  "theorems": 1,
+  "closure_modules": 53,
+  "closure_lines": 30143,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/152.md"
+  ],
+  "papers": [
+   "A-finite-entropy-system-without-a-smooth-positive-volume-model-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SmoothYau.json",
+  "solution_module": "OAI.Geometry.SmoothYau.Main",
+  "theorems": 2,
+  "closure_modules": 436,
+  "closure_lines": 100081,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/350.md"
+  ],
+  "papers": [
+   "Power-law-violations-of-Yaus-nodal-upper-bound-September-23-2026",
+   "Sharp-nodal-length-on-smooth-surfaces-September-23-2026",
+   "Smooth-counterexamples-to-Yaus-nodal-upper-bound-in-dimensions-three-and-four-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SnakyCertificate.json",
+  "solution_module": "OAI.Combinatorics.SnakyCertificate.Main",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 20288,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/187.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SnakyConditional.json",
+  "solution_module": "OAI.GameTheory.SnakyConditional.Main",
+  "theorems": 1,
+  "closure_modules": 209,
+  "closure_lines": 38046,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/187.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SnakyTwentyOne.json",
+  "solution_module": "OAI.GameTheory.SnakyTwentyOne.Main",
+  "theorems": 1,
+  "closure_modules": 94,
+  "closure_lines": 71420,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/187.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SoftChannel204.json",
+  "solution_module": "OAI.InformationTheory.SoftChannel.Main",
+  "theorems": 1,
+  "closure_modules": 70,
+  "closure_lines": 11660,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/119.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SolenoidalSheetPrograms.json",
+  "solution_module": "OAI.MathematicalPhysics.SheetFlows.SheetProgram",
+  "theorems": 1,
+  "closure_modules": 26,
+  "closure_lines": 6770,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/376.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SphericalField.json",
+  "solution_module": "OAI.Probability.SphericalField.Main",
+  "theorems": 1,
+  "closure_modules": 142,
+  "closure_lines": 25160,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/222.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SpinAngle.json",
+  "solution_module": "OAI.RepresentationTheory.SpinAngle.TypeAngle",
+  "theorems": 1,
+  "closure_modules": 3,
+  "closure_lines": 5262,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SplitTangentIntegrability.json",
+  "solution_module": "OAI.Geometry.SplitTangent.RationalVariation",
+  "theorems": 1,
+  "closure_modules": 15,
+  "closure_lines": 17296,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/052.md"
+  ],
+  "papers": [
+   "Universal-cover-splitting-for-compact-Kahler-manifolds-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SquareDifference.json",
+  "solution_module": "OAI.Combinatorics.SquareDifference.Main",
+  "theorems": 1,
+  "closure_modules": 81,
+  "closure_lines": 24302,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/182.md"
+  ],
+  "papers": [
+   "A-power-saving-for-square-difference-free-sets-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SquareRootDegree.json",
+  "solution_module": "OAI.Combinatorics.BooleanFunctions.Main",
+  "theorems": 1,
+  "closure_modules": 21,
+  "closure_lines": 3662,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/192.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "StandardMapComponents.json",
+  "solution_module": "OAI.Dynamics.StandardMap.ComponentsMain",
+  "theorems": 1,
+  "closure_modules": 274,
+  "closure_lines": 55138,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/146.md"
+  ],
+  "papers": [
+   "Positive-Metric-Entropy-for-the-Standard-Map-at-Large-Parameters-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "StandardMapEntropy.json",
+  "solution_module": "OAI.Dynamics.StandardMap.EntropyEndpoint",
+  "theorems": 1,
+  "closure_modules": 205,
+  "closure_lines": 24888,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/146.md"
+  ],
+  "papers": [
+   "Positive-Metric-Entropy-for-the-Standard-Map-at-Large-Parameters-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "StandardMapLyapunov.json",
+  "solution_module": "OAI.Dynamics.StandardMap.EntropyLyapunov",
+  "theorems": 1,
+  "closure_modules": 211,
+  "closure_lines": 26229,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/146.md"
+  ],
+  "papers": [
+   "Positive-Metric-Entropy-for-the-Standard-Map-at-Large-Parameters-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SteinitzBergstrom.json",
+  "solution_module": "OAI.Analysis.Steinitz.Main",
+  "theorems": 1,
+  "closure_modules": 29,
+  "closure_lines": 15111,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/097.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "StrictMeans.json",
+  "solution_module": "OAI.Analysis.StrictMeans.Main",
+  "theorems": 1,
+  "closure_modules": 94,
+  "closure_lines": 15834,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/072.md"
+  ],
+  "papers": [
+   "A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026",
+   "Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "StrongKadisonKastler.json",
+  "solution_module": "OAI.Analysis.KadisonKastler.StrongStability",
+  "theorems": 1,
+  "closure_modules": 2652,
+  "closure_lines": 328712,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/289.md"
+  ],
+  "papers": [
+   "Universal-strong-Kadison-Kastler-stability-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "StrongThinTree.json",
+  "solution_module": "OAI.Combinatorics.ThinTrees.Main",
+  "theorems": 1,
+  "closure_modules": 72,
+  "closure_lines": 17435,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/174.md"
+  ],
+  "papers": [
+   "A-polynomial-time-construction-of-strong-thin-trees-September-23-2026",
+   "The-strong-thin-tree-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "StronglyRayleighDPP.json",
+  "solution_module": "OAI.Probability.StrongRayleigh.Main",
+  "theorems": 6,
+  "closure_modules": 107,
+  "closure_lines": 12217,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/231.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "StructuralCrouzeix.json",
+  "solution_module": "OAI.Analysis.StructuralCrouzeix.Endpoint",
+  "theorems": 1,
+  "closure_modules": 60,
+  "closure_lines": 15305,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/325.md"
+  ],
+  "papers": [
+   "A-direct-proof-of-the-complete-Crouzeix-inequality-September-26-2026",
+   "The-complete-Crouzeix-theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SubpolynomialLp.json",
+  "solution_module": "OAI.Analysis.LpDimension.Main",
+  "theorems": 1,
+  "closure_modules": 44,
+  "closure_lines": 7888,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/094.md"
+  ],
+  "papers": [
+   "Subpolynomial-dimension-reduction-in-Lp-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SubsphereCurrent.json",
+  "solution_module": "OAI.Probability.Subsphere.Main",
+  "theorems": 1,
+  "closure_modules": 25,
+  "closure_lines": 9995,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/140.md"
+  ],
+  "papers": [
+   "Localization-costs-and-information-growth-for-exact-Gaussian-observations-September-27-2026",
+   "Memory-and-precision-in-noiseless-Gaussian-regression-September-27-2026",
+   "Posterior-replicas-and-conditional-information-in-Gaussian-regression-September-27-2026",
+   "Projection-moments-positive-cap-domination-and-Riesz-estimates-on-the-sphere-September-27-2026",
+   "Replacing-Gaussian-observations-in-memory-constrained-inference-September-27-2026",
+   "Subsphere-methods-for-memory-sample-lower-bounds-in-noiseless-Gaussian-regression-September-27-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "Superstring.json",
+  "solution_module": "OAI.Computability.Superstring.Main",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 20412,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/128.md"
+  ],
+  "papers": [
+   "A-Polynomial-Time-2-Approximation-for-Shortest-Common-Superstring-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SurfaceImmersion.json",
+  "solution_module": "OAI.Geometry.SurfaceImmersion.Main",
+  "theorems": 1,
+  "closure_modules": 1883,
+  "closure_lines": 169748,
+  "external_packages": [
+   "SphereEversion"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/333.md"
+  ],
+  "papers": [
+   "Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SwitchChain.json",
+  "solution_module": "OAI.Probability.SwitchChain.Main",
+  "theorems": 3,
+  "closure_modules": 165,
+  "closure_lines": 22856,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/131.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "SymmetricDomains.json",
+  "solution_module": "OAI.Analysis.SymmetricDomains.Main",
+  "theorems": 1,
+  "closure_modules": 335,
+  "closure_lines": 49055,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/058.md"
+  ],
+  "papers": [
+   "Symmetry-of-semialgebraic-bounded-domains-with-compact-quotient-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SymmetricMahlerEquality.json",
+  "solution_module": "OAI.Analysis.Mahler.Classification",
+  "theorems": 1,
+  "closure_modules": 237,
+  "closure_lines": 28626,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/087.md"
+  ],
+  "papers": [
+   "Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026",
+   "The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026",
+   "The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "SymmetricPolar.json",
+  "solution_module": "OAI.Geometry.PolarProducts.Main",
+  "theorems": 1,
+  "closure_modules": 46,
+  "closure_lines": 12221,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/087.md"
+  ],
+  "papers": [
+   "Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026",
+   "The-Mahler-Conjecture-for-General-Convex-Bodies-September-22-2026",
+   "The-symmetric-Mahler-conjecture-and-its-equality-cases-September-22-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "Tachikawa.json",
+  "solution_module": "OAI.RingTheory.Tachikawa.Counterexample",
+  "theorems": 1,
+  "closure_modules": 31,
+  "closure_lines": 28973,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/199.md"
+  ],
+  "papers": [
+   "A-counterexample-to-Tachikawas-second-conjecture-September-23-2026",
+   "An-explicit-counterexample-to-the-Auslander-Reiten-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TalagrandDiscreteConvexity.json",
+  "solution_module": "OAI.Combinatorics.DiscreteConvexity.Main",
+  "theorems": 1,
+  "closure_modules": 36,
+  "closure_lines": 4295,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/175.md"
+  ],
+  "papers": [
+   "Integral-and-fractional-expectation-thresholds-are-equivalent-September-23-2026",
+   "Talagrands-discrete-convexity-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TalagrandExpectationThreshold.json",
+  "solution_module": "OAI.Combinatorics.ExpectationThreshold.Main",
+  "theorems": 1,
+  "closure_modules": 47,
+  "closure_lines": 4881,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/175.md"
+  ],
+  "papers": [
+   "Integral-and-fractional-expectation-thresholds-are-equivalent-September-23-2026",
+   "Talagrands-discrete-convexity-conjecture-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TamingCompatibility.json",
+  "solution_module": "OAI.Geometry.TamingCompatibility.Main",
+  "theorems": 1,
+  "closure_modules": 582,
+  "closure_lines": 83642,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/342.md"
+  ],
+  "papers": [
+   "Taming-implies-compatibility-on-four-manifolds-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ThomasonModelStructures.json",
+  "solution_module": "OAI.CategoryTheory.Thomason.RankedFaithfulness",
+  "theorems": 2,
+  "closure_modules": 85,
+  "closure_lines": 65369,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/317.md"
+  ],
+  "papers": [
+   "Thomason-Model-Structures-in-Every-Strict-Higher-Dimension-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ThompsonNonamenability.json",
+  "solution_module": "OAI.GroupTheory.Thompson.Main",
+  "theorems": 1,
+  "closure_modules": 68,
+  "closure_lines": 9525,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/248.md"
+  ],
+  "papers": [
+   "Thompsons-group-F-is-nonamenable-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ThorpFirstReciprocal.json",
+  "solution_module": "OAI.Probability.ThorpShuffle.FirstMain",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 8731,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ThorpRemaining.json",
+  "solution_module": "OAI.Probability.ThorpResults.FullDevelopment",
+  "theorems": 1,
+  "closure_modules": 92,
+  "closure_lines": 30666,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ThorpRouting.json",
+  "solution_module": "OAI.Probability.ThorpRouting.Main",
+  "theorems": 1,
+  "closure_modules": 170,
+  "closure_lines": 142315,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ThorpWeightedCompatibility.json",
+  "solution_module": "OAI.Probability.ThorpCompatibility.Main",
+  "theorems": 1,
+  "closure_modules": 34,
+  "closure_lines": 3375,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "ThreeMachine.json",
+  "solution_module": "OAI.Computability.Scheduling.Main",
+  "theorems": 1,
+  "closure_modules": 53,
+  "closure_lines": 18625,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/124.md"
+  ],
+  "papers": [
+   "A-polynomial-time-algorithm-for-three-machine-unit-job-scheduling-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ThreeStateSupercritical.json",
+  "solution_module": "OAI.Probability.ThreeState.Main",
+  "theorems": 2,
+  "closure_modules": 27,
+  "closure_lines": 7718,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/229.md"
+  ],
+  "papers": [
+   "The-exact-reconstruction-threshold-for-the-three-state-symmetric-channel-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ThreeStateTreeClauses.json",
+  "solution_module": "OAI.Probability.ThreeStateClauses.Main",
+  "theorems": 2,
+  "closure_modules": 31,
+  "closure_lines": 7823,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/229.md"
+  ],
+  "papers": [
+   "The-exact-reconstruction-threshold-for-the-three-state-symmetric-channel-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "ThreeTorus.json",
+  "solution_module": "OAI.Dynamics.ThreeTorus.Main",
+  "theorems": 1,
+  "closure_modules": 37,
+  "closure_lines": 33855,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/144.md"
+  ],
+  "papers": [
+   "A-smooth-three-torus-diffeomorphism-with-simple-Lebesgue-spectrum-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TingleySphereIsometry.json",
+  "solution_module": "OAI.Analysis.SphereIsometry.Main",
+  "theorems": 1,
+  "closure_modules": 67,
+  "closure_lines": 9340,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/322.md"
+  ],
+  "papers": [
+   "A-positive-solution-to-Tingleys-problem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TorsionFreeHyperbolic.json",
+  "solution_module": "OAI.GroupTheory.Hyperbolic.Main",
+  "theorems": 1,
+  "closure_modules": 29,
+  "closure_lines": 10766,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/252.md"
+  ],
+  "papers": [
+   "a-torsion-free-hyperbolic-group-that-is-not-residually-finite-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TorsionFreeZeroDivisors.json",
+  "solution_module": "OAI.Algebra.GroupRing.Main",
+  "theorems": 1,
+  "closure_modules": 123,
+  "closure_lines": 44463,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/196.md"
+  ],
+  "papers": [
+   "A-Torsion-Free-Group-Algebra-with-Zero-Divisors-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TotientAsymptotic.json",
+  "solution_module": "OAI.NumberTheory.TotientAsymptotic.UnconditionalMain",
+  "theorems": 4,
+  "closure_modules": 809,
+  "closure_lines": 73573,
+  "external_packages": [
+   "PrimeNumberTheoremAnd"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/024.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TotientCompanionZero.json",
+  "solution_module": "OAI.NumberTheory.TotientAsymptotic.Main",
+  "theorems": 1,
+  "closure_modules": 811,
+  "closure_lines": 73832,
+  "external_packages": [
+   "PrimeNumberTheoremAnd"
+  ],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/024.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TraceReconstruction.json",
+  "solution_module": "OAI.Probability.TraceReconstruction",
+  "theorems": 3,
+  "closure_modules": 31,
+  "closure_lines": 34015,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/122.md"
+  ],
+  "papers": [
+   "quantitative-lower-bounds-for-trace-reconstruction-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TreeEdit.json",
+  "solution_module": "OAI.Combinatorics.TreeEdit.TorusLowerBound",
+  "theorems": 1,
+  "closure_modules": 22,
+  "closure_lines": 5080,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/099.md"
+  ],
+  "papers": [
+   "Edit-Distance-in-l1-Matching-Bounds-up-to-Constants-in-the-Exponent-September-27-2026",
+   "Finite-Circle-Obstructions-Binary-Codes-and-Histogram-Embeddings-for-Edit-Distance-September-27-2026",
+   "Tree-Constructions-for-the-l1-Distortion-of-Binary-Edit-Distance-September-27-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TriangleFace.json",
+  "solution_module": "OAI.Combinatorics.TriangleFace.Main",
+  "theorems": 1,
+  "closure_modules": 37,
+  "closure_lines": 7457,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/113.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TriangleRemoval.json",
+  "solution_module": "OAI.Combinatorics.TriangleRemoval.Main",
+  "theorems": 1,
+  "closure_modules": 287,
+  "closure_lines": 34087,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/188.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TriangularCovering.json",
+  "solution_module": "OAI.Geometry.TriangularCovering.Main",
+  "theorems": 1,
+  "closure_modules": 9,
+  "closure_lines": 2256,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/100.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TriangularEnergy.json",
+  "solution_module": "OAI.Analysis.Triangular.Energy.Universal",
+  "theorems": 1,
+  "closure_modules": 227,
+  "closure_lines": 66159,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/090.md"
+  ],
+  "papers": [
+   "A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026",
+   "An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TriangularGaussian.json",
+  "solution_module": "OAI.Analysis.Triangular.GaussianMinorants",
+  "theorems": 1,
+  "closure_modules": 216,
+  "closure_lines": 64931,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/090.md"
+  ],
+  "papers": [
+   "A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026",
+   "An-atomic-certificate-for-triangular-lattice-universal-optimality-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TriangularHilbert.json",
+  "solution_module": "OAI.Analysis.TriangularHilbert.Main",
+  "theorems": 1,
+  "closure_modules": 105,
+  "closure_lines": 10966,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/082.md"
+  ],
+  "papers": [
+   "The-maximal-triangular-Hilbert-transform-at-the-symmetric-point-September-24-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TruffetCounterexample.json",
+  "solution_module": "OAI.Optimization.Tropical.TruffetCounterexample",
+  "theorems": 1,
+  "closure_modules": 2,
+  "closure_lines": 271,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/104.md"
+  ],
+  "papers": [
+   "Deterministic-quasipolynomial-time-mean-payoff-games-September-25-2026",
+   "Randomized-quasipolynomial-time-mean-payoff-games-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "TwoWayComplementation.json",
+  "solution_module": "OAI.Combinatorics.TwoWayAutomata.Main",
+  "theorems": 1,
+  "closure_modules": 19,
+  "closure_lines": 4107,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/129.md"
+  ],
+  "papers": [
+   "An-exponential-state-lower-bound-for-two-way-nondeterministic-complementation-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TwoWayDeterminization.json",
+  "solution_module": "OAI.Combinatorics.TwoWayAutomata.ExplicitFamily",
+  "theorems": 1,
+  "closure_modules": 41,
+  "closure_lines": 8518,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/129.md"
+  ],
+  "papers": [
+   "An-exponential-state-lower-bound-for-two-way-nondeterministic-complementation-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "TypeSystemNormalization.json",
+  "solution_module": "OAI.Computability.TypeSystem.Normalization",
+  "theorems": 1,
+  "closure_modules": 33,
+  "closure_lines": 29580,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/245.md"
+  ],
+  "papers": [
+   "Weak-and-strong-normalization-in-pure-type-systems-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "UniformCommutator.json",
+  "solution_module": "OAI.Analysis.Commutator.Main",
+  "theorems": 1,
+  "closure_modules": 656,
+  "closure_lines": 67912,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/288.md"
+  ],
+  "papers": [
+   "Kadisons-similarity-theorem-through-uniform-derivation-estimates-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "UniformGamma.json",
+  "solution_module": "OAI.Analysis.TracialSplitting.Challenge",
+  "theorems": 1,
+  "closure_modules": 51,
+  "closure_lines": 17353,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/291.md"
+  ],
+  "papers": [
+   "Tracial-projection-methods-and-uniform-property-Gamma-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "UniformKServer.json",
+  "solution_module": "OAI.Combinatorics.UniformKServer.Main",
+  "theorems": 1,
+  "closure_modules": 410,
+  "closure_lines": 50670,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/110.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "UniformSparsestCut.json",
+  "solution_module": "OAI.Combinatorics.SparsestCut.Main",
+  "theorems": 1,
+  "closure_modules": 55,
+  "closure_lines": 9989,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/117.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "UniqueGamesTheorem.json",
+  "solution_module": "OAI.Computability.UniqueGames.Main",
+  "theorems": 1,
+  "closure_modules": 478,
+  "closure_lines": 187260,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/102.md"
+  ],
+  "papers": [
+   "A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026",
+   "Constant-factor-hardness-of-Min-UnCut-September-23-2026",
+   "Constant-factor-hardness-of-directed-feedback-vertex-set-September-23-2026",
+   "The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026",
+   "The-Unique-Games-Theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "UniversalFInfinity.json",
+  "solution_module": "OAI.GroupTheory.UniversalGroup.Main",
+  "theorems": 1,
+  "closure_modules": 50,
+  "closure_lines": 20041,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/250.md"
+  ],
+  "papers": [
+   "A-universal-group-of-type-F-infinity-September-23-2026",
+   "Finite-algebraic-envelopes-and-the-Boone-Higman-conjecture-September-23-2026",
+   "Simple-F-infinity-overgroups-of-groups-with-decidable-word-problem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "UniversalTensorSquares.json",
+  "solution_module": "OAI.RepresentationTheory.UniversalSquare.Main",
+  "theorems": 1,
+  "closure_modules": 573,
+  "closure_lines": 217758,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/205.md"
+  ],
+  "papers": [
+   "A-Cyclic-Polytabloid-Proof-of-Saxls-Conjecture-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "VariableWL.json",
+  "solution_module": "OAI.Combinatorics.VariableWL.Completeness",
+  "theorems": 1,
+  "closure_modules": 61,
+  "closure_lines": 24663,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/133.md"
+  ],
+  "papers": [
+   "Parity-lifts-and-bounded-treewidth-witnesses-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "The-complexity-of-identifying-a-graph-by-Weisfeiler-Leman-refinement-September-25-2026",
+   "Unconditional-time-lower-bounds-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "Variable-dimension-Weisfeiler-Leman-equivalence-on-general-and-subcubic-graphs-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "VelocityHemisphere.json",
+  "solution_module": "OAI.Probability.Ballisticity.VelocityHemisphere",
+  "theorems": 1,
+  "closure_modules": 585,
+  "closure_lines": 117424,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/220.md"
+  ],
+  "papers": [
+   "A-directional-zero-one-law-under-strict-ellipticity-September-23-2026",
+   "Directional-transience-implies-ballisticity-September-23-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "VertexAlgebraNet.json",
+  "solution_module": "OAI.RepresentationTheory.VertexAlgebra.MinimalComparator",
+  "theorems": 1,
+  "closure_modules": 77,
+  "closure_lines": 28711,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/280.md"
+  ],
+  "papers": [
+   "Strongly-rational-unitary-vertex-operator-algebras-and-conformal-nets-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "VertexCover.json",
+  "solution_module": "OAI.Computability.VertexCover.Main",
+  "theorems": 2,
+  "closure_modules": 351,
+  "closure_lines": 66262,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/102.md"
+  ],
+  "papers": [
+   "A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026",
+   "Constant-factor-hardness-of-Min-UnCut-September-23-2026",
+   "Constant-factor-hardness-of-directed-feedback-vertex-set-September-23-2026",
+   "The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026",
+   "The-Unique-Games-Theorem-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "VlasovMaxwell.json",
+  "solution_module": "OAI.Analysis.VlasovMaxwell.Main",
+  "theorems": 1,
+  "closure_modules": 207,
+  "closure_lines": 90200,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/362.md"
+  ],
+  "papers": [
+   "Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "WLIdentification.json",
+  "solution_module": "OAI.Computability.WLIdentification.Main",
+  "theorems": 1,
+  "closure_modules": 67,
+  "closure_lines": 16964,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/133.md"
+  ],
+  "papers": [
+   "Parity-lifts-and-bounded-treewidth-witnesses-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "The-complexity-of-identifying-a-graph-by-Weisfeiler-Leman-refinement-September-25-2026",
+   "Unconditional-time-lower-bounds-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "Variable-dimension-Weisfeiler-Leman-equivalence-on-general-and-subcubic-graphs-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "WeakHessian.json",
+  "solution_module": "OAI.Geometry.WeakHessian.Main",
+  "theorems": 1,
+  "closure_modules": 542,
+  "closure_lines": 66084,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/356.md"
+  ],
+  "papers": [],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "WeakMTWGlobalSupport.json",
+  "solution_module": "OAI.Geometry.WeakMTW.Main",
+  "theorems": 1,
+  "closure_modules": 210,
+  "closure_lines": 19673,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/360.md"
+  ],
+  "papers": [
+   "Global-Support-and-Convex-Injectivity-Domains-under-Weak-MTW-September-25-2026",
+   "Uniform-Bi-Holder-Transport-from-Weak-MTW-September-25-2026"
+  ],
+  "in_yaml_main_results": true
+ },
+ {
+  "config": "WeightedSweepMoments.json",
+  "solution_module": "OAI.Probability.CubeShuffle.WeightedMoments",
+  "theorems": 1,
+  "closure_modules": 40,
+  "closure_lines": 17423,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/238.md"
+  ],
+  "papers": [
+   "Compatibility-entropy-and-the-spectrum-of-a-Thorp-sweep-September-26-2026",
+   "Conditional-permutations-in-a-revealed-switching-environment-September-26-2026",
+   "Optimal-order-mixing-of-the-Thorp-shuffle-September-26-2026",
+   "Random-subspace-tests-and-trace-smoothing-for-coordinate-sweeps-September-26-2026",
+   "Routing-densities-and-representation-contraction-for-Thorp-sweeps-September-26-2026",
+   "Row-column-symmetry-and-contraction-of-coordinate-sweeps-September-26-2026",
+   "Signed-tensor-densities-and-diagram-budgets-for-coordinate-sweeps-September-26-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "WeisfeilerLeman.json",
+  "solution_module": "OAI.Computability.WeisfeilerLeman.Main",
+  "theorems": 1,
+  "closure_modules": 43,
+  "closure_lines": 19615,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/133.md"
+  ],
+  "papers": [
+   "Parity-lifts-and-bounded-treewidth-witnesses-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "The-complexity-of-identifying-a-graph-by-Weisfeiler-Leman-refinement-September-25-2026",
+   "Unconditional-time-lower-bounds-for-Weisfeiler-Leman-equivalence-September-25-2026",
+   "Variable-dimension-Weisfeiler-Leman-equivalence-on-general-and-subcubic-graphs-September-25-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "WitnessedChoice.json",
+  "solution_module": "OAI.Computability.WitnessedChoice.Main",
+  "theorems": 1,
+  "closure_modules": 27,
+  "closure_lines": 26408,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/243.md"
+  ],
+  "papers": [
+   "Choiceless-polynomial-time-with-counting-does-not-capture-polynomial-time-September-23-2026",
+   "Witnessed-symmetric-choice-is-strictly-stronger-than-choiceless-polynomial-time-with-counting-September-24-2026"
+  ],
+  "in_yaml_main_results": false
+ },
+ {
+  "config": "YauCounterexample.json",
+  "solution_module": "OAI.Geometry.NodalSets.Main",
+  "theorems": 1,
+  "closure_modules": 1068,
+  "closure_lines": 75841,
+  "external_packages": [],
+  "unresolved_local": [],
+  "challenge_external": [],
+  "docs": [
+   "lean/docs/350.md"
+  ],
+  "papers": [
+   "Power-law-violations-of-Yaus-nodal-upper-bound-September-23-2026",
+   "Sharp-nodal-length-on-smooth-surfaces-September-23-2026",
+   "Smooth-counterexamples-to-Yaus-nodal-upper-bound-in-dimensions-three-and-four-September-23-2026"
+  ],
+  "in_yaml_main_results": true
+ }
+]
