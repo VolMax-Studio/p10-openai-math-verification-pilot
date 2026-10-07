@@ -945,6 +945,36 @@
    "group": "ENV",
    "status": "PASS",
    "detail": ""
+  },
+  {
+   "id": "P1.profile_hash:profiles/minimal/lakefile.toml",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P1.profile_hash:profiles/minimal/lake-manifest.json",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P2.profile_manifest_entries_equal_frozen_upstream",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P3.profile_mathlib_rev_equal_lock",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P4.profile_lakefile_requires_only_mathlib",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
   }
  ]
 }

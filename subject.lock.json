@@ -517,6 +517,13 @@
   "mathlib_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
   "mathlib_rev_note": "d13f23b7 is 'chore: bump toolchain to v4.34.1' (2026-09-24T22:34+02:00); its own lake-manifest pins match the 8 inherited Mathlib deps in upstream's manifest (evidence/discovery/dependency_provenance.md)"
  },
+ "p10_profile": {
+  "note": "P10-AUTHORED files (not upstream artifacts) used to build the InfiniteMatroid closure without the 30-package upstream lakefile. Stage A (P1-P4) checks their hashes and derives their meaning from the frozen upstream manifest.",
+  "files_sha256": {
+   "profiles/minimal/lakefile.toml": "2d1fcec67c092b4768de22507c3b63fc1c268743fe9c3fb7a072cced8abf9f9a",
+   "profiles/minimal/lake-manifest.json": "fc1c3ed8b3852dab03b7b34351a79e9369a0db5255401da41903389151cd8eb4"
+  }
+ },
  "verifier_tooling": {
   "upstream_as_is": {
    "comparator": null,

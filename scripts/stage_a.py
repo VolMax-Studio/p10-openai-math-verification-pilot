@@ -9,7 +9,7 @@ Not derivable from the commit (separate trust roots): the FROZEN_COMMIT constant
 repository's git history (it identifies which upstream commit is frozen); SHA-1 collision resistance of git object ids.
 Exit: 0 all checks pass; 4 any check failed. PASS = provenance only.
 """
-import hashlib, json, os, re, subprocess, sys, zlib
+import pathlib, hashlib, json, os, re, subprocess, sys, zlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from inspect_candidates import strip, families_from_text, yaml_from_text, IMPORT, NOISE
 
@@ -177,6 +177,18 @@ def run(repo, lock_path):
         chk("E3.lakefile_requires==manifest", "ENV", all(mrev.get(n) == r for n, r in req.items()) and len(req) == 30, f"{len(req)} direct requires")
         chk("E4.manifest_pins==lock", "ENV", mrev == {n: v["rev"] for n, v in env["dependency_pins"].items()}, "")
     except Exception as e: chk("E*.environment", "ENV", False, repr(e))
+    # P10-authored minimal profile: hashes from the lock; meaning derived from the frozen upstream manifest
+    try:
+        root = pathlib.Path(__file__).resolve().parent.parent
+        prof = lock["p10_profile"]["files_sha256"]; raw = {k: (root / k).read_bytes() for k in prof}
+        for k, h in prof.items(): chk(f"P1.profile_hash:{k}", "PROFILE", hashlib.sha256(raw[k]).hexdigest() == h, "")
+        mine = json.loads(raw["profiles/minimal/lake-manifest.json"]); lf = raw["profiles/minimal/lakefile.toml"].decode()
+        up = {p["name"]: p for p in man["packages"]}
+        chk("P2.profile_manifest_entries_equal_frozen_upstream", "PROFILE", all(up.get(e["name"]) == e for e in mine["packages"]), "")
+        mr = [e["rev"] for e in mine["packages"] if e["name"] == "mathlib"]
+        chk("P3.profile_mathlib_rev_equal_lock", "PROFILE", mr == [env["mathlib_rev"]] and f'rev = "{env["mathlib_rev"]}"' in lf, "")
+        chk("P4.profile_lakefile_requires_only_mathlib", "PROFILE", len(re.findall(r"^\[\[require\]\]", lf, re.M)) == 1 and not re.search(r"^\s*(path|dir)\s*=", lf, re.M), "")
+    except Exception as e: chk("P*.profile", "PROFILE", False, repr(e))
     return res
 
 def main():

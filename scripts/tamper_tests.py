@@ -6,9 +6,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 root, lockp, outp = sys.argv[1:4]
 lock = json.load(open(lockp)); subj = lock["subject"]
 tmp = tempfile.mkdtemp(prefix="p10-tamper-"); copy = os.path.join(tmp, "up"); shutil.copytree(root, copy, symlinks=True)
+p10 = os.path.join(tmp, "p10"); os.makedirs(p10)  # private copy of scripts/ and profiles/ so profile tampering never touches the repo
+shutil.copytree(HERE, os.path.join(p10, "scripts")); shutil.copytree(os.path.join(HERE, "..", "profiles"), os.path.join(p10, "profiles"))
 def stage_a(lock_file=lockp):
     jp = os.path.join(tmp, "r.json")
-    p = subprocess.run([sys.executable, "-I", os.path.join(HERE, "stage_a.py"), copy, lock_file, "--json", jp], capture_output=True, text=True)
+    p = subprocess.run([sys.executable, "-I", os.path.join(p10, "scripts", "stage_a.py"), copy, lock_file, "--json", jp], capture_output=True, text=True)
     r = json.load(open(jp))
     return p.returncode, [c["id"] for c in r["checks"] if c["status"] == "FAIL"], len(r["checks"])
 def mutate(rel, fn):
@@ -119,6 +121,22 @@ open(os.path.join(d, oid[2:]), "wb").write(zlib.compress(f"blob {len(bad)}\0".en
 rc, failed, n = stage_a()
 tests.append({"test": "T24 object store: loose object with wrong content planted under the real blob id", "mutated": "<.git/objects>", "stage_a_exit": rc, "detected": rc != 0, "failed_checks": failed[:6], "failed_checks_total": len(failed), "checks_run": n, "expected": "any failure (re-hash) or NEUTRALIZED if git prefers the intact packed copy", "outcome_as_expected": True, "observed_ok": True, "note": "outcome recorded as observed; either a re-verification failure or the genuine packed object being used is acceptable, a PASS using the planted bytes is not (the working copy would then differ from them and A2 fails)"})
 os.remove(os.path.join(d, oid[2:]))
+# T25-T29: P10-authored profile files (live in the P10 repo, not in the frozen upstream tree)
+PL, PM = "profiles/minimal/lakefile.toml", "profiles/minimal/lake-manifest.json"
+def prof_case(name, rel, fn, expect, forge=False):
+    fp = os.path.join(p10, rel); orig = open(fp, "rb").read(); open(fp, "wb").write(fn(orig)); lf = lockp
+    if forge:
+        l = json.load(open(lockp)); l["p10_profile"]["files_sha256"][rel] = hashlib.sha256(open(fp, "rb").read()).hexdigest()
+        lf = os.path.join(tmp, "forgedp.json"); json.dump(l, open(lf, "w"))
+    rc, failed, n = stage_a(lf); open(fp, "wb").write(orig)
+    tests.append({"test": name, "mutated": rel, "stage_a_exit": rc, "detected": rc != 0, "failed_checks": failed[:6], "failed_checks_total": len(failed), "checks_run": n, "expected": expect,
+                  "outcome_as_expected": rc != 0 and any(f.startswith(expect) for f in failed), "note": "forged lock hash" if forge else ""})
+mrev = lock["environment_layer"]["mathlib_rev"].encode()
+prof_case("T25 profile lakefile +1 byte", PL, append1, "P1.profile_hash:" + PL)
+prof_case("T26 profile manifest +1 byte", PM, append1, "P1.profile_hash:" + PM)
+prof_case("T27 profile manifest: Mathlib rev changed AND lock hash forged", PM, lambda b: b.replace(mrev, mrev[:-1] + b"0" if mrev[-1:] != b"0" else mrev[:-1] + b"1", 1), "P2.", forge=True)
+prof_case("T28 profile lakefile: Mathlib rev changed AND lock hash forged", PL, lambda b: b.replace(mrev, mrev[:-1] + b"0" if mrev[-1:] != b"0" else mrev[:-1] + b"1", 1), "P3.", forge=True)
+prof_case("T29 profile lakefile: extra [[require]] added AND lock hash forged", PL, lambda b: b + b'\n[[require]]\nname = "evil"\ngit = "https://example.invalid/evil.git"\nrev = "0"\n', "P4.", forge=True)
 # HEAD moved (last: modifies the temp repo)
 subprocess.run(["git", "-C", copy, "-c", "user.name=t", "-c", "user.email=t@t", "commit", "-q", "--allow-empty", "-m", "moved"], check=True, capture_output=True)
 rc, failed, n = stage_a()

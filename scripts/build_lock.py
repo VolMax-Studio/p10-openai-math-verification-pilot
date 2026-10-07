@@ -114,6 +114,9 @@ def main():
         "dependency_pins": deps,
         "mathlib_rev": deps["mathlib"]["rev"],
         "mathlib_rev_note": "d13f23b7 is 'chore: bump toolchain to v4.34.1' (2026-09-24T22:34+02:00); its own lake-manifest pins match the 8 inherited Mathlib deps in upstream's manifest (evidence/discovery/dependency_provenance.md)"},
+      "p10_profile": {
+        "note": "P10-AUTHORED files (not upstream artifacts) used to build the InfiniteMatroid closure without the 30-package upstream lakefile. Stage A (P1-P4) checks their hashes and derives their meaning from the frozen upstream manifest.",
+        "files_sha256": {p: hashlib.sha256(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), p), "rb").read()).hexdigest() for p in ("profiles/minimal/lakefile.toml", "profiles/minimal/lake-manifest.json")}},
       "verifier_tooling": {"upstream_as_is": {"comparator": None, "lean4export": None, "landrun": None,
                                "status": "NOT DEMONSTRATED: exact verifier implementation used upstream (no revision recoverable; see evidence/discovery/comparator_provenance.md)"},
                            "p10_frozen_profile": "profiles/verifier_profiles.json#p10-frozen-v1"},
