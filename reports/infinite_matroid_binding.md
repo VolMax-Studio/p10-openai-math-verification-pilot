@@ -66,7 +66,7 @@ with challenge-local `abbrev D := (m : ℕ) × ((Fin m → Bool) → Bool)`, `ab
 | challenge theorem ↔ solution theorem (same statement, same constants it depends on) | Comparator compares exported kernel terms (`compareAt`) | N (not run) |
 | solution proof checked by kernel; axioms ⊆ `permitted_axioms` | Lean kernel + Comparator axiom check | N |
 | config → challenge/solution module names, theorem name | Comparator reads `InfiniteMatroid.json` | consistency checked by Stage A (S4/S5/S6); enforcement N |
-| bytes frozen | sha256 in lock; Stage A | **demonstrated for provenance only**: `evidence/stage_a/stage_a_baseline.json` (83 checks pass); 12/12 one-byte mutations, deletion, injected patch, moved HEAD, and two forged-lock cases detected (`tamper_tests.json`); one *limit* case (T17: consistent forged lock) not detectable by design |
+| bytes frozen | sha256 in lock; Stage A | **demonstrated for provenance only**: `evidence/stage_a/stage_a_baseline.json` (all checks pass; root of trust = frozen commit, objects re-hashed); 12/12 one-byte mutations, deletion, injected patch, moved HEAD, forged lock+file cases and lock-only forgeries detected (`tamper_tests.json`, 25 tests); the earlier limit case (T17: edited statement + consistently forged lock) is now rejected because expected hashes are derived from the frozen git commit (see `evidence/stage_a/`) |
 `definition_names` is empty: all definitions are ordinary (non-hole) definitions; whether Comparator compares them structurally through the theorem's dependency closure rather than by name is N (not read in Comparator's source).
 
 ---
@@ -123,7 +123,7 @@ Steps 1 is demonstrated; 2–3 are executable-but-unexecuted; 4–8 are not mach
 
 ---
 ## OPEN RISKS
-1. **Statement drift risk (high, unmitigated by upstream).** Docs/yaml/CONTENTS are prose; if a challenge were edited to something weaker, Comparator would still pass against the (equally edited) solution. Only the frozen hash + human audit of E5 catches that. Stage A T17 shows this limit explicitly.
+1. **Statement drift risk (high, unmitigated by upstream).** Docs/yaml/CONTENTS are prose; if a challenge were edited to something weaker, Comparator would still pass against the (equally edited) solution. Stage A now detects any deviation from the frozen upstream commit (T17), but upstream itself offers no check that the prose matches the Lean statement; that remains a human audit of E5.
 2. **Trust in challenge definitions.** The statement's meaning rests on 4 challenge-local definitions (`D`, `E`, `contractOnto`, `HasPackingCovering`) plus Mathlib. A subtle mismatch with the paper (e.g. in `Spanning`/`↾`) would make `main` true but off-target; Comparator cannot detect that.
 3. **Headline vs. unit mismatch.** The manuscript headlines include corollaries that sit in a *different* Comparator unit. A report that says "family 185 verified" from `InfiniteMatroid` alone would over-claim.
 4. **Verifier identity.** Upstream's Comparator/lean4export/landrun revisions unrecoverable; the P10 profile is a new environment and must always be labelled as independent verification, never reproduction.

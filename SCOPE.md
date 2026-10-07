@@ -5,7 +5,7 @@ Demonstrate **separately**, never as one aggregate PASS:
 
 | Stage | Question | Status |
 |---|---|---|
-| A. Provenance binding | Do the exact frozen files (whole binding chain) match the lock; do closure and metadata cross-checks hold? | **executed: PASS (provenance only)**; tamper tests 19/19 as expected (`evidence/stage_a/`) |
+| A. Provenance binding | Do the exact frozen files (whole binding chain) match the lock; do closure and metadata cross-checks hold? | **executed: PASS (provenance only)**; tamper tests 25/25 as expected; expected hashes derived from the frozen git commit (lock is a manifest, not the authority) (`evidence/stage_a/`) |
 | B. Lean build | Does the selected solution build under the frozen toolchain/dependencies? | implemented (never run to success); ENVIRONMENT BLOCKED here |
 | C. Comparator verification | Does Comparator accept the solution for the intended challenge/config? | implemented (never run to success); ENVIRONMENT BLOCKED |
 | D. Tamper rejection | Does at least one controlled mutation of theorem/solution/binding fail Comparator? (4 mutations defined; Stage-A byte-tamper is separate) | implemented (never run to success); NOT EXECUTED |

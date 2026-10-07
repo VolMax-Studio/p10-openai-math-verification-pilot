@@ -67,8 +67,10 @@ def config_docs(tree):
     return out
 
 def families(tree):
+    return families_from_text(open(os.path.join(tree.root, "CONTENTS.md")).read())
+
+def families_from_text(t):
     """CONTENTS.md: '**NNN. Title.** headline ([Lean](lean/docs/NNN.md))' followed by that family's manuscripts."""
-    t = open(os.path.join(tree.root, "CONTENTS.md")).read()
     parts = re.split(r"^\*\*(\d{3})\. ", t, flags=re.M)
     out = {}
     for i in range(1, len(parts), 2):
@@ -80,7 +82,9 @@ def families(tree):
     return out
 
 def yaml_facts(tree):
-    t = open(os.path.join(tree.lean, "formalization.yaml")).read()
+    return yaml_from_text(open(os.path.join(tree.lean, "formalization.yaml")).read())
+
+def yaml_from_text(t):
     mr = re.findall(r"- comparator_config: (\S+)\n\s+declaration: (\S+)\n\s+file: (\S+)", t)
     return {
         "yaml_version": re.search(r'^version: "(.*)"', t, re.M).group(1),

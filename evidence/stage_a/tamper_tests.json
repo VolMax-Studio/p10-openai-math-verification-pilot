@@ -3,8 +3,8 @@
  "kind": "tamper tests on a temporary copy of the pinned checkout",
  "lock": "subject.lock.json",
  "summary": {
-  "tests": 19,
-  "as_expected": 19,
+  "tests": 25,
+  "as_expected": 25,
   "one_byte_mutations_detected": 12
  },
  "tests": [
@@ -16,7 +16,7 @@
    "detected": false,
    "failed_checks": [],
    "failed_checks_total": 0,
-   "checks_run": 83,
+   "checks_run": 157,
    "expected": "",
    "outcome_as_expected": true,
    "note": ""
@@ -28,11 +28,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean"
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -43,11 +43,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.json"
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.json"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.json",
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.json",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -58,11 +58,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean"
+    "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -73,11 +73,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean"
+    "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -88,11 +88,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/docs/185.md"
+    "A2.worktree:lean/docs/185.md"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/docs/185.md",
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/docs/185.md",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -103,11 +103,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/formalization.yaml"
+    "A2.worktree:lean/formalization.yaml"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:",
+   "checks_run": 157,
+   "expected": "A2.worktree:",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -118,11 +118,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:CONTENTS.md"
+    "A2.worktree:CONTENTS.md"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:CONTENTS.md",
+   "checks_run": 157,
+   "expected": "A2.worktree:CONTENTS.md",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -133,11 +133,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf"
+    "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+   "checks_run": 157,
+   "expected": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -148,11 +148,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex"
+    "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:",
+   "checks_run": 157,
+   "expected": "A2.worktree:",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -163,12 +163,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/lean-toolchain",
-    "E1.toolchain"
+    "A2.worktree:lean/lean-toolchain"
    ],
-   "failed_checks_total": 2,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/lean-toolchain",
+   "failed_checks_total": 1,
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/lean-toolchain",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -179,14 +178,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/lake-manifest.json",
-    "E2.mathlib_rev",
-    "E3.lakefile_requires==manifest",
-    "E4.manifest_pins==lock"
+    "A2.worktree:lean/lake-manifest.json"
    ],
-   "failed_checks_total": 4,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/lake-manifest.json",
+   "failed_checks_total": 1,
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/lake-manifest.json",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -197,11 +193,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/patches/AINTLIB-lean4341.patch"
+    "A2.worktree:lean/patches/AINTLIB-lean4341.patch"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/patches/AINTLIB-lean4341.patch",
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/patches/AINTLIB-lean4341.patch",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -211,12 +207,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
-    "S5.challenge_declares_main_with_sorry"
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean"
    ],
-   "failed_checks_total": 2,
-   "checks_run": 83,
-   "expected": "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "failed_checks_total": 1,
+   "checks_run": 157,
+   "expected": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -226,11 +221,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "E5.patch_set"
+    "A2.worktree_membership:patches"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "E5.patch_set",
+   "checks_run": 157,
+   "expected": "A2.worktree_membership:patches",
    "outcome_as_expected": true,
    "note": ""
   },
@@ -241,13 +236,14 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A3.closure_set"
+    "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+    "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean"
    ],
-   "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A3.closure_set",
+   "failed_checks_total": 2,
+   "checks_run": 157,
+   "expected": "R2.lock_hash:",
    "outcome_as_expected": true,
-   "note": "hash check passes by construction; closure recomputation catches it"
+   "note": "lock forged to match the edited file: R2 compares the lock to the frozen commit and fails"
   },
   {
    "bytes_changed": 1,
@@ -256,26 +252,112 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "S3.yaml_main_results==config"
+    "R2.lock_hash:lean/formalization.yaml",
+    "A2.worktree:lean/formalization.yaml"
    ],
-   "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "S3.yaml_main_results==config",
+   "failed_checks_total": 2,
+   "checks_run": 157,
+   "expected": "R2.lock_hash:",
    "outcome_as_expected": true,
-   "note": "structural cross-check catches a self-consistent metadata edit"
+   "note": "self-consistent metadata+lock edit is rejected against the frozen commit"
   },
   {
    "bytes_changed": -2,
-   "test": "T17 LIMIT: challenge statement edited AND lock forged consistently",
+   "test": "T17 (formerly the LIMIT case) challenge statement edited AND lock forged consistently",
    "mutated": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+    "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 157,
+   "expected": "R2.lock_hash:",
+   "outcome_as_expected": true,
+   "note": "CLOSES the earlier limit: the forged lock no longer authenticates the edited statement because expected hashes are derived from the frozen commit"
+  },
+  {
+   "test": "T19 lock names a different upstream commit",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R0.lock_commit_is_frozen_commit"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 157,
+   "expected": "R0.lock_commit_is_frozen_commit",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T20 lock drops a closure module (working copy untouched)",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A3.closure_set"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 157,
+   "expected": "A3.closure_set",
+   "outcome_as_expected": true,
+   "note": "membership is derived from the frozen tree, not from the lock"
+  },
+  {
+   "test": "T21 lock hash for config edited (working copy untouched)",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:lean/ComparatorChallenges/InfiniteMatroid.json"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 157,
+   "expected": "R2.lock_hash:",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T22 lock adds a manuscript file absent from the frozen tree",
+   "mutated": "<lock>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/injected.tex",
+    "R3.manuscript_membership"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 158,
+   "expected": "R3.manuscript_membership",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T23 git-replace ref substitutes the challenge blob; working copy untouched",
+   "mutated": "<object store refs>",
    "stage_a_exit": 0,
    "detected": false,
    "failed_checks": [],
    "failed_checks_total": 0,
-   "checks_run": 83,
-   "expected": "NOT_DETECTED_BY_DESIGN",
+   "checks_run": 157,
+   "expected": "NEUTRALIZED (replace refs ignored; canonical bytes still re-verified)",
    "outcome_as_expected": true,
-   "note": "Stage A checks self-consistency with the lock, not authenticity of the lock. Lock authenticity rests on git history / ratifier; semantic change of the statement is for Stage C/D (Comparator vs. ratified challenge)."
+   "note": "attack has no effect on Stage A's canonical bytes; PASS is the correct outcome here (the working copy is the real, unmodified file)"
+  },
+  {
+   "test": "T24 object store: loose object with wrong content planted under the real blob id",
+   "mutated": "<.git/objects>",
+   "stage_a_exit": 0,
+   "detected": false,
+   "failed_checks": [],
+   "failed_checks_total": 0,
+   "checks_run": 157,
+   "expected": "any failure (re-hash) or NEUTRALIZED if git prefers the intact packed copy",
+   "outcome_as_expected": true,
+   "observed_ok": true,
+   "note": "outcome recorded as observed; either a re-verification failure or the genuine packed object being used is acceptable, a PASS using the planted bytes is not (the working copy would then differ from them and A2 fails)"
   },
   {
    "test": "T18 upstream HEAD moved (empty commit on temp copy)",
@@ -283,11 +365,11 @@
    "stage_a_exit": 4,
    "detected": true,
    "failed_checks": [
-    "A1.commit"
+    "A1.worktree_HEAD"
    ],
    "failed_checks_total": 1,
-   "checks_run": 83,
-   "expected": "A1.commit",
+   "checks_run": 157,
+   "expected": "A1.worktree_HEAD",
    "outcome_as_expected": true,
    "note": ""
   }
