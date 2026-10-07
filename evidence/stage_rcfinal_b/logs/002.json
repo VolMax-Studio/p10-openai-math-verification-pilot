@@ -1,0 +1,13 @@
+{
+ "argv": [
+  "lake",
+  "env",
+  "lean",
+  "P10Probe.lean"
+ ],
+ "cwd": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/b",
+ "rc": 0,
+ "elapsed_s": 4.1,
+ "stdout": "'OAI.InfiniteMatroidCounterexample.main' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+ "stderr": ""
+}
