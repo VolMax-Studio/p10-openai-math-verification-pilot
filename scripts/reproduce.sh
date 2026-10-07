@@ -13,6 +13,7 @@ while [ $# -gt 0 ]; do case "$1" in --stage) STAGE="$2"; shift 2;; --profile) PR
 [ -f "$LOCK" ] || { echo "FAIL(2): missing subject.lock.json" >&2; exit 2; }
 SEL="$(python3 -I -c "import json;print(json.load(open('$LOCK'))['selected_candidate'] or '')")"
 RD="$HERE/work/results/$PROFILE"; mkdir -p "$RD"
+[ "$STAGE" = all ] && export P10_WS_COUNT=2 || export P10_WS_COUNT=1
 declare -A ST
 want() { [ "$STAGE" = all ] || [ "$STAGE" = "$1" ]; }
 boundary() { cat <<'B'

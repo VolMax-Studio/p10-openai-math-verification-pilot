@@ -10,8 +10,14 @@ HERE = os.path.dirname(os.path.abspath(__file__)); REPO = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 from inspect_candidates import sha
 
-LAKE = os.environ.get("P10_LAKE", "lake")
-MIN_DISK_GB = float(os.environ.get("P10_MIN_DISK_GB", "40"))   # ESTIMATE, not measured; override as needed
+def _find_lake():
+    if os.environ.get("P10_LAKE"): return os.environ["P10_LAKE"]
+    if shutil.which("lake"): return "lake"
+    cand = os.path.join(os.path.expanduser("~"), ".elan", "bin", "lake")   # elan's default location; not always on a login shell's PATH
+    return cand if os.path.exists(cand) else "lake"
+LAKE = _find_lake()
+MIN_DISK_GB = float(os.environ.get("P10_MIN_DISK_GB", "30"))   # per workspace; ESTIMATE, not measured; override as needed
+WS_COUNT = int(os.environ.get("P10_WS_COUNT", "1"))            # reproduce.sh sets 2 for --stage all (separate B and C workspaces)
 HOSTS = ["https://github.com", "https://cache.mathlib.org", "https://release.lean-lang.org"]
 
 def sh(cmd, cwd=None, env=None, timeout=None):
@@ -30,8 +36,8 @@ def preflight(gate, profile, ws_root):
         if not have(t): b.append(f"missing tool: {t}")
     if not have(LAKE) and not os.path.exists(LAKE): b.append(f"missing tool: {LAKE} (elan/lake)")
     free = shutil.disk_usage(os.path.dirname(ws_root) if os.path.isdir(os.path.dirname(ws_root)) else REPO).free / 2**30
-    need = MIN_DISK_GB * (2 if gate in ("B", "C", "D") else 1)
-    if free < need: b.append(f"disk free {free:.1f} GiB < required {need:.0f} GiB (estimate; two workspaces; P10_MIN_DISK_GB)")
+    need = MIN_DISK_GB * WS_COUNT
+    if free < need: b.append(f"disk free {free:.1f} GiB < required {need:.0f} GiB (estimate: P10_MIN_DISK_GB per workspace x P10_WS_COUNT)")
     for h in HOSTS:
         rc, _, _ = sh(["curl", "-sS", "-m", "15", "-o", "/dev/null", "-I", "-L", h])
         if rc != 0: b.append(f"network: cannot reach {h}")
