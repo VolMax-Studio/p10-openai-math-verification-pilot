@@ -48,6 +48,27 @@ theorem main : Countable E ∧ Infinite E ∧ ∃ M₀ M₁ : Matroid E,
 3. Row 9's closure equivalence and row 3's axiom equivalence are standard but not machine-checked in this pilot.
 4. Not in the subject (recorded in `subject.lock.json` under `adjacent_not_in_subject`): the partitional and intersection corollaries, "not finitary", Joó's question, existence of ZFC self-dual uniform matroid claims of §1 ("answers both existence questions") — separate claims of the manuscript with separate (or no) Lean units.
 
+## Pinned-source trace for rows 3, 4, 6, 9 (added after reviewer request; no execution run)
+
+All references are to Mathlib `d13f23b723b8a846827a245b89c10fc7d3f11612` (the pin in `profiles/minimal/lake-manifest.json`), fetched from that revision, not from current documentation. File identities (sha256 of the raw file at that revision, line counts):
+
+| file (under `Mathlib/Combinatorics/Matroid/`) | sha256 | lines |
+|---|---|---|
+| `Basic.lean` | `d67ac4aa1362336ace8dd451562629cb27c9ced5c37cf25d85dfba526d14a62f` | 1142 |
+| `Closure.lean` | `5881107273de87e804323c058e5120af058fa7774076248a8ecbac08bbbfee0b` | 1068 |
+| `Dual.lean` | `aff6c92b0364734ed53ecfc440998c96f4c2eb3c47ee35a48e4e572716ed580f` | 260 |
+| `Minor/Restrict.lean` | `163bc051bfcaca9758f070de5bc7d2509887153ab719c48d7e4d5a6682cbc40d` | 480 |
+
+**Row 4 (dual).** `Dual.lean:108–109`: docstring "The dual of a matroid; the bases are the complements (w.r.t. `M.E`) of the bases of `M`", `def dual (M : Matroid α) : Matroid α := M.dualIndepMatroid.matroid`. `Dual.lean:118` `dual_ground : M✶.E = M.E`; `:135` `dual_isBase_iff`; `:141` `dual_isBase_iff' : M✶.IsBase B ↔ M.IsBase (M.E \ B) ∧ B ⊆ M.E`; `:154` `dual_dual : M✶✶ = M`; `:158` `dual_involutive`. This is the manuscript's duality (bases of N* are complements of bases of N, §2). Row 4 is a statement-level match on pinned source; the only residual is the representation caveat of row 3.
+
+**Row 9 (spanning, restriction).** `Closure.lean:135` `def closure (M) (X) : Set α := ⋂₀ {F | M.IsFlat F ∧ X ∩ M.E ⊆ F}`; `:827–829` `structure Spanning (M) (S) : Prop where closure_eq : M.closure S = M.E; subset_ground : S ⊆ M.E`; `:833–835` `spanning_iff_closure_eq`. `Minor/Restrict.lean:122` `def restrict (M) (R) := (M.restrictIndepMatroid R).matroid`, `:124–125` notation `M ↾ R`, **`:135` `@[simp] theorem restrict_ground_eq : (M ↾ R).E = R := rfl`** (the ground set of `M ↾ P` is exactly `P`, by `rfl`). Hence `(M_i ↾ P).Spanning S_i` unfolds to `closure_{M_i↾P}(S_i) = P ∧ S_i ⊆ P`, which has the shape of the manuscript's `cl_{M_i↾P}(S_i) = P` with `S_i ⊆ P`. What this trace does **not** establish: that Mathlib's flat-intersection `closure` coincides with the manuscript's `cl(X) = X ∪ {e : ∃ independent I ⊆ X, I ∪ {e} dependent}` (a standard equivalence, not re-proved here); Mathlib also proves `IsBase.closure_eq` (`Closure.lean:437`) and `isBase_iff_indep_closure_eq` (`:443`), consistent with the manuscript's Lemma 2.1(2).
+
+**Row 3 (representation).** `Basic.lean:192–210` `structure Matroid` carries `E`, `IsBase`, `Indep`, `indep_iff'` (independent = contained in a base), `exists_isBase`, `isBase_exchange`, and `maximality : ∀ X, X ⊆ E → Matroid.ExistsMaximalSubsetProperty Indep X`, `subset_ground`. Maximality quantifies over **all** `X ⊆ E`, i.e. the manuscript's (IM). Equivalence of this base-exchange presentation with the (I1–I3, IM) independence presentation is a known result and is **not** machine-checked in this pilot: row 3 stays an explicit representation assumption.
+
+**Row 6 (local `contractOnto`).** Not a Mathlib definition; defined in the challenge file as `(M.dual ↾ C).dual`, i.e. the manuscript's `M.C = (M*↾C)*` built from the Mathlib `dual` (row 4) and `restrict` (row 9) above.
+
+Status of these rows after the trace: 4 and 6 are matches on pinned source for the reviewer to accept; 9 matches in shape with the closure-definition caveat above; 3 remains an open representation assumption. **No row has been accepted by anyone; the sign-off block below is still empty.** Rows 11 and 13 are unchanged (outside any claim derived from the machine gates).
+
 ## Sign-off block (to be completed by a human; empty = not reviewed)
 
 ```
