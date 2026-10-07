@@ -1,0 +1,980 @@
+{
+ "stage": "A",
+ "status": "PASS",
+ "scope": "provenance only",
+ "root_of_trust": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+ "checks": [
+  {
+   "id": "R0.lock_commit_is_frozen_commit",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": "lock=adc7f1241b42e322a6451854ab7e4b4c146bf78a frozen=adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+  },
+  {
+   "id": "R0.commit_object_reverified",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": "tree=a8e3481a92772ee311cdc9dd6409cd7b927a3fc1"
+  },
+  {
+   "id": "A1.worktree_HEAD",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": "HEAD=adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+  },
+  {
+   "id": "R2.lock_hash:CONTENTS.md",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:CONTENTS.md",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/ComparatorChallenges/InfiniteMatroid.json",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.json",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Basic.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Basic.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/BasisExtension.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/BasisExtension.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Cardinality.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Cardinality.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Cesaro.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Cesaro.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Columns.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Columns.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/DensityIdeal.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/DensityIdeal.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/DoubleRay.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/DoubleRay.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/FiniteCounting.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/FiniteCounting.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Ideals.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Ideals.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Interpolation.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Interpolation.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/LocalBases.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/LocalBases.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Matroid.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Matroid.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/OrdinalRank.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/OrdinalRank.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/PackingCovering.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/PackingCovering.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/ProbeLimits.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/ProbeLimits.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Prototype.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Prototype.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/PrototypeExtension.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/PrototypeExtension.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/RankDescent.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/RankDescent.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Reservations.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Reservations.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Separation.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Separation.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/SparsePerturbation.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/SparsePerturbation.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/TransfiniteConstruction.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/TransfiniteConstruction.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/OAI/Combinatorics/InfiniteMatroid/Zones.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/OAI/Combinatorics/InfiniteMatroid/Zones.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/docs/185.md",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/docs/185.md",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/formalization.yaml",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/formalization.yaml",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/lake-manifest.json",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/lake-manifest.json",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/lakefile.lean",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/lakefile.lean",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/lean-toolchain",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/lean-toolchain",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/AINTLIB-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/AINTLIB-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/AbsorptionCutoff-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/AbsorptionCutoff-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/ClassFieldTheory-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/ClassFieldTheory-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/PrimeNumberTheoremAnd-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/PrimeNumberTheoremAnd-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/SphereEversion-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/SphereEversion-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/StrongPNT-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/StrongPNT-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/Zeta3Irrational-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/Zeta3Irrational-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/belyi-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/belyi-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/carleson-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/carleson-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/elliptic-curves-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/elliptic-curves-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/fixed-point-theorems-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/fixed-point-theorems-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/formal-schemes-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/formal-schemes-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/genl-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/genl-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/gromov-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/gromov-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/heights-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/heights-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/iut-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/iut-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/oka-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/oka-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/orbicurve-cores-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/orbicurve-cores-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/pi1-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/pi1-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/rellich-kondrachov-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/rellich-kondrachov-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/schoenflies-lean-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/schoenflies-lean-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/tate-curves-theta-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/tate-curves-theta-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:lean/patches/tempered-fundamental-groups-lean4341.patch",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:lean/patches/tempered-fundamental-groups-lean4341.patch",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/README.md",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/README.md",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/figures/double-ray.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/figures/double-ray.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/paper.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/paper.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/references.bib",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/references.bib",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/02-matroids.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/02-matroids.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/03-filters.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/03-filters.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/04-local-bases.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/04-local-bases.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/05-assembly.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/05-assembly.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/06-counterexample.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/06-counterexample.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/07-consequences.tex",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/07-consequences.tex",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R2.lock_hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A2.worktree:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "R3.manuscript_membership",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": "extra_in_lock=[] missing_in_lock=[]"
+  },
+  {
+   "id": "R3.patch_membership",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": "23 canonical vs 23 locked"
+  },
+  {
+   "id": "A2.worktree_membership:manuscript_dir",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": "extra=[] missing=[]"
+  },
+  {
+   "id": "A2.worktree_membership:patches",
+   "group": "HASH",
+   "status": "PASS",
+   "detail": "extra=[] missing=[]"
+  },
+  {
+   "id": "A3.closure_set",
+   "group": "CLOSURE",
+   "status": "PASS",
+   "detail": "canonical 25 vs locked 25; extra=[] missing=[]"
+  },
+  {
+   "id": "R3.closure_files_membership",
+   "group": "ROOT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "A3.closure_external_imports_none",
+   "group": "CLOSURE",
+   "status": "PASS",
+   "detail": "external=[] unresolved_local=[]"
+  },
+  {
+   "id": "S1.catalogue->docs+manuscript",
+   "group": "STRUCT",
+   "status": "PASS",
+   "detail": "True ['A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026']"
+  },
+  {
+   "id": "S2.docs->manuscript+challenge",
+   "group": "STRUCT",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "S3.yaml_main_results==config",
+   "group": "STRUCT",
+   "status": "PASS",
+   "detail": "[{'comparator_config': 'ComparatorChallenges/InfiniteMatroid.json', 'declaration': 'OAI.InfiniteMatroidCounterexample.main', 'file': 'OAI/Combinatorics/InfiniteMatroid/Main.lean'}]"
+  },
+  {
+   "id": "S4.config_paths+decl",
+   "group": "STRUCT",
+   "status": "PASS",
+   "detail": "lean/ComparatorChallenges/InfiniteMatroid.lean lean/OAI/Combinatorics/InfiniteMatroid/Main.lean ['OAI.InfiniteMatroidCounterexample.main']"
+  },
+  {
+   "id": "S5.challenge_declares_main_with_sorry",
+   "group": "STRUCT",
+   "status": "PASS",
+   "detail": "{'ns': ['OAI', 'InfiniteMatroidCounterexample'], 'has_main': True, 'sorry': True, 'file_sorry': True}"
+  },
+  {
+   "id": "S6.solution_declares_main_without_sorry",
+   "group": "STRUCT",
+   "status": "PASS",
+   "detail": "{'ns': ['OAI', 'InfiniteMatroidCounterexample'], 'has_main': True, 'sorry': False, 'file_sorry': False}"
+  },
+  {
+   "id": "S6b.closure_has_no_sorry_token",
+   "group": "STRUCT",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "id": "E1.toolchain",
+   "group": "ENV",
+   "status": "PASS",
+   "detail": "leanprover/lean4:v4.34.1"
+  },
+  {
+   "id": "E2.mathlib_rev",
+   "group": "ENV",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "E3.lakefile_requires==manifest",
+   "group": "ENV",
+   "status": "PASS",
+   "detail": "30 direct requires"
+  },
+  {
+   "id": "E4.manifest_pins==lock",
+   "group": "ENV",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P1.profile_hash:profiles/minimal/lakefile.toml",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P1.profile_hash:profiles/minimal/lake-manifest.json",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P2.profile_manifest_entries_equal_frozen_upstream",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P3.profile_mathlib_rev_equal_lock",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "id": "P4.profile_lakefile_requires_only_mathlib",
+   "group": "PROFILE",
+   "status": "PASS",
+   "detail": ""
+  }
+ ]
+}

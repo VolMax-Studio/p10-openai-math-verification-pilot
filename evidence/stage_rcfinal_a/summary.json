@@ -1,0 +1,10 @@
+{
+ "stage": "A",
+ "status": "PASS",
+ "stage_a_last_line": [
+  "A: CLOSURE: 2 pass/0 fail, ENV: 4 pass/0 fail, HASH: 71 pass/0 fail, PROFILE: 5 pass/0 fail, ROOT: 73 pass/0 fail, STRUCT: 7 pass/0 fail  => PASS (provenance only)"
+ ],
+ "tamper_last_line": [
+  "{'tests': 30, 'as_expected': 30, 'one_byte_mutations_detected': 12}"
+ ]
+}
