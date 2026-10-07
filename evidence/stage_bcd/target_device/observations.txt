@@ -1,0 +1,18 @@
+# Target workstation observations (OBSERVED; this is the machine named in the task, reached through a Desktop Commander connector)
+# Command: P10_PREFLIGHT_ONLY=1 scripts/reproduce.sh --stage all     (preflight only: nothing was built or downloaded beyond the 50 MB pinned sparse fetch)
+# Repo copy: HEAD 12229fcab3eba7e023a7c21b17e2fb61f9c99d01 (tree identical to the authoring sandbox copy; transferred as a git bundle, SHA-256 of the bundle matched)
+
+Snapshot 1 (~12:41Z, default connector shell):
+  kernel: Linux 7.0.0-34-generic ; git, curl, systemd-run present ; python3 = project venv python
+  elan/lean/lake present under /home/volmax-studio/.elan/bin ; NOT present: landrun, lean4export, comparator, cargo, go
+  disk: / 234G total, 8.4G available (97% used) ; RAM 15 GiB total, ~1 GiB free ; 12 cores
+
+Snapshot 2 (12:59:30Z, login shell used by the harness):
+  ~/.elan/bin/elan: No such file or directory   (elan is no longer there; it was seen at 12:41Z -- the machine changed between snapshots)
+  disk: / 234G total, 36G available (84% used)
+  user: volmax-studio (non-root: Comparator assumption 6 satisfied)
+  network from this machine: github.com, cache.mathlib.org, release.lean-lang.org all reachable (no network blockers were raised)
+
+Implications (D): the machine is a moving target. Running Gate B/C/D here needs: elan + Lean v4.34.1, built comparator/lean4export/landrun at the profile pins
+(Go >= 1.24 for landrun is not installed), >= 30 GiB per workspace (estimate; B and C use separate workspaces), and kernel 7.0 < 7.1 means the
+systemd-run RestrictAddressFamilies=~AF_UNIX guard is mandatory (harness uses it).

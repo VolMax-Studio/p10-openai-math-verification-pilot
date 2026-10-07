@@ -130,5 +130,5 @@ Steps 1 is demonstrated; 2–3 are executable-but-unexecuted; 4–8 are not mach
 5. **Tool/toolchain skew.** No Comparator/lean4export revision targets v4.34.1; P10 pins use a toolchain override that is untested.
 6. **Environment/mutability.** `lakefile.lean` executes code at configuration time; 23 patches (11 via config-time `run_cmd`, 12 only via `lake update`'s `post_update`); Mathlib cache and toolchain archive unpinned by hash (dependency_provenance.md).
 7. **Order-of-operations hazard.** Compiling the solution outside the sandbox before Comparator violates Comparator's assumption 2; the harness uses separate workspaces and runs C first. Untested.
-8. **Execution blockers on the intended machine.** See "Blockers" in `evidence/stage_bcd/` (disk, missing tools, non-root, network).
+8. **Execution blockers on the intended machine.** `evidence/stage_bcd/target_device/`: Gate A PASS on the workstation's own fetch; B/C/D ENVIRONMENT BLOCKED (no elan at 12:59Z, no built Comparator/lean4export/landrun, disk below the per-workspace estimate for B+C, kernel 7.0 needs the sandbox guard). The authoring sandbox is additionally blocked by root user and unreachable cache/toolchain hosts (`evidence/stage_bcd/authoring_sandbox/`).
 9. **Moving upstream.** `main` may change ("we will continue to update"); the pin protects the evidence, not future relevance.
