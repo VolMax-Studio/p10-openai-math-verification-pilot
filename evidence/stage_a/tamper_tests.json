@@ -1,0 +1,295 @@
+{
+ "stage": "A",
+ "kind": "tamper tests on a temporary copy of the pinned checkout",
+ "lock": "subject.lock.json",
+ "summary": {
+  "tests": 19,
+  "as_expected": 19,
+  "one_byte_mutations_detected": 12
+ },
+ "tests": [
+  {
+   "test": "T00 control (no mutation)",
+   "mutated": null,
+   "bytes_changed": null,
+   "stage_a_exit": 0,
+   "detected": false,
+   "failed_checks": [],
+   "failed_checks_total": 0,
+   "checks_run": 83,
+   "expected": "",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T01 challenge statement file +1 byte",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T02 Comparator JSON config +1 byte",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.json",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.json"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.json",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T03 solution module (Main.lean) +1 byte",
+   "mutated": "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T04 deep closure module (BlockDensity.lean) 1 bit flip",
+   "mutated": "lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
+   "bytes_changed": "in-place 1 byte",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/OAI/Combinatorics/InfiniteMatroid/BlockDensity.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T05 docs bridge (docs/185.md) +1 byte",
+   "mutated": "lean/docs/185.md",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/docs/185.md"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/docs/185.md",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T06 formalization.yaml +1 byte",
+   "mutated": "lean/formalization.yaml",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/formalization.yaml"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T07 CONTENTS.md +1 byte",
+   "mutated": "CONTENTS.md",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:CONTENTS.md"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:CONTENTS.md",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T08 manuscript PDF 1 bit flip",
+   "mutated": "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+   "bytes_changed": "in-place 1 byte",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/paper.pdf",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T09 manuscript TeX source +1 byte",
+   "mutated": "preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:preprints/A-Counterexample-to-the-Infinite-Matroid-Packing-Covering-Conjecture-September-24-2026/build/sections/01-introduction.tex"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T10 lean-toolchain +1 byte",
+   "mutated": "lean/lean-toolchain",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/lean-toolchain",
+    "E1.toolchain"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/lean-toolchain",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T11 lake-manifest.json Mathlib rev 1 hex digit",
+   "mutated": "lean/lake-manifest.json",
+   "bytes_changed": "in-place 1 byte",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/lake-manifest.json",
+    "E2.mathlib_rev",
+    "E3.lakefile_requires==manifest",
+    "E4.manifest_pins==lock"
+   ],
+   "failed_checks_total": 4,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/lake-manifest.json",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T12 dependency patch +1 byte",
+   "mutated": "lean/patches/AINTLIB-lean4341.patch",
+   "bytes_changed": 1,
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/patches/AINTLIB-lean4341.patch"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/patches/AINTLIB-lean4341.patch",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T13 challenge file deleted",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+    "S5.challenge_declares_main_with_sorry"
+   ],
+   "failed_checks_total": 2,
+   "checks_run": 83,
+   "expected": "A2.hash:lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "test": "T14 extra patch file injected",
+   "mutated": "lean/patches/Injected-lean4341.patch",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "E5.patch_set"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "E5.patch_set",
+   "outcome_as_expected": true,
+   "note": ""
+  },
+  {
+   "bytes_changed": 44,
+   "test": "T15 forged lock+file: solution gains out-of-closure import",
+   "mutated": "lean/OAI/Combinatorics/InfiniteMatroid/Main.lean",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A3.closure_set"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A3.closure_set",
+   "outcome_as_expected": true,
+   "note": "hash check passes by construction; closure recomputation catches it"
+  },
+  {
+   "bytes_changed": 1,
+   "test": "T16 forged lock+file: yaml main_results declaration changed",
+   "mutated": "lean/formalization.yaml",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "S3.yaml_main_results==config"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "S3.yaml_main_results==config",
+   "outcome_as_expected": true,
+   "note": "structural cross-check catches a self-consistent metadata edit"
+  },
+  {
+   "bytes_changed": -2,
+   "test": "T17 LIMIT: challenge statement edited AND lock forged consistently",
+   "mutated": "lean/ComparatorChallenges/InfiniteMatroid.lean",
+   "stage_a_exit": 0,
+   "detected": false,
+   "failed_checks": [],
+   "failed_checks_total": 0,
+   "checks_run": 83,
+   "expected": "NOT_DETECTED_BY_DESIGN",
+   "outcome_as_expected": true,
+   "note": "Stage A checks self-consistency with the lock, not authenticity of the lock. Lock authenticity rests on git history / ratifier; semantic change of the statement is for Stage C/D (Comparator vs. ratified challenge)."
+  },
+  {
+   "test": "T18 upstream HEAD moved (empty commit on temp copy)",
+   "mutated": "<git HEAD>",
+   "stage_a_exit": 4,
+   "detected": true,
+   "failed_checks": [
+    "A1.commit"
+   ],
+   "failed_checks_total": 1,
+   "checks_run": 83,
+   "expected": "A1.commit",
+   "outcome_as_expected": true,
+   "note": ""
+  }
+ ]
+}

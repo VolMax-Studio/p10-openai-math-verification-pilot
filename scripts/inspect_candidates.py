@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Read-only discovery over a checkout of openai/math. Stdlib only.
 
-Usage: inspect_candidates.py <upstream_checkout> <out_dir> [--inventory] [--write-lock <path>]
+Usage: inspect_candidates.py <upstream_checkout> <out_dir> [--inventory]
 
 Writes (all derived by this script from the checkout; nothing is hand-edited):
   <out_dir>/upstream_facts.json      commit, toolchain, dependency pins, counts
@@ -193,25 +193,7 @@ def main():
                         "in_yaml_main_results": any(os.path.basename(m["comparator_config"]) == f for m in yf["main_results"])})
         json.dump(inv, open(os.path.join(out, "challenge_inventory.json"), "w"), indent=1)
 
-    if "--write-lock" in sys.argv:
-        lock = sys.argv[sys.argv.index("--write-lock") + 1]
-        deps = {d["name"]: d["rev"] for d in facts["dependencies"]}
-        json.dump({
-            "schema": "p10-subject-lock/0",
-            "status": "UNSELECTED: candidate selection is a normative decision reserved for the ratifier",
-            "upstream": {"repository": facts["upstream"], "commit": sha1, "commit_date": facts["commit_date"],
-                         "retrieved_utc": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")},
-            "selected_candidate": None,
-            "subject": {k: None for k in ("manuscript_family", "manuscript_path", "formalization_metadata_path",
-                        "challenge_path", "solution_path", "primary_declaration", "comparator_config")},
-            "toolchain": {"lean": facts["lean_toolchain"], "lean_source": "lean/lean-toolchain"},
-            "dependency_pins": {"source": "lean/lake-manifest.json", "mathlib": deps.get("mathlib"), "count": len(deps), "all": deps},
-            "verifier_tooling_pins": {
-                "comparator": None, "lean4export": None, "landrun": None,
-                "note": "NOT pinned by upstream (lean/ComparatorChallenges/README.md says only 'make available on PATH'). To be frozen by this pilot."},
-            "upstream_file_sha256": facts["sha256"],
-            "candidates": {n: {"files_sha256": c["files_sha256"]} for n, c in cands.items()},
-        }, open(lock, "w"), indent=1)
     print("ok", sha1)
 
-main()
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,34 @@
+{
+ "schema": "p10-verifier-profiles/1",
+ "note": "Two different claims. upstream-as-is = reproduce the environment upstream documents (cannot be completed: verifier revisions unrecoverable). p10-frozen-v1 = independently verify the same challenge with a newly pinned environment (a different claim; it must never be described as a reproduction of upstream's run).",
+ "upstream-as-is": {
+  "claim": "REPRODUCTION of upstream's documented procedure",
+  "procedure_source": "lean/ComparatorChallenges/README.md @ adc7f1241b42",
+  "commands": ["lake update", "lake exe cache get", "lake env comparator ComparatorChallenges/InfiniteMatroid.json"],
+  "lean": "leanprover/lean4:v4.34.1 (lean/lean-toolchain)",
+  "comparator": null, "lean4export": null, "landrun": null,
+  "verifier_status": "NOT DEMONSTRATED: exact verifier implementation used upstream",
+  "mutability": ["lake update re-resolves instead of using committed manifest",
+                 "12 patched deps are patched ONLY by the lakefile post_update hook (i.e. only via lake update)",
+                 "verifier tools taken from PATH, unpinned"],
+  "executable_as_reproduction": false
+ },
+ "p10-frozen-v1": {
+  "claim": "INDEPENDENT VERIFICATION of the frozen challenge in a newly pinned environment (not a reproduction of upstream's run)",
+  "lean": "leanprover/lean4:v4.34.1 (= lean/lean-toolchain = Mathlib d13f23b toolchain)",
+  "mathlib_rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lake": {"update_allowed": false, "manifest": "lean/lake-manifest.json @ adc7f12 (sha256 in subject.lock.json)", "post_check": "manifest byte-identical after build; every .lake/packages/<n> HEAD == manifest rev"},
+  "comparator": {"repo": "https://github.com/leanprover/comparator", "rev": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+                 "why": "last Comparator revision whose lean-toolchain is v4.34.0 (closest released line to v4.34.1; no Comparator/lean4export revision targets v4.34.1). Source tree at this rev differs from HEAD ca04cfc only in lean-toolchain and lake-manifest.json (git diff --stat).",
+                 "toolchain_override": "leanprover/lean4:v4.34.1 (deviation: Comparator is built against the SAME Lean as the subject; compile success under 4.34.1 is NOT DEMONSTRATED)"},
+  "lean4export": {"repo": "https://github.com/leanprover/lean4export", "rev": "076e8e57707e813375e8f9da8bf989799ace9680",
+                  "why": "the lean4export rev pinned by Comparator d03acab's lake-manifest.json; last lean4export rev with toolchain v4.34.0; HEAD differs only in lean-toolchain and Test.lean"},
+  "landrun": {"repo": "https://github.com/Zouuup/landrun", "rev": "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4",
+              "why": "Comparator README: 'compiled from the main branch'. main has been unchanged since 2026-07-23, i.e. before the openai/math commit; differs from tag v0.1.17 (24c0e92) by tests, README, FUNDING, a 2-line cmd/landrun/main.go change.",
+              "build": "go build ./cmd/landrun (Go >= 1.24 per go.mod)"},
+  "sandbox_requirements": ["Linux Landlock support", "systemd-run --user", "run as non-root (Comparator README assumption 6)", "kernel < 7.1 needs the systemd-run RestrictAddressFamilies=~AF_UNIX guard (Comparator README)"],
+  "gate_order": ["A provenance", "C comparator (separate workspace; solution must not be compiled outside the sandbox first, Comparator README assumption 2)", "B plain build (separate workspace)", "D tamper rejection (needs C control PASS before and after)"],
+  "executable_as_reproduction": false,
+  "executable_as_independent_verification": "only after tools are built at the pins above and all gates run"
+ }
+}

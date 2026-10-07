@@ -2,7 +2,7 @@
 
 Upstream: `https://github.com/openai/math`, commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`
 (commit date 2026-10-06T14:58:50-07:00, subject line "Initial commit"; history depth not examined).
-Retrieved 2026-10-07 (UTC). Selected result: **none** (see `candidate_results.md`).
+Retrieved 2026-10-07 (UTC). **Selected subject (Ivan, 2026-10-07): `InfiniteMatroid`**, openai/math family 185, frozen in `subject.lock.json`. Binding analysis: `reports/infinite_matroid_binding.md`. No verdict.
 
 Labels: **O** = OBSERVED (path @ commit, command output, or hash), **D** = DERIVED (method stated), **N** = NOT DEMONSTRATED.
 Machine-readable backing: `evidence/discovery/*.json`.
@@ -37,7 +37,8 @@ Machine-readable backing: `evidence/discovery/*.json`.
 
 D: the only machine-checkable part of the chain is challenge -> solution -> kernel. Everything upstream of the challenge statement is human-readable prose written by the producer, and `review.status` is `unchecked`.
 
-## 5. Comparator and tooling (O, see `evidence/discovery/environment_probe.txt`)
+## 5. Comparator and tooling (O, see `evidence/discovery/environment_probe.txt` and `evidence/discovery/comparator_provenance.md`)
+- **Update 2026-10-07 (later pass):** no revision of Comparator, lean4export or landrun used upstream is recoverable; **no** Comparator/lean4export revision targets Lean v4.34.1; the P10 profile pins `d03acab` / `076e8e5` / `811cfff` with a toolchain override (a different claim from reproduction; see `profiles/README.md`).
 - Comparator HEAD `ca04cfc72b550331658ec314bf47685281bfd4bf`, lean4export HEAD `05d43a2bc773b40ecfdebb32294192a5ef756951`, landrun HEAD `811cfff51ceaf3d9843708aa6d22e9b84ccac8b4`. Comparator and lean4export default branches target `v4.35.0-rc4`; the project targets `v4.34.1`. N: which revisions are compatible with v4.34.1.
 - N: whether `definition_names: []` / absent is sufficient for the definitions inside each challenge (Comparator's `compareAt` receives the targets and `definitionNames`; its exact semantics for non-hole definitions were not read in this bootstrap).
 
@@ -48,5 +49,6 @@ D: the only machine-checkable part of the chain is challenge -> solution -> kern
 4. README instructs `lake update`, not a build against the committed manifest; D: may re-resolve; N: whether it can drift from `lake-manifest.json`.
 5. Mathlib build artifacts come from an external cache (`lake exe cache get`); Comparator permits this only if the cache is trusted.
 6. Comparator needs `landrun` (Landlock) and `systemd-run --user`; N: availability in the target environment.
-7. Upstream is a moving target ("We will continue to update"); the pin is a single SHA.
-8. This sandbox has no Lean/elan; Mathlib cache and release.lean-lang.org were not reachable. **Nothing was built.**
+7. (Later pass) the 12 inherited pins equal Mathlib's/doc-gen4's own manifests; 23/23 patches apply to their pinned revs; 12 of the patched packages are patched only via `lake update`'s `post_update`. See `evidence/discovery/dependency_provenance.md`.
+8. Upstream is a moving target ("We will continue to update"); the pin is a single SHA.
+9. This sandbox has no Lean/elan; Mathlib cache and release.lean-lang.org were not reachable. **Nothing was built.**

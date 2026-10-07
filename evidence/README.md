@@ -13,3 +13,12 @@ Labels used across this repository: **OBSERVED** (traceable to path+commit, comm
 **DERIVED** (computed or inferred from OBSERVED items; method stated), **NOT DEMONSTRATED**.
 `challenge_inventory.json` was generated from a full shallow clone at the pinned SHA (outside this repo);
 `candidates.json` was verified byte-identical between the full and the sparse checkout.
+
+| Path (added 2026-10-07, second pass) | Produced by | Content |
+|---|---|---|
+| `discovery/comparator_provenance.md` | hand-written from git queries | Comparator/lean4export/landrun timeline and pins |
+| `discovery/dependency_provenance.md` | hand-written + scripts | pin consistency, patches, mutability, network inventory |
+| `discovery/dependency_patch_check.tsv`, `dependency_table.md` | `scripts/check_dependency_patches.sh`, `render_dependency_table.py` | 23 patch hashes + `git apply --check` against pinned revs; 42-package table |
+| `stage_a/stage_a_baseline.json` | `scripts/stage_a.py --json` | 83 provenance checks |
+| `stage_a/tamper_tests.json` | `scripts/tamper_tests.py` | 19 mutation tests on a temporary copy |
+| `stage_bcd/*.json` | `scripts/reproduce.sh` | real (non-stub) gate outcomes per host: ENVIRONMENT_BLOCKED with reasons |

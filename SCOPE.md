@@ -5,13 +5,13 @@ Demonstrate **separately**, never as one aggregate PASS:
 
 | Stage | Question | Status |
 |---|---|---|
-| A. Provenance binding | Do the exact frozen files match the recorded upstream commit and SHA-256? | harness implemented; dry run on a candidate passed and a one-byte edit was detected (checks bytes+commit only); no subject selected |
-| B. Lean build | Does the selected solution build under the frozen toolchain/dependencies? | NOT IMPLEMENTED; NOT DEMONSTRATED |
-| C. Comparator verification | Does Comparator accept the solution for the intended challenge/config? | NOT IMPLEMENTED; NOT DEMONSTRATED |
-| D. Tamper rejection | Does at least one controlled mutation of theorem/solution/binding fail verification? | NOT IMPLEMENTED; NOT DEMONSTRATED |
+| A. Provenance binding | Do the exact frozen files (whole binding chain) match the lock; do closure and metadata cross-checks hold? | **executed: PASS (provenance only)**; tamper tests 19/19 as expected (`evidence/stage_a/`) |
+| B. Lean build | Does the selected solution build under the frozen toolchain/dependencies? | implemented (never run to success); ENVIRONMENT BLOCKED here |
+| C. Comparator verification | Does Comparator accept the solution for the intended challenge/config? | implemented (never run to success); ENVIRONMENT BLOCKED |
+| D. Tamper rejection | Does at least one controlled mutation of theorem/solution/binding fail Comparator? (4 mutations defined; Stage-A byte-tamper is separate) | implemented (never run to success); NOT EXECUTED |
 | E. Coverage boundary | What does this execution NOT establish? | printed unconditionally by `reproduce.sh` |
 
-`reproduce.sh` treats unimplemented stages as failures, never as skips.
+Gate statuses are PASS / FAIL / NOT EXECUTED / ENVIRONMENT BLOCKED. The last two are never success and `reproduce.sh` never prints a verification verdict.
 
 ## Out of scope / not established by anything in this repository
 - that every statement in the manuscript is formalized;

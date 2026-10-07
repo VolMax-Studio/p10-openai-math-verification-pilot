@@ -1,6 +1,6 @@
 # Candidate pilot subjects
 
-**No candidate is selected.** Selection is a normative decision reserved for the ratifier (Ivan).
+**Selection (2026-10-07): Ivan chose `InfiniteMatroid`** (explicit decision; matches the working recommendation below). The table is kept as the record of what was compared. Boundary exemplars for later pilots: `PlanarAndersonSpectrum`, `FiniteCongruenceGraph`.
 Ranking criterion is auditability, not prestige. Rows are in alphabetical order of config name; order is not a ranking.
 All figures: **O** = OBSERVED from `evidence/discovery/candidates.json` (pinned commit `adc7f12…`), **D** = DERIVED, **N** = NOT DEMONSTRATED.
 No candidate was built or run; I did not read any manuscript body, so every manuscript<->formal relation below is **D** from upstream's own `CONTENTS.md`/`lean/docs/*.md` prose.
@@ -38,4 +38,4 @@ Selection screen applied to all 405 configs (`challenge_inventory.json`): single
 Why: (i) 1 family = 1 manuscript = 1 docs page, so manuscript -> challenge binding has no ambiguity about *which* paper; (ii) the primary declaration is the family's headline counterexample, with the remaining headline (intersection) isolated in a named second config; (iii) Mathlib-only closure, no patched third-party package, no `sorry/axiom/native_decide/unsafe` text hits; (iv) mid-size cost (4,041 lines) — likely cheaper than the full Mathlib build itself (N: not measured). Cost: the statement carries 4 challenge-local definitions that need a human fidelity audit against the manuscript (outside Comparator).
 If minimum build cost dominates, `AbhyankarSathaye` is cheaper and has zero local definitions, but its family headline is visibly not what is formalized, which makes it a better *boundary measurement* than a first clean subject.
 
-`subject.lock.json` therefore keeps `selected_candidate: null`; it records SHA-256 of every file in each candidate's binding chain so that selection later requires no re-discovery.
+`subject.lock.json` now freezes the `InfiniteMatroid` binding chain; per-candidate hashes for the other four remain in `evidence/discovery/candidates.json`.
