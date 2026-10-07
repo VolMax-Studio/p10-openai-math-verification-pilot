@@ -1,0 +1,13 @@
+{
+ "argv": [
+  "lake",
+  "build",
+  "OAI",
+  "ComparatorChallenges"
+ ],
+ "cwd": "/home/volmax-studio/volmax-projects/iot2/PORTFOLIO/p10-ws/b",
+ "rc": 0,
+ "elapsed_s": 103.1,
+ "stdout": "\u2714 [8924/8951] Built OAI.Combinatorics.InfiniteMatroid.Basic (21s)\n\u26a0 [8925/8951] Built ComparatorChallenges.InfiniteMatroid (23s)\nwarning: ComparatorChallenges/InfiniteMatroid.lean:23:8: declaration uses `sorry`\n\u2714 [8927/8951] Built OAI.Combinatorics.InfiniteMatroid.FiniteCounting (23s)\n\u2714 [8928/8951] Built OAI.Combinatorics.InfiniteMatroid.Cardinality (23s)\n\u2714 [8929/8951] Built OAI.Combinatorics.InfiniteMatroid.Cesaro (24s)\n\u2714 [8930/8951] Built OAI.Combinatorics.InfiniteMatroid.Matroid (15s)\n\u2714 [8931/8951] Built OAI.Combinatorics.InfiniteMatroid.PackingCovering (16s)\n\u2714 [8932/8951] Built OAI.Combinatorics.InfiniteMatroid.Ideals (15s)\n\u2714 [8933/8951] Built OAI.Combinatorics.InfiniteMatroid.Interpolation (17s)\n\u2714 [8934/8951] Built OAI.Combinatorics.InfiniteMatroid.DoubleRay (17s)\n\u2714 [8935/8951] Built OAI.Combinatorics.InfiniteMatroid.BlockDensity (18s)\n\u2714 [8936/8951] Built OAI.Combinatorics.InfiniteMatroid.OrdinalRank (5.5s)\n\u2714 [8937/8951] Built OAI.Combinatorics.InfiniteMatroid.RankDescent (7.2s)\n\u2714 [8938/8951] Built OAI.Combinatorics.InfiniteMatroid.ProbeLimits (6.8s)\n\u2714 [8939/8951] Built OAI.Combinatorics.InfiniteMatroid.Columns (7.0s)\n\u2714 [8940/8951] Built OAI.Combinatorics.InfiniteMatroid.SparsePerturbation (3.8s)\n\u2714 [8941/8951] Built OAI.Combinatorics.InfiniteMatroid.LocalBases (3.0s)\n\u2714 [8942/8951] Built OAI.Combinatorics.InfiniteMatroid.DensityIdeal (4.1s)\n\u2714 [8943/8951] Built OAI.Combinatorics.InfiniteMatroid.Reservations (4.7s)\n\u2714 [8944/8951] Built OAI.Combinatorics.InfiniteMatroid.BasisExtension (17s)\n\u2714 [8945/8951] Built OAI.Combinatorics.InfiniteMatroid.Zones (3.4s)\n\u2714 [8946/8951] Built OAI.Combinatorics.InfiniteMatroid.Separation (3.2s)\n\u2714 [8947/8951] Built OAI.Combinatorics.InfiniteMatroid.Prototype (9.2s)\n\u2714 [8948/8951] Built OAI.Combinatorics.InfiniteMatroid.PrototypeExtension (3.1s)\n\u2714 [8949/8951] Built OAI.Combinatorics.InfiniteMatroid.TransfiniteConstruction (3.8s)\n\u2714 [8950/8951] Built OAI.Combinatorics.InfiniteMatroid.Main (3.8s)\nBuild completed successfully (8951 jobs).\n",
+ "stderr": ""
+}
